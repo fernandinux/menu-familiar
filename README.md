@@ -1,4 +1,4 @@
-# 🍽️ Menú Familiar Paca — Sistema Cloud
+# 🍽️ Menú Familiar Pareja — Sistema Cloud
 
 Sistema 100% gratuito y automático que genera el menú semanal de la Familia Paca cada sábado a las 7am (Lima), con app web para ver el menú y dejar feedback.
 
