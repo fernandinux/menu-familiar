@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "fecha": "2026-03-22T14:47:06.503989+00:00",
+    "quien": "Lourdes",
+    "tipos": [
+      "comentario"
+    ],
+    "plato": null,
+    "ingrediente": null,
+    "cantidad": null,
+    "comentario": "Necesito que  el desayuno y el almuerzo del día  tengan un equilibrio con esta lista de meriendas , de tal forma que no les cause diarrea o muchos gases a los bebes :\n*MERIENDAS NIDO* \n\n*Lunes:*\n- Facundo: manzana en trozos 4 pecanas y uva + maracuyá \n- Leonardo: panqueque de avena + manzanilla\n\n*Martes:*\n- Facundo: quinua con huevo revuelto + plátano + manzanilla\n\n*Miércoles:*\n- Facundo: 2 huevos sancochados sin pelar + zanahoria cruda en bastones + 1 tomate cherry + agua de cedrón\n- Leonardo: agua de cedrón\n\n*Jueves:*\n- Facundo: mandarina + agua emoliente\n\n*Viernes:*\n- Facundo: Yogurt griego + granola + mango trozos +  agua avena con manzana\n- Leonardo: Ensalada de frutas + bebida libre"
+  }
+]
