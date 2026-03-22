@@ -32,7 +32,7 @@ jobs:
       - name: 📥 Clonar repositorio
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
       - name: 🐍 Configurar Python 3.11
         uses: actions/setup-python@v5
@@ -47,7 +47,7 @@ jobs:
       - name: 🍽️ Generar menú semanal
         env:
           GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
-          GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN:    ${{ secrets.GH_PAT }}
           GITHUB_REPO:     ${{ github.repository }}
           GITHUB_BRANCH:   ${{ github.ref_name }}
         run: |
