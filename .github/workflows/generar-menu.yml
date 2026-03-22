@@ -1,0 +1,65 @@
+name: Generar Menú Semanal
+
+# ── CUÁNDO EJECUTAR ───────────────────────────────────────────
+# Cada sábado a las 12:00 UTC = 7:00 AM Lima (UTC-5)
+on:
+  schedule:
+    - cron: '0 12 * * 6'
+
+  # También permite ejecutar manualmente desde GitHub > Actions > Run workflow
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: 'Forzar regeneración aunque ya exista menú'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+# ── PERMISOS ──────────────────────────────────────────────────
+permissions:
+  contents: write   # Necesario para escribir en el repo (menu_actual.json)
+
+# ── JOB ───────────────────────────────────────────────────────
+jobs:
+  generar-menu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Clonar repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install certifi
+
+      - name: 🍽️ Generar menú semanal
+        env:
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO:     ${{ github.repository }}
+          GITHUB_BRANCH:   ${{ github.ref_name }}
+        run: |
+          python scripts/generar_menu_cloud.py
+
+      - name: 📋 Mostrar resumen
+        if: always()
+        run: |
+          echo "=== Archivos de datos actualizados ==="
+          if [ -f data/menu_actual.json ]; then
+            echo "✅ data/menu_actual.json existe"
+            python -c "import json; d=json.load(open('data/menu_actual.json')); print('  Semana:', d.get('semana','?'))"
+          else
+            echo "⚠️  data/menu_actual.json NO encontrado"
+          fi

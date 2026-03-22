@@ -1,0 +1,35 @@
+# Configuración de Netlify para el frontend del Menú Familiar Paca
+# Documentación: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # La carpeta que se publica (contiene index.html, static/, etc.)
+  publish = "frontend"
+
+  # No hay build step — el sitio es HTML/CSS/JS puro
+  command = ""
+
+# Reglas de redirección
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# Headers de seguridad y caché
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options         = "DENY"
+    X-Content-Type-Options  = "nosniff"
+    Referrer-Policy         = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    # CSS y JS: caché de 1 año (Netlify agrega hash al nombre en producción)
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    # HTML: no caché (siempre fresco)
+    Cache-Control = "no-cache, no-store, must-revalidate"

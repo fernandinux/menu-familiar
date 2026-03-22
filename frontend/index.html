@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta name="generator" content="Perplexity Computer">
+  <meta name="created-with" content="https://www.perplexity.ai/computer">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Familiar Paca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- URL del backend Render — se reemplaza en DEPLOY -->
+  <script>window.API_URL = "%%BACKEND_URL%%";</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-label="Logo">
+        <circle cx="16" cy="16" r="15" fill="var(--color-primary)" opacity="0.15"/>
+        <path d="M10 22 Q16 8 22 22" stroke="var(--color-primary)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <circle cx="11.5" cy="12" r="2" fill="var(--color-primary)"/>
+        <circle cx="20.5" cy="12" r="2" fill="var(--color-primary)"/>
+        <circle cx="16" cy="9.5" r="1.5" fill="var(--color-orange)"/>
+      </svg>
+      <span class="nav-brand">Familia Paca</span>
+    </div>
+    <nav class="nav-tabs" role="tablist">
+      <button class="nav-tab active" data-tab="menu" role="tab">Menú</button>
+      <button class="nav-tab" data-tab="compras" role="tab">Compras</button>
+      <button class="nav-tab" data-tab="feedback" role="tab">Feedback</button>
+    </nav>
+    <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- TAB MENÚ -->
+  <section id="tab-menu" class="tab-section active" role="tabpanel">
+    <div class="page-header">
+      <h1 class="page-title">Menú Semanal</h1>
+      <p class="page-sub" id="semana-label">—</p>
+    </div>
+    <div id="menu-container">
+      <div class="loader-box"><div class="spinner"></div><p>Cargando menú...</p></div>
+    </div>
+  </section>
+
+  <!-- TAB COMPRAS -->
+  <section id="tab-compras" class="tab-section" role="tabpanel">
+    <div class="page-header">
+      <h1 class="page-title">Listas de Compras</h1>
+      <p class="page-sub" id="semana-label-compras">—</p>
+    </div>
+    <div id="compras-container">
+      <div class="loader-box"><div class="spinner"></div><p>Cargando...</p></div>
+    </div>
+  </section>
+
+  <!-- TAB FEEDBACK -->
+  <section id="tab-feedback" class="tab-section" role="tabpanel">
+    <div class="page-header">
+      <h1 class="page-title">Dar Feedback</h1>
+      <p class="page-sub">Tu opinión mejora el menú de la próxima semana automáticamente</p>
+    </div>
+    <div class="feedback-grid">
+
+      <div class="card feedback-form-card">
+        <form id="feedback-form" novalidate>
+
+          <div class="field">
+            <label class="field-label">¿Quién da el feedback?</label>
+            <div class="chips" id="chips-quien">
+              <button type="button" class="chip active" data-val="Fernando">Fernando</button>
+              <button type="button" class="chip" data-val="Lourdes">Lourdes</button>
+              <button type="button" class="chip" data-val="Roxana">Roxana</button>
+              <button type="button" class="chip" data-val="Luna">Luna</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field-label">Tipo de feedback <span class="hint">(puedes elegir varios)</span></label>
+            <div class="chips multi" id="chips-tipo">
+              <button type="button" class="chip" data-val="no_gusto">😕 No gustó</button>
+              <button type="button" class="chip" data-val="ingrediente">🛒 Ingrediente difícil</button>
+              <button type="button" class="chip" data-val="cantidad">⚖️ Cantidad incorrecta</button>
+              <button type="button" class="chip" data-val="comentario">💬 Comentario libre</button>
+            </div>
+          </div>
+
+          <div class="field" id="field-plato" hidden>
+            <label class="field-label" for="sel-plato">¿Qué plato?</label>
+            <select class="input" id="sel-plato"></select>
+          </div>
+
+          <div class="field" id="field-ingrediente" hidden>
+            <label class="field-label" for="inp-ingrediente">¿Qué ingrediente no encontraste?</label>
+            <input class="input" type="text" id="inp-ingrediente" placeholder="Ej: zucchini, queso edam…">
+          </div>
+
+          <div class="field" id="field-cantidad" hidden>
+            <label class="field-label" for="inp-cantidad">¿Qué cantidad estuvo mal?</label>
+            <input class="input" type="text" id="inp-cantidad" placeholder="Ej: 1kg de lomo fue insuficiente para 6">
+          </div>
+
+          <div class="field">
+            <label class="field-label" for="inp-comentario">Comentario</label>
+            <textarea class="input" id="inp-comentario" rows="4"
+              placeholder="Cuéntanos qué pasó o qué mejorar…"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" id="btn-submit">
+            Enviar feedback
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <div>
+        <h2 class="section-title">Feedbacks recientes</h2>
+        <div id="historial-container">
+          <p class="empty">Aún no hay feedbacks.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener">Created with Perplexity Computer</a>
+  <span>·</span><span>Familia Paca · Lima, Perú</span>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+# Configuración de Render.com para el backend FastAPI
+# Documentación: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: menu-familiar-paca
+    runtime: python
+    region: oregon          # Región más cercana con free tier disponible
+    plan: free
+
+    # Comandos
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+
+    # Directorio del código fuente
+    rootDir: backend
+
+    # Variables de entorno
+    # IMPORTANTE: Configurar estos valores en el dashboard de Render.com
+    # NO escribir los valores reales aquí (este archivo es público en GitHub)
+    envVars:
+      - key: GITHUB_TOKEN
+        sync: false          # Debes configurarlo manualmente en Render dashboard
+      - key: GITHUB_REPO
+        sync: false          # ej: "tu-usuario/menu-familiar"
+      - key: GITHUB_BRANCH
+        value: main
+      - key: GEMINI_API_KEY
+        sync: false          # Solo necesario si el backend genera menús directamente
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+
+    # Health check — Render verifica que el servicio responde
+    healthCheckPath: /
