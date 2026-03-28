@@ -20,5 +20,16 @@
     "ingrediente": null,
     "cantidad": null,
     "comentario": "Necesito que solo para esta semana que vas a generar tomes para el almuerzo estos platos : \n- Caldo de gallina\n - Patita con mani\n - Pollo a la parrilla\n - Arroz con pollo\n - Estofado de lengua o en adobo"
+  },
+  {
+    "fecha": "2026-03-28T20:24:24.259633+00:00",
+    "quien": "Fernando",
+    "tipos": [
+      "comentario"
+    ],
+    "plato": null,
+    "ingrediente": null,
+    "cantidad": null,
+    "comentario": "Incluye en la lista de compras los insumos para las loncheras"
   }
 ]
