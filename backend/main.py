@@ -179,6 +179,19 @@ def listar_feedbacks():
         return []
     return data
 
+@app.get("/menu-anterior", summary="Devuelve el menú de la semana anterior")
+def menu_anterior():
+    """
+    Devuelve el menú de la semana pasada (guardado automáticamente cada sábado
+    antes de generar el nuevo menú).
+    """
+    data = read_json_from_github("data/menu_anterior.json")
+    if data is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Aún no hay menú anterior guardado."
+        )
+    return data
 
 @app.delete("/feedbacks", summary="Limpia los feedbacks (solo tras generar menú)", include_in_schema=False)
 def limpiar_feedbacks():
