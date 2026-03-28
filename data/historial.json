@@ -38,5 +38,25 @@
       "Panqueques de avena y plátano con miel y naranja",
       "Jurel a la plancha con ensalada de palta y arroz integral"
     ]
+  },
+  {
+    "semana": "Lunes 30/03 al Domingo 05/04/2026",
+    "fecha_generacion": "2026-03-28T20:39:11.311288",
+    "platos_usados": [
+      "Omelette de queso fresco y espinaca con plátano y nueces",
+      "Pollo saltado con brócoli, pimiento y zucchini, con quinua graneada",
+      "Yogur natural con granola casera y trozos de mango",
+      "Garbanzos guisados con acelga y pimientos rojos, con arroz integral",
+      "Tostadas de camote asado con atún en agua y palta",
+      "Seco de res con zapallo y frijoles canarios, con arroz",
+      "Batido de avena, plátano y leche con cubos de queso fresco",
+      "Corvina a la plancha con vegetales salteados y papas doradas al horno",
+      "Huevos duros con pan integral, tomate y espinaca, acompañados de mandarina",
+      "Parihuela de pescado y choros (sin picante), con yuca sancochada",
+      "Panqueques de quinua y plátano con yogur natural y arándanos",
+      "Adobo de cerdo arequipeño (suave) con camote sancochado y ensalada fresca",
+      "Avena cocida con manzana, canela y queso fresco",
+      "Pastel de papa con carne molida y vegetales"
+    ]
   }
 ]
