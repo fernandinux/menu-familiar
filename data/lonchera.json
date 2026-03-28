@@ -1,0 +1,25 @@
+{
+  "mes": "Marzo 2026",
+  "dias": {
+    "lunes": {
+      "facundo": "Manzana en trozos, 4 pecanas y uva + maracuyá",
+      "leonardo": "Panqueque de avena + manzanilla"
+    },
+    "martes": {
+      "facundo": "Quinua con huevo revuelto + plátano + manzanilla",
+      "leonardo": ""
+    },
+    "miercoles": {
+      "facundo": "2 huevos sancochados sin pelar + zanahoria cruda en bastones + 1 tomate cherry + agua de cedrón",
+      "leonardo": "Agua de cedrón"
+    },
+    "jueves": {
+      "facundo": "Mandarina + agua emoliente",
+      "leonardo": ""
+    },
+    "viernes": {
+      "facundo": "Yogurt griego + granola + mango en trozos + agua de avena con manzana",
+      "leonardo": "Ensalada de frutas + bebida libre"
+    }
+  }
+}
