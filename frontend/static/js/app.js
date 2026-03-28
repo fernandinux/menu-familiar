@@ -45,6 +45,7 @@ tabs.forEach(tab => {
     const id = `tab-${tab.dataset.tab}`;
     document.getElementById(id)?.classList.add('active');
     if (tab.dataset.tab === 'feedback') loadFeedbacks();
+    if (tab.dataset.tab === 'anterior') loadMenuAnterior();
   });
 });
 
@@ -385,6 +386,42 @@ async function loadFeedbacks() {
   } catch (err) {
     container.innerHTML = `<p class="empty">No se pudo cargar el historial.</p>`;
     console.error('[Paca] loadFeedbacks:', err);
+  }
+}
+// ── LOAD MENÚ ANTERIOR ───────────────────────────────────────
+let menuAnteriorCargado = false;
+
+async function loadMenuAnterior() {
+  if (menuAnteriorCargado) return;  // solo cargar una vez
+  const container = document.getElementById('menu-anterior-container');
+  const label = document.getElementById('semana-label-anterior');
+  if (!container) return;
+
+  container.innerHTML = `<div class="loader-box"><div class="spinner"></div><p>Cargando semana anterior…</p></div>`;
+  showWakeBanner(container);
+
+  try {
+    const res = await fetch(`${API}/menu-anterior`, { signal: AbortSignal.timeout(60000) });
+    clearWakeBanner(container);
+
+    if (res.status === 404) {
+      container.innerHTML = `<p class="empty">Aún no hay semana anterior guardada. Estará disponible a partir del próximo sábado.</p>`;
+      return;
+    }
+    if (!res.ok) throw new Error(`Error ${res.status}`);
+
+    const data = await res.json();
+    if (label) label.textContent = data.semana || '';
+    renderMenu(data, container);
+    menuAnteriorCargado = true;
+
+  } catch (err) {
+    clearWakeBanner(container);
+    container.innerHTML = `
+      <div class="loader-box">
+        <p>⚠️ No se pudo cargar el menú anterior.</p>
+        <button class="btn-primary" style="width:auto;margin-top:1rem" onclick="menuAnteriorCargado=false;loadMenuAnterior()">Reintentar</button>
+      </div>`;
   }
 }
 
