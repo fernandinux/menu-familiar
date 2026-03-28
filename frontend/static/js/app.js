@@ -401,7 +401,22 @@ async function loadMenuAnterior() {
   showWakeBanner(container);
 
   try {
-    const res = await fetch(`${API}/menu-anterior`, { signal: AbortSignal.timeout(60000) });
+    //const res = await fetch(`${API}/menu-anterior`, { signal: AbortSignal.timeout(60000) });
+        // Render duerme ~30-45s — reintentamos hasta 3 veces
+    let res;
+    for (let intento = 1; intento <= 3; intento++) {
+      try {
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), 55000);
+        res = await fetch(`${API}/menu-anterior`, { signal: ctrl.signal });
+        clearTimeout(timer);
+        break;
+      } catch (fetchErr) {
+        if (intento === 3) throw fetchErr;
+        container.innerHTML = `<div class="loader-box"><div class="spinner"></div><p>Despertando servidor… (intento ${intento}/3)</p></div>`;
+        await new Promise(r => setTimeout(r, 3000));
+      }
+    }
     clearWakeBanner(container);
 
     if (res.status === 404) {
