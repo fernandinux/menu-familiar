@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "semana": "Lunes 30/03 al Domingo 05/04/2026",
+    "fecha_generacion": "2026-03-28T17:01:06.246038",
+    "platos_usados": [
+      "Huevos revueltos con espinaca y tomate + Palta + Batido de papaya y leche",
+      "Pollo guisado con arvejas y zanahoria + Arroz integral + Ensalada de lechuga, pepino y pimiento amarillo",
+      "Yogur natural con avena, chía y fresas",
+      "Bonito a la plancha con puré de coliflor y brócoli al vapor",
+      "Pan integral con queso fresco y palta + Naranja en gajos",
+      "Lentejas guisadas con trozos de zapallo y espinaca + Quinua graneada + Huevo duro",
+      "Batido de espinaca, plátano y leche + Huevos revueltos",
+      "Saltado de lomo de cerdo con pimientos de colores y zucchini + Arroz integral",
+      "Tostadas de camote asado con mantequilla de maní natural y rodajas de plátano",
+      "Sudado de Jurel con yuca sancochada y ensalada de betarraga rallada",
+      "Avena cocida con leche, manzana rallada y canela + Huevos duros",
+      "Ají de gallina con pan integral y arroz blanco + Ensalada de tomate cherry y perejil",
+      "Jugo de frutas de estación + Panqueques de plátano y avena + Queso fresco",
+      "Estofado de res con papas y zanahorias"
+    ]
+  }
+]
