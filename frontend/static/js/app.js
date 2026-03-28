@@ -19,9 +19,7 @@ if (!API || API === '%%BACKEND_URL%%') {
   const sun = `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
   const moon = `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
 
-  const updateIcon = () => {
-    if (toggle) toggle.innerHTML = theme === 'dark' ? sun : moon;
-  };
+  const updateIcon = () => { if (toggle) toggle.innerHTML = theme === 'dark' ? sun : moon; };
   updateIcon();
 
   if (toggle) {
@@ -63,7 +61,6 @@ function toast(msg, duration = 3000) {
 // ── WAKE-UP BANNER (Render.com cold start) ───────────────────
 let wakeTimer;
 function showWakeBanner(container) {
-  // Only show after 2s of waiting
   wakeTimer = setTimeout(() => {
     const existing = container.querySelector('.wake-banner');
     if (existing) return;
@@ -76,6 +73,26 @@ function showWakeBanner(container) {
 function clearWakeBanner(container) {
   clearTimeout(wakeTimer);
   container.querySelector('.wake-banner')?.remove();
+}
+
+// ── FETCH CON RETRY (para cold start de Render) ──────────────
+async function fetchConRetry(url, container, intentosMax = 3) {
+  let res;
+  for (let intento = 1; intento <= intentosMax; intento++) {
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 55000);
+      res = await fetch(url, { signal: ctrl.signal });
+      clearTimeout(timer);
+      return res;
+    } catch (fetchErr) {
+      if (intento === intentosMax) throw fetchErr;
+      if (container) {
+        container.innerHTML = `<div class="loader-box"><div class="spinner"></div><p>Despertando servidor… (intento ${intento}/${intentosMax})</p></div>`;
+      }
+      await new Promise(r => setTimeout(r, 3000));
+    }
+  }
 }
 
 // ── HELPERS ──────────────────────────────────────────────────
@@ -97,6 +114,68 @@ function formatFecha(isoStr) {
   return d.toLocaleDateString('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 }
 
+// ── LONCHERA DATA ─────────────────────────────────────────────
+// Cache de la lonchera cargada desde el backend
+let loncheraData = null;
+
+async function cargarLonchera() {
+  if (loncheraData) return loncheraData;
+  try {
+    const ctrl = new AbortController();
+    setTimeout(() => ctrl.abort(), 55000);
+    const res = await fetch(`${API}/lonchera`, { signal: ctrl.signal });
+    if (!res.ok) return null;
+    loncheraData = await res.json();
+    return loncheraData;
+  } catch {
+    return null;
+  }
+}
+
+// Genera el HTML del bloque de lonchera para un día dado
+function renderLoncheraBloque(dia, lonchera) {
+  if (!lonchera) return '';
+
+  // Si es texto libre (nuevo formato)
+  if (lonchera.texto_libre) {
+    // Buscar el día en el texto libre
+    const texto = lonchera.texto_libre;
+    const labelDia = DIAS_LABEL[dia] || dia;
+    // Extraer el bloque del día del texto libre
+    const regex = new RegExp(`${labelDia}[:\\s]*([\\s\\S]*?)(?=(?:Lunes|Martes|Miércoles|Miercoles|Jueves|Viernes|Sábado|Sabado|Domingo):|$)`, 'i');
+    const match = texto.match(regex);
+    if (!match || !match[1].trim()) return '';
+    const contenido = escHtml(match[1].trim()).replace(/\n/g, '<br>');
+    return `
+      <div class="meal-block lonchera-block">
+        <div class="meal-type-badge">🎒 Lonchera</div>
+        <div class="lonchera-text">${contenido}</div>
+      </div>`;
+  }
+
+  // Formato estructurado (JSON con dias)
+  const diasData = lonchera.dias || {};
+  const diaKey = dia === 'miercoles' ? 'miercoles' : dia;
+  const diaLonchera = diasData[diaKey];
+
+  // Solo lunes–viernes tienen lonchera
+  if (!diaLonchera || dia === 'sabado' || dia === 'domingo') return '';
+
+  const facundo  = diaLonchera.facundo  || '';
+  const leonardo = diaLonchera.leonardo || '';
+  if (!facundo && !leonardo) return '';
+
+  let items = '';
+  if (facundo)  items += `<div class="lonchera-item"><span class="lonchera-quien">🧩 Facundo:</span> ${escHtml(facundo)}</div>`;
+  if (leonardo) items += `<div class="lonchera-item"><span class="lonchera-quien">👦 Leonardo:</span> ${escHtml(leonardo)}</div>`;
+
+  return `
+    <div class="meal-block lonchera-block">
+      <div class="meal-type-badge">🎒 Lonchera</div>
+      ${items}
+    </div>`;
+}
+
 // ── LOAD MENU ────────────────────────────────────────────────
 let menuData = null;
 
@@ -109,12 +188,17 @@ async function loadMenu() {
   showWakeBanner(container);
 
   try {
-    const res = await fetch(`${API}/menu-actual`, { signal: AbortSignal.timeout(60000) });
+    // Cargar menú y lonchera en paralelo
+    const [res, lonchera] = await Promise.all([
+      fetchConRetry(`${API}/menu-actual`, container),
+      cargarLonchera()
+    ]);
     clearWakeBanner(container);
 
     if (!res.ok) throw new Error(`Error ${res.status}`);
     const data = await res.json();
     menuData = data;
+    loncheraData = lonchera;
 
     if (semanaLabel) semanaLabel.textContent = data.semana || '';
     if (semanaLabelC) semanaLabelC.textContent = data.semana || '';
@@ -134,7 +218,7 @@ async function loadMenu() {
   }
 }
 
-// ── RENDER MENU CARDS ────────────────────────────────────────
+// ── RENDER MENU CARDS ─────────────────────────────────────────
 function renderMenu(data, container) {
   const dias = data.dias || {};
   let html = '<div class="menu-grid">';
@@ -152,28 +236,47 @@ function renderMenu(data, container) {
           <span class="day-name">${label}</span>
         </div>`;
 
-    ['desayuno', 'almuerzo'].forEach(comida => {
-      const m = d[comida];
-      if (!m) return;
-      const emoji = comida === 'desayuno' ? '☀️' : '🍽️';
-      const tags = (m.ingredientes_principales || []).slice(0, 4).map(t =>
-        `<span class="meal-tag">${escHtml(t)}</span>`).join('');
-
+    // Desayuno
+    const desayuno = d['desayuno'];
+    if (desayuno) {
+      const tags = (desayuno.ingredientes_principales || []).slice(0, 4)
+        .map(t => `<span class="meal-tag">${escHtml(t)}</span>`).join('');
       let notes = '';
-      if (m.nota_facundo) notes += `<div class="meal-note facundo">🧩 Facundo: ${escHtml(m.nota_facundo)}</div>`;
-      if (m.nota_fernando) notes += `<div class="meal-note fernando">💚 Fernando: ${escHtml(m.nota_fernando)}</div>`;
-      if (comida === 'almuerzo' && m.nota_domingo)
-        notes += `<div class="meal-note" style="border-color:var(--day-domingo)">📌 ${escHtml(m.nota_domingo)}</div>`;
-
+      if (desayuno.nota_facundo)  notes += `<div class="meal-note facundo">🧩 Facundo: ${escHtml(desayuno.nota_facundo)}</div>`;
+      if (desayuno.nota_fernando) notes += `<div class="meal-note fernando">💚 Fernando: ${escHtml(desayuno.nota_fernando)}</div>`;
       html += `
         <div class="meal-block">
-          <div class="meal-type-badge">${emoji} ${comida.charAt(0).toUpperCase() + comida.slice(1)}</div>
-          <div class="meal-name">${escHtml(m.nombre || '—')}</div>
-          ${m.descripcion ? `<p class="meal-desc">${escHtml(m.descripcion)}</p>` : ''}
+          <div class="meal-type-badge">☀️ Desayuno</div>
+          <div class="meal-name">${escHtml(desayuno.nombre || '—')}</div>
+          ${desayuno.descripcion ? `<p class="meal-desc">${escHtml(desayuno.descripcion)}</p>` : ''}
           ${tags ? `<div class="meal-tags">${tags}</div>` : ''}
           ${notes ? `<div class="meal-notes">${notes}</div>` : ''}
         </div>`;
-    });
+    }
+
+    // Lonchera (solo lunes–viernes, entre desayuno y almuerzo)
+    if (dia !== 'sabado' && dia !== 'domingo') {
+      html += renderLoncheraBloque(dia, loncheraData);
+    }
+
+    // Almuerzo
+    const almuerzo = d['almuerzo'];
+    if (almuerzo) {
+      const tags = (almuerzo.ingredientes_principales || []).slice(0, 4)
+        .map(t => `<span class="meal-tag">${escHtml(t)}</span>`).join('');
+      let notes = '';
+      if (almuerzo.nota_facundo)  notes += `<div class="meal-note facundo">🧩 Facundo: ${escHtml(almuerzo.nota_facundo)}</div>`;
+      if (almuerzo.nota_fernando) notes += `<div class="meal-note fernando">💚 Fernando: ${escHtml(almuerzo.nota_fernando)}</div>`;
+      if (almuerzo.nota_domingo)  notes += `<div class="meal-note" style="border-color:var(--day-domingo)">📌 ${escHtml(almuerzo.nota_domingo)}</div>`;
+      html += `
+        <div class="meal-block">
+          <div class="meal-type-badge">🍽️ Almuerzo</div>
+          <div class="meal-name">${escHtml(almuerzo.nombre || '—')}</div>
+          ${almuerzo.descripcion ? `<p class="meal-desc">${escHtml(almuerzo.descripcion)}</p>` : ''}
+          ${tags ? `<div class="meal-tags">${tags}</div>` : ''}
+          ${notes ? `<div class="meal-notes">${notes}</div>` : ''}
+        </div>`;
+    }
 
     html += `</div>`;
   });
@@ -188,10 +291,10 @@ function renderCompras(data) {
   if (!container) return;
 
   const CATEGORIAS = {
-    carnes_y_proteinas:  { label: '🥩 Carnes y proteínas' },
-    vegetales_y_frutas:  { label: '🥦 Vegetales y frutas' },
-    lacteos_y_huevos:    { label: '🥚 Lácteos y huevos' },
-    despensa:            { label: '🧂 Despensa' },
+    carnes_y_proteinas: { label: '🥩 Carnes y proteínas' },
+    vegetales_y_frutas: { label: '🥦 Vegetales y frutas' },
+    lacteos_y_huevos:   { label: '🥚 Lácteos y huevos' },
+    despensa:           { label: '🧂 Despensa' },
   };
 
   function buildCard(lista, titulo, subtitulo, iconClass) {
@@ -219,11 +322,8 @@ function renderCompras(data) {
       </div>`;
   }
 
-  const c1 = buildCard(data.lista_compras_domingos,
-    'Compra del Domingo', 'Para lunes–miércoles', 'domingo');
-  const c2 = buildCard(data.lista_compras_mitad_semana,
-    'Compra a Mitad de Semana', 'Para jueves–domingo', 'mitad');
-
+  const c1 = buildCard(data.lista_compras_domingos, 'Compra del Domingo', 'Para lunes–miércoles', 'domingo');
+  const c2 = buildCard(data.lista_compras_mitad_semana, 'Compra a Mitad de Semana', 'Para jueves–domingo', 'mitad');
   container.innerHTML = `<div class="compras-grid">${c1}${c2}</div>`;
 }
 
@@ -231,7 +331,6 @@ function renderCompras(data) {
 let selectedQuien = 'Fernando';
 let selectedTipos = new Set();
 
-// Single-select chips (¿Quién?)
 document.querySelectorAll('#chips-quien .chip').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('#chips-quien .chip').forEach(b => b.classList.remove('active'));
@@ -240,7 +339,6 @@ document.querySelectorAll('#chips-quien .chip').forEach(btn => {
   });
 });
 
-// Multi-select chips (tipo)
 document.querySelectorAll('#chips-tipo .chip').forEach(btn => {
   btn.addEventListener('click', () => {
     btn.classList.toggle('active');
@@ -253,14 +351,13 @@ document.querySelectorAll('#chips-tipo .chip').forEach(btn => {
 
 function updateConditionalFields() {
   const platoField = document.getElementById('field-plato');
-  const ingField = document.getElementById('field-ingrediente');
-  const cantField = document.getElementById('field-cantidad');
+  const ingField   = document.getElementById('field-ingrediente');
+  const cantField  = document.getElementById('field-cantidad');
 
   if (platoField) platoField.hidden = !selectedTipos.has('no_gusto');
   if (ingField)   ingField.hidden   = !selectedTipos.has('ingrediente');
   if (cantField)  cantField.hidden  = !selectedTipos.has('cantidad');
 
-  // Populate plato dropdown dynamically from menu data
   if (!platoField?.hidden && menuData) {
     const sel = document.getElementById('sel-plato');
     if (sel && sel.options.length <= 1) {
@@ -280,7 +377,6 @@ function updateConditionalFields() {
   }
 }
 
-// Form submit
 const feedbackForm = document.getElementById('feedback-form');
 if (feedbackForm) {
   feedbackForm.addEventListener('submit', async e => {
@@ -293,12 +389,12 @@ if (feedbackForm) {
     }
 
     const payload = {
-      quien: selectedQuien,
-      tipos: [...selectedTipos],
-      plato: document.getElementById('sel-plato')?.value || null,
+      quien:       selectedQuien,
+      tipos:       [...selectedTipos],
+      plato:       document.getElementById('sel-plato')?.value || null,
       ingrediente: document.getElementById('inp-ingrediente')?.value || null,
-      cantidad: document.getElementById('inp-cantidad')?.value || null,
-      comentario: document.getElementById('inp-comentario')?.value || null,
+      cantidad:    document.getElementById('inp-cantidad')?.value || null,
+      comentario:  document.getElementById('inp-comentario')?.value || null,
     };
 
     btn.disabled = true;
@@ -312,10 +408,7 @@ if (feedbackForm) {
         signal: AbortSignal.timeout(30000),
       });
 
-      if (!res.ok) {
-        const msg = await res.text();
-        throw new Error(msg || `Error ${res.status}`);
-      }
+      if (!res.ok) throw new Error((await res.text()) || `Error ${res.status}`);
 
       toast('✅ ¡Feedback enviado! Gracias 🙏');
       feedbackForm.reset();
@@ -351,7 +444,7 @@ async function loadFeedbacks() {
   container.innerHTML = `<div class="loader-box" style="padding:var(--space-6)"><div class="spinner"></div></div>`;
 
   try {
-    const res = await fetch(`${API}/feedbacks`, { signal: AbortSignal.timeout(20000) });
+    const res = await fetch(`${API}/feedbacks`, { signal: AbortSignal.timeout(30000) });
     if (!res.ok) throw new Error(`Error ${res.status}`);
     const items = await res.json();
 
@@ -360,15 +453,14 @@ async function loadFeedbacks() {
       return;
     }
 
-    // Show newest first
     const sorted = [...items].reverse();
     container.innerHTML = sorted.map(fb => {
       const tipos = (fb.tipos || []).map(t =>
         `<span class="fb-tipo-badge">${TIPO_LABELS[t] || t}</span>`).join('');
       const extras = [
-        fb.plato ? `Plato: ${escHtml(fb.plato.split('|').pop())}` : null,
+        fb.plato       ? `Plato: ${escHtml(fb.plato.split('|').pop())}` : null,
         fb.ingrediente ? `Ingrediente: ${escHtml(fb.ingrediente)}` : null,
-        fb.cantidad ? `Cantidad: ${escHtml(fb.cantidad)}` : null,
+        fb.cantidad    ? `Cantidad: ${escHtml(fb.cantidad)}` : null,
       ].filter(Boolean).join(' · ');
       const comentario = fb.comentario || extras;
 
@@ -388,35 +480,63 @@ async function loadFeedbacks() {
     console.error('[Paca] loadFeedbacks:', err);
   }
 }
-// ── LOAD MENÚ ANTERIOR ───────────────────────────────────────
+
+// ── LONCHERA FORM ─────────────────────────────────────────────
+const loncheraForm = document.getElementById('lonchera-form');
+if (loncheraForm) {
+  loncheraForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn   = document.getElementById('btn-lonchera');
+    const input = document.getElementById('inp-lonchera');
+    const texto = input?.value?.trim();
+
+    if (!texto) {
+      toast('Escribe la lonchera antes de guardar');
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Guardando…';
+
+    try {
+      const res = await fetch(`${API}/lonchera`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ texto }),
+        signal: AbortSignal.timeout(30000),
+      });
+
+      if (!res.ok) throw new Error((await res.text()) || `Error ${res.status}`);
+
+      toast('✅ Lonchera guardada correctamente');
+      // Invalidar caché para que se recargue al ver el menú
+      loncheraData = null;
+      input.value = '';
+
+    } catch (err) {
+      toast(`⚠️ Error al guardar lonchera: ${err.message}`);
+      console.error('[Paca] lonchera submit:', err);
+    } finally {
+      btn.disabled = false;
+      btn.innerHTML = 'Guardar lonchera <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+    }
+  });
+}
+
+// ── LOAD MENÚ ANTERIOR ────────────────────────────────────────
 let menuAnteriorCargado = false;
 
 async function loadMenuAnterior() {
-  if (menuAnteriorCargado) return;  // solo cargar una vez
+  if (menuAnteriorCargado) return;
   const container = document.getElementById('menu-anterior-container');
-  const label = document.getElementById('semana-label-anterior');
+  const label     = document.getElementById('semana-label-anterior');
   if (!container) return;
 
   container.innerHTML = `<div class="loader-box"><div class="spinner"></div><p>Cargando semana anterior…</p></div>`;
   showWakeBanner(container);
 
   try {
-    //const res = await fetch(`${API}/menu-anterior`, { signal: AbortSignal.timeout(60000) });
-        // Render duerme ~30-45s — reintentamos hasta 3 veces
-    let res;
-    for (let intento = 1; intento <= 3; intento++) {
-      try {
-        const ctrl = new AbortController();
-        const timer = setTimeout(() => ctrl.abort(), 55000);
-        res = await fetch(`${API}/menu-anterior`, { signal: ctrl.signal });
-        clearTimeout(timer);
-        break;
-      } catch (fetchErr) {
-        if (intento === 3) throw fetchErr;
-        container.innerHTML = `<div class="loader-box"><div class="spinner"></div><p>Despertando servidor… (intento ${intento}/3)</p></div>`;
-        await new Promise(r => setTimeout(r, 3000));
-      }
-    }
+    const res = await fetchConRetry(`${API}/menu-anterior`, container);
     clearWakeBanner(container);
 
     if (res.status === 404) {
@@ -427,6 +547,7 @@ async function loadMenuAnterior() {
 
     const data = await res.json();
     if (label) label.textContent = data.semana || '';
+    // El menú anterior NO muestra lonchera (es info histórica)
     renderMenu(data, container);
     menuAnteriorCargado = true;
 
@@ -435,8 +556,10 @@ async function loadMenuAnterior() {
     container.innerHTML = `
       <div class="loader-box">
         <p>⚠️ No se pudo cargar el menú anterior.</p>
-        <button class="btn-primary" style="width:auto;margin-top:1rem" onclick="menuAnteriorCargado=false;loadMenuAnterior()">Reintentar</button>
+        <button class="btn-primary" style="width:auto;margin-top:1rem"
+          onclick="menuAnteriorCargado=false;loadMenuAnterior()">Reintentar</button>
       </div>`;
+    console.error('[Paca] loadMenuAnterior:', err);
   }
 }
 
