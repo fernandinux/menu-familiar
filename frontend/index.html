@@ -29,6 +29,7 @@
     <nav class="nav-tabs" role="tablist">
       <button class="nav-tab active" data-tab="menu" role="tab">Menú</button>
       <button class="nav-tab" data-tab="compras" role="tab">Compras</button>
+      <button class="nav-tab" data-tab="anterior" role="tab">Semana anterior</button>  <!-- ← NUEVO -->
       <button class="nav-tab" data-tab="feedback" role="tab">Feedback</button>
     </nav>
     <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
@@ -60,6 +61,17 @@
       <p class="page-sub" id="semana-label-compras">—</p>
     </div>
     <div id="compras-container">
+      <div class="loader-box"><div class="spinner"></div><p>Cargando...</p></div>
+    </div>
+  </section>
+
+    <!-- TAB SEMANA ANTERIOR -->
+  <section id="tab-anterior" class="tab-section" role="tabpanel">
+    <div class="page-header">
+      <h1 class="page-title">Semana Anterior</h1>
+      <p class="page-sub" id="semana-label-anterior">—</p>
+    </div>
+    <div id="menu-anterior-container">
       <div class="loader-box"><div class="spinner"></div><p>Cargando...</p></div>
     </div>
   </section>
