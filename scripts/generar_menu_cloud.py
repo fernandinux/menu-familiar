@@ -36,7 +36,7 @@ BRANCH         = os.environ.get("GITHUB_BRANCH", "main")
 DATA_MENU_PATH      = "data/menu_actual.json"
 DATA_FEEDBACKS_PATH = "data/feedbacks.json"
 DATA_HISTORIAL_PATH = "data/historial.json"
-
+DATA_MENU_ANTERIOR  = "data/menu_anterior.json"   # ← agregar esta línea
 # ── PROMPT MAESTRO ────────────────────────────────────────────
 PROMPT_SISTEMA = """
 Eres un nutricionista especializado en familias con necesidades dietéticas específicas en Lima, Perú.
@@ -357,7 +357,18 @@ def main():
 
     # Guardar menú en GitHub
     print("\n💾 Guardando en GitHub...")
+     # ── NUEVO: guardar el menú actual como "semana anterior" antes de sobreescribir
     menu_existente, menu_sha = leer_json_github(DATA_MENU_PATH)
+    if menu_existente:
+        menu_anterior_existente, menu_anterior_sha = leer_json_github("data/menu_anterior.json")
+        escribir_json_github(
+            "data/menu_anterior.json",
+            menu_existente,
+            f"historial: guardar semana anterior ({menu_existente.get('semana', '?')})",
+            sha=menu_anterior_sha
+        )
+        print(f"  📦 Semana anterior guardada: {menu_existente.get('semana')}")
+    # ── FIN NUEVO
     escribir_json_github(
         DATA_MENU_PATH, plan,
         f"menu: {nombre_semana}",
