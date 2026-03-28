@@ -811,3 +811,54 @@ textarea.input { resize: vertical; min-height: 90px; }
   .menu-grid { grid-template-columns: 1fr; }
   .compras-grid { grid-template-columns: 1fr; }
 }
+
+/* ── LONCHERA ────────────────────────────────────────────── */
+.lonchera-block {
+  background: color-mix(in oklab, var(--color-gold) 8%, var(--color-surface));
+  border-left: 3px solid var(--color-gold);
+  border-radius: var(--radius-md);
+  margin: 0 calc(-1 * var(--space-1));
+}
+
+[data-theme="dark"] .lonchera-block {
+  background: color-mix(in oklab, var(--color-gold) 10%, var(--color-surface));
+}
+
+.lonchera-item {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.55;
+  padding: var(--space-1) 0;
+}
+
+.lonchera-quien {
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-right: var(--space-1);
+}
+
+.lonchera-text {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* Sección admin de lonchera en Feedback */
+.lonchera-admin-section {
+  margin-top: var(--space-10);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-8);
+}
+
+.lonchera-admin-header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.lonchera-admin-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: 2px;
+}
