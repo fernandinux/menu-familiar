@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
-  <!-- URL del backend Render — se reemplaza en DEPLOY -->
+  <!-- URL del backend Render -->
   <script>window.API_URL = "https://menu-familiar-paca.onrender.com";</script>
 </head>
 <body>
@@ -29,7 +29,7 @@
     <nav class="nav-tabs" role="tablist">
       <button class="nav-tab active" data-tab="menu" role="tab">Menú</button>
       <button class="nav-tab" data-tab="compras" role="tab">Compras</button>
-      <button class="nav-tab" data-tab="anterior" role="tab">Semana anterior</button>  <!-- ← NUEVO -->
+      <button class="nav-tab" data-tab="anterior" role="tab">Sem. anterior</button>
       <button class="nav-tab" data-tab="feedback" role="tab">Feedback</button>
     </nav>
     <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
@@ -65,7 +65,7 @@
     </div>
   </section>
 
-    <!-- TAB SEMANA ANTERIOR -->
+  <!-- TAB SEMANA ANTERIOR -->
   <section id="tab-anterior" class="tab-section" role="tabpanel">
     <div class="page-header">
       <h1 class="page-title">Semana Anterior</h1>
@@ -84,6 +84,7 @@
     </div>
     <div class="feedback-grid">
 
+      <!-- FORMULARIO FEEDBACK MENÚ -->
       <div class="card feedback-form-card">
         <form id="feedback-form" novalidate>
 
@@ -135,6 +136,7 @@
         </form>
       </div>
 
+      <!-- HISTORIAL FEEDBACK -->
       <div>
         <h2 class="section-title">Feedbacks recientes</h2>
         <div id="historial-container">
@@ -143,6 +145,31 @@
       </div>
 
     </div>
+
+    <!-- SECCIÓN LONCHERA (separada del grid de feedback) -->
+    <div class="lonchera-admin-section">
+      <div class="lonchera-admin-header">
+        <span class="lonchera-admin-icon">🎒</span>
+        <div>
+          <h2 class="section-title" style="margin-bottom:0">Actualizar Lonchera</h2>
+          <p class="page-sub" style="margin-top:var(--space-1)">Ingresa la lonchera fija del mes (reemplaza la actual)</p>
+        </div>
+      </div>
+      <div class="card">
+        <form id="lonchera-form" novalidate>
+          <div class="field">
+            <label class="field-label" for="inp-lonchera">Nueva lonchera del mes</label>
+            <textarea class="input" id="inp-lonchera" rows="10"
+              placeholder="Escribe la lonchera tal como la tienes, por ejemplo:&#10;&#10;Lunes:&#10;- Facundo: manzana en trozos, 4 pecanas y uva + maracuyá&#10;- Leonardo: panqueque de avena + manzanilla&#10;&#10;Martes:&#10;- Facundo: quinua con huevo revuelto + plátano&#10;..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" id="btn-lonchera">
+            Guardar lonchera
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+
   </section>
 
 </main>
@@ -153,6 +180,6 @@
 </footer>
 
 <div class="toast" id="toast"></div>
-<script src="static/js/app.js?v=1774719456"></script>
+<script src="static/js/app.js?v=1774800000"></script>
 </body>
 </html>
