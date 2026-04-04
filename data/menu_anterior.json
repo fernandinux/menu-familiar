@@ -1,319 +1,285 @@
 {
-  "semana": "Lunes 23/03 al Domingo 29/03/2026",
+  "semana": "Lunes 30/03 al Domingo 05/04/2026",
   "dias": {
     "lunes": {
       "desayuno": {
-        "nombre": "Huevos revueltos con espinaca y tomate",
-        "descripcion": "Batir 10 huevos, saltear espinaca con ajo y tomate en aceite de oliva, mezclar con los huevos. Servir con pan integral tostado opcional.",
+        "nombre": "Omelette de queso fresco y espinaca con tomate y palta",
+        "descripcion": "Preparar omelette con huevos, espinaca y queso fresco, acompañar con tomate picado y cubos de palta.",
         "ingredientes_principales": [
-          "10 huevos",
-          "200g espinaca fresca",
-          "3 tomates medianos",
-          "2 dientes de ajo",
-          "2 cdas aceite de oliva",
-          "6 panes integrales (opcionales)"
+          "Huevos - 12 unidades",
+          "Espinaca - 1 atado",
+          "Queso fresco - 250g",
+          "Tomate - 2 unidades medianas",
+          "Palta - 2 unidades"
         ],
-        "nutrientes_clave": "Proteína completa, vitamina K, hierro, folato, licopeno",
-        "nota_facundo": "Rico en B6 y B12 que apoyan la función neurológica. Sin colorantes ni aditivos.",
-        "nota_fernando": "Puedes saltar el pan. Los huevos con vegetales solos son perfectos para tu resistencia a la insulina."
+        "nota_facundo": "Aporta probióticos (queso fresco), fibra (espinaca, tomate) y omega-3 (huevo).",
+        "nota_fernando": "Desayuno alto en proteínas y grasas saludables, sin carbohidratos refinados."
       },
       "almuerzo": {
-        "nombre": "Lomo saltado con vainitas y pimiento tricolor",
-        "descripcion": "Saltear tiras de lomo fino a fuego alto con cebolla, tomate, ají amarillo, vainitas blanqueadas y pimiento rojo/amarillo/verde. Sazonar con sillao natural, vinagre y sal. Acompañar con arroz blanco y papas fritas al horno.",
+        "nombre": "Frijoles canarios guisados con acelga y pimiento rojo, arroz blanco y huevo duro",
+        "descripcion": "Guisar frijoles canarios con acelga y pimiento rojo, servir con arroz blanco y huevo duro.",
         "ingredientes_principales": [
-          "1.2kg lomo de res",
-          "500g vainitas",
-          "1 pimiento rojo",
-          "1 pimiento amarillo",
-          "3 tomates",
-          "2 cebollas",
-          "Sillao sin MSG",
-          "1.5 tazas arroz",
-          "6 papas medianas"
+          "Frijoles canarios - 500g",
+          "Acelga - 1 atado",
+          "Pimiento rojo - 1 unidad",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Arroz blanco - 2 tazas",
+          "Huevos - 6 unidades"
         ],
-        "nutrientes_clave": "Hierro hem, zinc, vitamina C (pimiento), fibra (vainitas), antioxidantes",
-        "nota_facundo": "El pimiento tricolor aporta zinc y vitamina C que apoyan su sistema inmune. Evitar el sillao con glutamato, usar marca natural.",
-        "nota_fernando": "Porciones pequeñas de arroz y papas. Llena tu plato con más lomo y vainitas."
+        "nota_facundo": "Fuente de fibra soluble (frijoles, acelga) y proteína (huevo), sin colorantes.",
+        "nota_fernando": "Legumbres y vegetales con porción moderada de arroz para controlar carbohidratos."
       }
     },
     "martes": {
       "desayuno": {
-        "nombre": "Avena con plátano, chía y nueces",
-        "descripcion": "Cocinar avena en leche fresca o agua, servir tibia con rodajas de plátano de isla, una cucharadita de semillas de chía y un puñado de nueces o pecanas picadas.",
+        "nombre": "Quinua cocida con leche fresca, plátano en rodajas y pecanas",
+        "descripcion": "Cocinar quinua con leche fresca, servir con rodajas de plátano y pecanas picadas.",
         "ingredientes_principales": [
-          "2 tazas avena",
-          "1 litro leche fresca",
-          "4 plátanos de isla",
-          "4 cdas semillas de chía",
-          "100g nueces o pecanas"
+          "Quinua - 1 taza",
+          "Leche fresca - 500ml",
+          "Plátano - 3 unidades",
+          "Pecanas - 50g"
         ],
-        "nutrientes_clave": "Fibra prebiótica (avena), omega-3 (chía/nueces), magnesio, potasio, carbohidratos complejos",
-        "nota_facundo": "La fibra soluble de la avena alimenta las bacterias beneficiosas de su intestino. Las nueces aportan magnesio que apoya el sistema nervioso.",
-        "nota_fernando": "La avena tiene carbohidratos complejos que suben la glucosa lentamente. Sirve te una porción pequeña y agrega más nueces para compensar con grasa saludable."
+        "nota_facundo": "Quinua aporta fibra y proteína, plátano fibra y vitaminas, pecanas omega-3.",
+        "nota_fernando": "Carbohidrato complejo de bajo índice glucémico (quinua) y grasas saludables."
       },
       "almuerzo": {
-        "nombre": "Sudado de bonito con brócoli y zanahoria",
-        "descripcion": "Preparar un aderezo de cebolla, tomate, ají amarillo, culantro y ajo. Añadir trozos de bonito fresco, floretes de brócoli y zanahoria en rodajas. Cocinar tapado a fuego medio 20 minutos. Servir con arroz.",
+        "nombre": "Bonito al horno con vegetales salteados (brócoli, zanahoria, pimiento amarillo) y papa dorada al horno",
+        "descripcion": "Hornear bonito, saltear brócoli, zanahoria y pimiento amarillo, y dorar papas al horno.",
         "ingredientes_principales": [
-          "1.2kg bonito en trozos",
-          "1 brócoli grande (600g)",
-          "3 zanahorias",
-          "3 tomates",
-          "2 cebollas",
-          "Ají amarillo",
-          "Culantro",
-          "1.5 tazas arroz"
+          "Bonito - 1.2kg",
+          "Brócoli - 1 unidad",
+          "Zanahoria - 2 unidades",
+          "Pimiento amarillo - 1 unidad",
+          "Papa - 1kg",
+          "Aceite de oliva - 3 cucharadas"
         ],
-        "nutrientes_clave": "Omega-3 (bonito), sulforafano y vitamina C (brócoli), betacaroteno (zanahoria), probiótico natural",
-        "nota_facundo": "El bonito aporta DHA/EPA que son omega-3 esenciales para el desarrollo cerebral. El brócoli contiene sulforafano con propiedades neuroprotectoras.",
-        "nota_fernando": "Excelente plato, el pescado no eleva la glucosa. Sirve menos arroz o reemplázalo por más brócoli."
+        "nota_facundo": "Bonito es excelente fuente de Omega-3; vegetales aportan fibra y vitaminas variadas.",
+        "nota_fernando": "Proteína magra de pescado y vegetales, con porción controlada de papa."
       }
     },
     "miercoles": {
       "desayuno": {
-        "nombre": "Atún en agua con palta y aceite de oliva",
-        "descripcion": "Escurrir bien el atún en conserva al agua. Mezclar con palta en cubos, aceite de oliva, limón y sal. Servir con pan integral tostado o solo como ensalada proteica.",
+        "nombre": "Tostadas de camote asado con huevo duro y palta",
+        "descripcion": "Asar rodajas de camote, servir con huevo duro en rodajas y palta en cubos.",
         "ingredientes_principales": [
-          "3 latas atún en agua (140g c/u)",
-          "3 paltas medianas maduras",
-          "3 cdas aceite de oliva extra virgen",
-          "2 limones",
-          "Sal y pimienta"
+          "Camote - 2 unidades grandes",
+          "Huevos - 6 unidades",
+          "Palta - 2 unidades"
         ],
-        "nutrientes_clave": "Proteína completa, omega-3, grasas saludables monoinsaturadas, vitamina E",
-        "nota_facundo": "Revisar que el atún sea solo atún y agua, sin saborizantes artificiales. Rico en omega-3 para su desarrollo neurológico.",
-        "nota_fernando": "Desayuno ideal para tu resistencia a la insulina: proteína + grasa saludable, sin carbohidratos. Puedes saltarte el pan completamente."
+        "nota_facundo": "Camote aporta fibra y vitaminas, huevo omega-3, palta grasas saludables.",
+        "nota_fernando": "Desayuno sin pan, con carbohidratos complejos (camote) y grasas saludables."
       },
       "almuerzo": {
-        "nombre": "Arroz con pollo mejorado con brócoli y arvejas",
-        "descripcion": "Preparar el guiso de culantro, ají amarillo y ajo. Añadir piezas de pollo, arvejas verdes frescas y floretes de brócoli junto al arroz. Cocinar todo junto para que el arroz absorba los sabores. Acompañar con ensalada de zanahoria rallada.",
+        "nombre": "Pollo guisado con champiñones, vainitas y choclo desgranado, acompañado de arroz integral",
+        "descripcion": "Guisar pollo con champiñones, vainitas y choclo desgranado, servir con arroz integral.",
         "ingredientes_principales": [
-          "1.2kg pollo en presas",
-          "2 tazas arroz",
-          "300g arvejas verdes frescas",
-          "1 brócoli mediano",
-          "3 cebollas",
-          "Culantro 1 manojo",
-          "Ají amarillo",
-          "3 zanahorias (ensalada)"
+          "Pollo (piernas/muslos sin piel) - 1.2kg",
+          "Champiñones - 250g",
+          "Vainitas - 500g",
+          "Choclo desgranado - 2 unidades",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Arroz integral - 1.5 tazas"
         ],
-        "nutrientes_clave": "Proteína de pollo, fibra (arvejas/brócoli), folato, vitamina C, betacaroteno",
-        "nota_facundo": "Las arvejas son fuente de fibra prebiótica que alimenta su microbiota intestinal beneficiosa. El culantro fresco aporta vitaminas adicionales.",
-        "nota_fernando": "El arroz está mezclado con el guiso así que es difícil de evitar. Sirve una porción pequeña de arroz y más ensalada de zanahoria."
+        "nota_facundo": "Vegetales como champiñones, vainitas y choclo aportan fibra y diversos nutrientes.",
+        "nota_fernando": "Proteína magra y vegetales con fibra, arroz integral en porción moderada."
       }
     },
     "jueves": {
       "desayuno": {
-        "nombre": "Yogur natural con frutas de temporada y granola sin azúcar",
-        "descripcion": "Servir yogur natural sin azúcar agregada con trozos de fruta fresca de temporada (papaya, fresa o mango) y una cucharada de granola casera o avena tostada con miel mínima.",
+        "nombre": "Batido de avena, leche fresca, fresas y un toque de miel (opcional)",
+        "descripcion": "Licuar avena, leche fresca y fresas. Añadir un toque de miel si se desea.",
         "ingredientes_principales": [
-          "1 litro yogur natural sin azúcar",
-          "1 papaya mediana o 500g fresas",
-          "4 cdas granola o avena tostada",
-          "Miel (mínima, opcional)"
+          "Avena en hojuelas - 1/2 taza",
+          "Leche fresca - 500ml",
+          "Fresas - 200g",
+          "Miel de abeja - 1 cucharada (opcional)"
         ],
-        "nutrientes_clave": "Probióticos (yogur), vitamina C, antioxidantes, calcio, cultivos activos beneficiosos",
-        "nota_facundo": "El yogur natural es probiótico natural, clave para su microbiota intestinal. Sin colorantes artificiales. Elegir yogur con cultivos activos: Lactobacillus.",
-        "nota_fernando": "Yogur natural sin azúcar es aceptable. Evita la miel o pon muy poca. La fruta aporta fibra que modera la absorción de azúcar."
+        "nota_facundo": "Avena y fresas son ricas en fibra soluble y vitamina C, sin azúcar refinada.",
+        "nota_fernando": "Batido con fibra (avena, fresas) para un carbohidrato de bajo impacto glucémico."
       },
       "almuerzo": {
-        "nombre": "Berenjena, zucchini y pimiento a la plancha con filete de pollo",
-        "descripcion": "Cortar berenjenas, zucchini, pimiento rojo y cebolla en rodajas gruesas. Sazonar con aceite de oliva, orégano, sal y pimienta. Llevar al horno a 200°C por 25 min. Dorar filetes de pechuga de pollo sazonados en sartén. Servir juntos.",
+        "nombre": "Pallares guisados con zapallo y espinaca, acompañados de arroz blanco",
+        "descripcion": "Guisar pallares con trozos de zapallo y espinaca, servir con arroz blanco.",
         "ingredientes_principales": [
-          "1.2kg pechuga de pollo fileteada",
-          "2 berenjenas medianas",
-          "3 zucchini/zapallito italiano",
-          "2 pimientos rojos",
-          "2 cebollas moradas",
-          "4 cdas aceite de oliva",
-          "Orégano, sal, pimienta"
+          "Pallares - 500g",
+          "Zapallo macre - 500g",
+          "Espinaca - 1 atado",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Arroz blanco - 2 tazas"
         ],
-        "nutrientes_clave": "Proteína magra, antioxidantes (berenjena/pimiento), vitamina C, fibra, polifenoles",
-        "nota_facundo": "Las verduras a la plancha conservan más nutrientes que fritas. El pimiento rojo tiene el doble de vitamina C que la naranja.",
-        "nota_fernando": "Plato ideal para tu resistencia a la insulina: proteína + vegetales sin almidón. Sin carbohidratos, puedes comer en abundancia."
+        "nota_facundo": "Pallares y espinaca son fuentes de fibra y vitaminas del complejo B.",
+        "nota_fernando": "Legumbres con vegetales, porción de arroz blanco moderada."
       }
     },
     "viernes": {
       "desayuno": {
-        "nombre": "Omelette de verduras con queso fresco",
-        "descripcion": "Batir 10 huevos. Saltear pimiento, cebolla verde y espinaca picada brevemente. Verter los huevos y cocinar el omelette en sartén antiadherente. Agregar queso fresco rallado antes de doblar. Servir con rodajas de tomate.",
+        "nombre": "Atún en agua con cebolla y tomate picado, acompañado de galletas de arroz integral (opcional) y rodajas de pepino",
+        "descripcion": "Mezclar atún en agua con cebolla y tomate picado, servir con galletas de arroz integral y pepino.",
         "ingredientes_principales": [
-          "10 huevos",
-          "1 pimiento rojo",
-          "1 manojo cebolla china",
-          "150g espinaca",
-          "200g queso fresco",
-          "3 tomates"
+          "Atún en agua (lata grande) - 3 unidades",
+          "Cebolla roja - 1 unidad pequeña",
+          "Tomate - 2 unidades pequeñas",
+          "Pepino - 1 unidad",
+          "Galletas de arroz integral - 6 unidades (opcional)"
         ],
-        "nutrientes_clave": "Proteína completa, calcio (queso), vitamina K, hierro, colina",
-        "nota_facundo": "El queso fresco aporta probióticos y calcio. La espinaca tiene magnesio que apoya el sistema nervioso.",
-        "nota_fernando": "Desayuno perfecto para tu resistencia a la insulina. Sin carbohidratos, alto en proteína y grasa saludable."
+        "nota_facundo": "Atún aporta Omega-3 y proteínas, vegetales vitaminas y fibra, sin aditivos.",
+        "nota_fernando": "Desayuno alto en proteínas y omega-3, carbohidratos muy bajos (opcional galleta arroz)."
       },
       "almuerzo": {
-        "nombre": "Ceviche de bonito con choclo y zanahoria rallada",
-        "descripcion": "Cortar bonito fresco en cubos, marinar en jugo de limón por 15 minutos. Añadir cebolla morada en juliana, ají limo, culantro, sal y pimienta. Servir con choclo sancochado y zanahoria rallada al costado como acompañamiento.",
+        "nombre": "Jurel al vapor con puré de zanahoria y zucchini salteado",
+        "descripcion": "Cocer jurel al vapor, preparar un puré de zanahoria y saltear zucchini.",
         "ingredientes_principales": [
-          "1.2kg bonito fresco muy fresco",
-          "10 limones",
-          "2 cebollas moradas",
-          "Ají limo al gusto",
-          "Culantro 1 manojo",
-          "3 choclos",
-          "4 zanahorias"
+          "Jurel - 1.2kg",
+          "Zanahoria - 500g",
+          "Zucchini - 2 unidades",
+          "Aceite de oliva - 2 cucharadas",
+          "Limón - 1 unidad"
         ],
-        "nutrientes_clave": "Omega-3 (bonito crudo conserva más DHA), vitamina C (limón), antioxidantes, proteína magra",
-        "nota_facundo": "Verificar que el pescado sea muy fresco. El ceviche es rico en omega-3 y vitamina C. Si Facundo rechaza la textura, reservar su porción cocinada brevemente.",
-        "nota_fernando": "Excelente: proteína pura y vegetales. El choclo tiene carbohidratos, sírvete una sola mazorca pequeña."
+        "nota_facundo": "Jurel es una excelente fuente de Omega-3, zucchini y zanahoria aportan fibra y color.",
+        "nota_fernando": "Proteína de pescado y vegetales sin carbohidratos refinados, con grasas saludables (aceite de oliva)."
       }
     },
     "sabado": {
       "desayuno": {
-        "nombre": "Pan integral con palta, huevo pochado y tomate",
-        "descripcion": "Tostar pan integral. Machacar palta con limón y sal. Untar en el pan. Cocinar huevos pochados en agua con vinagre. Colocar el huevo sobre el pan con palta. Acompañar con rodajas de tomate con aceite de oliva.",
+        "nombre": "Pan integral (poca cantidad) con queso fresco y mermelada casera sin azúcar, acompañado de mandarina",
+        "descripcion": "Servir pan integral con queso fresco y mermelada casera, acompañar con gajos de mandarina.",
         "ingredientes_principales": [
-          "12 panes integrales",
-          "4 paltas medianas",
-          "10 huevos",
-          "4 tomates",
-          "Aceite de oliva",
-          "Limón, sal"
+          "Pan de molde integral - 6 rebanadas",
+          "Queso fresco - 250g",
+          "Mermelada casera sin azúcar - 6 cucharadas",
+          "Mandarina - 6 unidades"
         ],
-        "nutrientes_clave": "Grasas saludables monoinsaturadas (palta), proteína (huevo), fibra (pan integral), licopeno",
-        "nota_facundo": "La palta aporta vitamina E y grasas saludables para el desarrollo cerebral. Sin aditivos.",
-        "nota_fernando": "Come el pan con moderación (1-2 rebanadas). La palta y el huevo son excelentes para tu situación."
+        "nota_facundo": "Queso fresco aporta probióticos, mandarina vitamina C, mermelada casera evita azúcares refinados.",
+        "nota_fernando": "Pan integral en pequeña cantidad, queso fresco como proteína y fibra de la mandarina."
       },
       "almuerzo": {
-        "nombre": "Estofado de res con verduras y lentejas",
-        "descripcion": "Dorar cubos de carne de res (osobuco o pulpa) con cebolla, tomate, ajo y zanahoria. Agregar lentejas previamente remojadas, papa en cubos, choclo y hierbas. Cocinar a fuego lento 45 minutos hasta que la carne y lentejas estén tiernas.",
+        "nombre": "Seco de res con frejolitos verdes (vainitas) y camote sancochado",
+        "descripcion": "Preparar seco de res con vainitas, servir con camote sancochado.",
         "ingredientes_principales": [
-          "1.2kg pulpa de res en cubos",
-          "1 taza lentejas",
-          "4 zanahorias",
-          "3 papas medianas",
-          "2 choclos en trozos",
-          "3 tomates",
-          "2 cebollas",
-          "Ajo, comino, orégano"
+          "Carne de res (malaya o pecho) - 1.2kg",
+          "Vainitas - 500g",
+          "Camote - 1kg",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Culantro - 1/2 atado",
+          "Ají amarillo (sin picante para niños) - 1 unidad"
         ],
-        "nutrientes_clave": "Hierro hem + no hem (carne + lentejas), fibra, zinc, folato, vitamina C (absorción de hierro)",
-        "nota_facundo": "Las lentejas son probióticas y ricas en zinc. La combinación con carne potencia la absorción de hierro, importante para el neurodesarrollo.",
-        "nota_fernando": "La papa y el choclo aportan carbohidratos, sírvete porciones pequeñas. Las lentejas tienen fibra que modera la glucosa. Más carne y verduras en tu plato."
+        "nota_facundo": "Vainitas y camote son fuente de fibra y vitaminas, sin aditivos artificiales.",
+        "nota_fernando": "Proteína magra de res, vegetales con fibra y carbohidratos complejos del camote en porción moderada."
       }
     },
     "domingo": {
       "desayuno": {
-        "nombre": "Pancakes de avena y plátano (sin harina blanca)",
-        "descripcion": "Licuar 2 plátanos maduros con 1 taza de avena, 4 huevos y una pizca de sal. Cocinar en sartén antiadherente sin aceite o con mínimo aceite. Servir con fruta fresca y miel mínima. Solo para 4 personas.",
+        "nombre": "Huevos revueltos con tomate y orégano, acompañados de palta en cubos y un vaso de leche fresca",
+        "descripcion": "Preparar huevos revueltos con tomate picado y orégano, servir con cubos de palta y leche fresca.",
         "ingredientes_principales": [
-          "2 plátanos maduros",
-          "1 taza avena",
-          "4 huevos",
-          "Fruta fresca al gusto",
-          "Miel (mínima)"
+          "Huevos - 8 unidades",
+          "Tomate - 1 unidad",
+          "Orégano seco - 1 cucharadita",
+          "Palta - 1 unidad",
+          "Leche fresca - 500ml"
         ],
-        "nutrientes_clave": "Carbohidratos complejos (avena), proteína (huevo), potasio, fibra, sin harina refinada",
-        "nota_facundo": "Sin colorantes ni conservantes. La avena aporta fibra prebiótica. Los niños suelen disfrutar mucho estos pancakes.",
-        "nota_fernando": "Tiene carbohidratos. Come 1-2 pancakes máximo y complementa con huevo adicional si tienes hambre."
+        "nota_facundo": "Huevo aporta Omega-3 y vitaminas, palta grasas saludables, tomate fibra.",
+        "nota_fernando": "Desayuno proteico y con grasas saludables, sin carbohidratos refinados."
       },
       "almuerzo": {
-        "nombre": "Pollo al horno con papas y vegetales (plato único de bandeja)",
-        "descripcion": "Colocar en una sola bandeja: presas de pollo marinadas con ajo, orégano, comino y aceite de oliva, papas en mitades, zanahorias y pimientos en trozos. Hornear a 200°C por 45-50 minutos sin necesidad de vigilar. Sirve directamente de la bandeja. Se puede preparar el sábado y recalentar el domingo sin problema.",
+        "nombre": "Tallarines verdes con pollo a la plancha",
+        "descripcion": "Preparar salsa de tallarines verdes casera con espinaca y albahaca, servir con fideos y pollo a la plancha.",
         "ingredientes_principales": [
-          "800g pollo en presas (para 4 personas)",
-          "4 papas medianas",
-          "3 zanahorias",
-          "2 pimientos",
-          "1 cebolla",
-          "Ajo, orégano, aceite de oliva"
+          "Fideos (tallarines) - 400g",
+          "Pollo (pechuga) - 800g",
+          "Espinaca - 1 atado",
+          "Albahaca - 1 atado",
+          "Queso fresco - 150g",
+          "Leche evaporada - 1/2 taza",
+          "Nueces o pecanas - 50g",
+          "Aceite de oliva - 3 cucharadas"
         ],
-        "nutrientes_clave": "Proteína de pollo, betacaroteno, vitamina C, potasio",
-        "nota_facundo": "Sin aditivos, todo natural del horno. Los vegetales al horno son fáciles de masticar para niños pequeños.",
-        "nota_fernando": "Sírvete más pollo y vegetales, menos papa. El pollo al horno sin piel es magro y excelente.",
-        "nota_domingo": "Ideal para domingo: se puede preparar el sábado en la noche y recalentar en el horno a 180°C por 15 minutos. O preparar por la mañana y meter al horno mientras disfrutan el desayuno."
+        "nota_facundo": "Salsa casera con espinaca y albahaca aporta vitaminas, queso fresco probióticos, sin colorantes.",
+        "nota_fernando": "Pollo magro y vegetales en la salsa, porción controlada de fideos."
       }
     }
   },
   "lista_compras_domingos": {
-    "descripcion": "Compra dominical para lunes, martes, miercoles",
+    "descripcion": "Compra dominical para lunes, martes, miercoles (6 personas)",
     "carnes_y_proteinas": [
-      "Lomo fino de res - 1.2 kg",
-      "Bonito fresco - 1.2 kg",
-      "Pollo entero o en presas - 1.3 kg",
-      "Atún en conserva al agua - 3 latas (140g c/u)"
-
+      "Huevos - 18 unidades",
+      "Queso fresco - 500g",
+      "Frijoles canarios - 500g",
+      "Bonito - 1.2kg",
+      "Pollo (piernas/muslos sin piel) - 1.2kg",
+      "Champiñones - 250g"
     ],
     "vegetales_y_frutas": [
-      "Espinaca fresca - 400g",
-      "Tomates - 12 unidades",
-      "Cebolla blanca - 4 unidades",
-      "Brócoli - 2 unidades grandes",
-      "Zanahorias - 6 unidades",
-      "Ají amarillo - 6 unidades",
-      "Pimiento rojo - 2 unidades",
+      "Espinaca - 2 atados",
+      "Tomate - 4 unidades",
+      "Palta - 4 unidades",
+      "Acelga - 1 atado",
+      "Pimiento rojo - 1 unidad",
+      "Plátano - 3 unidades",
+      "Brócoli - 1 unidad",
+      "Zanahoria - 700g",
       "Pimiento amarillo - 1 unidad",
+      "Papa - 1kg",
       "Vainitas - 500g",
-      "Arvejas verdes frescas - 300g",
-      "Papas amarillas - 8 unidades medianas",
-      "Plátano de isla - 6 unidades",
-      "Paltas - 3 unidades maduras",
-      "Limones - 8 unidades",
-      "Culantro - 2 manojos"
-
+      "Choclo desgranado - 2 unidades",
+      "Camote - 1kg",
+      "Cebolla - 2 unidades",
+      "Ajo - 4 dientes"
     ],
     "lacteos_y_huevos": [
-      "Huevos - 2 docenas (24 unidades)",
-      "Leche fresca - 1 litro",
-      "Yogur natural sin azúcar - 1 litro"
+      "Leche fresca - 1.5L"
     ],
     "despensa": [
-      "Avena - 500g",
-      "Arroz - 2 kg",
-      "Aceite de oliva extra virgen - 1 botella (500ml)",
-      "Sillao sin glutamato añadido - 1 botella",
-      "Semillas de chía - 100g",
-      "Nueces o pecanas - 150g",
-      "Pan integral de molde - 1 paquete"
+      "Quinua - 500g",
+      "Pecanas - 100g",
+      "Aceite de oliva - 1 botella pequeña",
+      "Arroz blanco - 1kg",
+      "Arroz integral - 500g",
+      "Miel de abeja - 1 frasco (opcional)"
     ]
   },
   "lista_compras_mitad_semana": {
-    "descripcion": "Compra de mitad de semana (miércoles o jueves) para jueves, viernes, sábado y domingo",
+    "descripcion": "Compra de mitad de semana para jueves, viernes, sabado, domingo (6 personas, excepto domingo almuerzo 4 personas)",
     "carnes_y_proteinas": [
-      "Pechuga de pollo - 1.3 kg",
-      "Bonito muy fresco - 1.3 kg",
-      "Pulpa de res en cubos - 1.2 kg",
-      "Pollo en presas para horno dominical - 900g"
-
-
+      "Pallares - 500g",
+      "Atún en agua (lata grande) - 3 unidades",
+      "Jurel - 1.2kg",
+      "Carne de res (malaya o pecho) - 1.2kg",
+      "Pollo (pechuga) - 800g (para 4 personas)",
+      "Queso fresco - 400g"
     ],
     "vegetales_y_frutas": [
-      "Berenjenas - 2 unidades medianas",
-      "Zucchini/zapallito italiano - 3 unidades",
-      "Pimientos rojos - 3 unidades",
-      "Cebolla morada - 3 unidades",
-      "Espinaca fresca - 200g",
-      "Cebolla china - 1 manojo",
-      "Tomates - 10 unidades",
-      "Zanahorias - 6 unidades",
-      "Choclos - 5 unidades",
-      "Papas amarillas - 6 unidades",
-      "Paltas maduras - 4 unidades",
-      "Fresas o papaya - 500g",
-      "Plátanos maduros (para pancakes) - 2 unidades",
-      "Ají limo - 4 unidades",
-      "Culantro - 1 manojo",
-      "Perejil - 1 manojo"
+      "Zapallo macre - 500g",
+      "Espinaca - 2 atados",
+      "Fresas - 200g",
+      "Cebolla - 2 unidades",
+      "Tomate - 2 unidades",
+      "Pepino - 1 unidad",
+      "Zucchini - 2 unidades",
+      "Limón - 2 unidades",
+      "Mandarina - 6 unidades",
+      "Culantro - 1 atado",
+      "Ají amarillo (sin picante) - 1 unidad",
+      "Albahaca - 1 atado",
+      "Palta - 1 unidad"
     ],
     "lacteos_y_huevos": [
-      "Huevos - 18 unidades",
-      "Queso fresco - 250g",
-      "Yogur natural sin azúcar - 1 litro"
+      "Leche fresca - 500ml",
+      "Leche evaporada - 1/2 taza"
     ],
     "despensa": [
-      "Lentejas - 300g",
-      "Orégano seco - 1 bolsita",
-      "Vinagre (para huevos pochados) - 1 botella pequeña",
-      "Miel (pequeña, para pancakes dominicales) - 1 frasco pequeño",
-      "Avena adicional - 250g"
+      "Avena en hojuelas - 250g",
+      "Galletas de arroz integral - 1 paquete (opcional)",
+      "Pan de molde integral - 1 paquete",
+      "Mermelada casera sin azúcar - 1 frasco",
+      "Fideos (tallarines) - 500g",
+      "Nueces o pecanas - 50g",
+      "Orégano seco - 1 frasco pequeño"
     ]
   }
 }
