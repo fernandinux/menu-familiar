@@ -78,5 +78,25 @@
       "Huevos revueltos con tomate y orégano, acompañados de palta en cubos y un vaso de leche fresca",
       "Tallarines verdes con pollo a la plancha"
     ]
+  },
+  {
+    "semana": "Lunes 06/04 al Domingo 12/04/2026",
+    "fecha_generacion": "2026-04-04T12:50:34.593825",
+    "platos_usados": [
+      "Huevos Escalfados con Espinaca Salteada y Palta",
+      "Ají de Gallina Casero con Arroz Blanco y Huevo Duro",
+      "Yogur Natural con Fresas y Chía",
+      "Bonito a la Plancha con Ensalada de Coliflor, Brócoli y Pimiento Amarillo, y Papa Dorada al Horno",
+      "Omelette de Pollo Desmenuzado con Pimiento y Cebolla, acompañado de Papaya",
+      "Lentejas Guisadas con Arroz Integral y Ensalada de Espinaca, Tomate y Pepino",
+      "Avena Cocida con Leche Fresca, Plátano y Canela",
+      "Bistec de Res Encebollado con Vainitas Salteadas y Puré de Camote",
+      "Atún en Agua con Palta en Cubos, Tostadas Integrales y Jugo de Maracuyá sin Azúcar",
+      "Pejerrey al Vapor con Quinua Graneada y Ensalada de Betarraga Rallada y Zanahoria",
+      "Pan Integral con Queso Fresco y Tomate, acompañado de Rodajas de Pepino",
+      "Pollo Guisado con Pimientos Tricolor y Arvejas, acompañado de Arroz Blanco",
+      "Panqueques de Avena y Zanahoria con Queso Fresco Desmenuzado y Miel de Abeja",
+      "Pollo al Horno con Hierbas, Papas Rústicas y Ensalada Fresca"
+    ]
   }
 ]
