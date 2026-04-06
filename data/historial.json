@@ -98,5 +98,25 @@
       "Panqueques de Avena y Zanahoria con Queso Fresco Desmenuzado y Miel de Abeja",
       "Pollo al Horno con Hierbas, Papas Rústicas y Ensalada Fresca"
     ]
+  },
+  {
+    "semana": "Lunes 06/04 al Domingo 12/04/2026",
+    "fecha_generacion": "2026-04-06T08:47:25.236786",
+    "platos_usados": [
+      "Huevos Revueltos con Espinaca y Tomate, Palta y Naranja",
+      "Locro de Zapallo con Queso Fresco y Arroz Blanco",
+      "Yogur Natural con Papaya y Semillas de Chía",
+      "Jurel a la Plancha con Puré de Coliflor y Ensalada de Espinaca y Pimiento Amarillo",
+      "Avena Cocida con Pera y Nueces",
+      "Guiso de Lentejas con Pollo y Arroz Blanco, Ensalada Fresca",
+      "Huevos Revueltos con Pimiento y Cebolla, Queso Fresco y Chirimoya",
+      "Pollo a la Jardinera con Arroz Blanco y Ensalada de Lechuga y Betarraga",
+      "Pan Integral Tostado con Palta y Huevo Duro, Leche Fresca",
+      "Bonito Sudado con Yuca y Ensalada Criolla Ligera",
+      "Batido Verde de Plátano y Espinaca con Pecanas",
+      "Estofado de Res con Vegetales y Arroz Blanco",
+      "Panqueques de Avena y Plátano con Yogur Natural y Fresas",
+      "Pollo al Sillao con Arroz Blanco y Brócoli al Vapor"
+    ]
   }
 ]
