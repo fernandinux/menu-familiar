@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "fecha": "2026-04-06T08:57:59.179878+00:00",
+    "quien": "Fernando",
+    "tipos": [
+      "comentario"
+    ],
+    "plato": null,
+    "ingrediente": null,
+    "cantidad": null,
+    "comentario": "En el caso que coloques pescado para el menú de la semana, tiene que ser solo un día de esa semana.\nEn general, recuerda balancear el menú con los distintos tipos de proteínas que hay en lima , Perú, tenemos chuleta de cerdo, bofe, mondongo, hígado de res , cecina, gallina, pato,  cuy, carnero, etc."
+  }
+]
