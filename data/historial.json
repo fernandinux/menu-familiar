@@ -1,26 +1,6 @@
 [
   {
     "semana": "Lunes 30/03 al Domingo 05/04/2026",
-    "fecha_generacion": "2026-03-28T20:27:45.519895",
-    "platos_usados": [
-      "Huevos revueltos con pimiento y champiñones, palta y mandarina",
-      "Caldo de gallina con fideos, papa, zanahoria y espinaca",
-      "Avena cocida con manzana, canela, nueces y queso fresco",
-      "Patita con maní con arroz y ensalada fresca",
-      "Tortilla de atún con cebolla y tomate, acompañada de plátano",
-      "Arroz con pollo con crema a la huancaína casera",
-      "Yogur natural con chía, mango y pecanas",
-      "Bonito al horno con vegetales mediterráneos y quinua graneada",
-      "Pan integral con palta y huevo duro, acompañado de fresas",
-      "Estofado de lengua con pimientos y yuca sancochada",
-      "Smoothie de plátano y espinaca con huevos revueltos y queso fresco",
-      "Pollo a la parrilla con ensalada de brócoli y camote asado",
-      "Panqueques de avena y plátano con miel y naranja",
-      "Jurel a la plancha con ensalada de palta y arroz integral"
-    ]
-  },
-  {
-    "semana": "Lunes 30/03 al Domingo 05/04/2026",
     "fecha_generacion": "2026-03-28T20:39:11.311288",
     "platos_usados": [
       "Omelette de queso fresco y espinaca con plátano y nueces",
@@ -117,6 +97,26 @@
       "Estofado de Res con Arvejas, Zanahoria y Zucchini, Papa Sancochada",
       "Yogur Natural con Plátano y Semillas de Chía",
       "Pastel de Acelga con Carne Molida y Queso Fresco"
+    ]
+  },
+  {
+    "semana": "Lunes 20/04 al Domingo 26/04/2026",
+    "fecha_generacion": "2026-04-18T12:57:26.990929",
+    "platos_usados": [
+      "Huevos Revueltos con Zucchini y Palta",
+      "Pechuga de Pollo a la Plancha con Ensalada Arcoíris y Quinua Graneada",
+      "Yogur Natural con Mango y Nueces",
+      "Guiso de Garbanzos con Zucchini, Espinaca y Tomate",
+      "Huevos Revueltos con Espinaca, Queso Fresco y Palta",
+      "Filete de Bonito al Horno con Vegetales Mediterráneos y Yuca Sancochada",
+      "Avena Cocida con Leche Fresca, Manzana Rallada y Pecanas",
+      "Saltado de Res con Brócoli, Pimiento Amarillo y Tomate, con Quinua Graneada",
+      "Tortilla de Huevo con Pimiento y Queso Fresco, Palta y Naranja",
+      "Filete de Bonito al Horno con Zucchini Salteado, Tomate Cherry y Quinua Graneada",
+      "Panqueques de Quinua y Plátano con Queso Fresco y Fresas",
+      "Pechuga de Pollo en Salsa de Palta con Brócoli al Vapor y Arroz Integral",
+      "Huevos Revueltos con Tomate y Queso Fresco, acompañado de Plátano",
+      "Arroz con Pollo Saludable y Ensalada de Palta y Tomate"
     ]
   }
 ]
