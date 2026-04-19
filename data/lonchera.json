@@ -1,25 +1,4 @@
 {
-  "mes": "Marzo 2026",
-  "dias": {
-    "lunes": {
-      "facundo": "Manzana en trozos, 4 pecanas y uva + maracuyá",
-      "leonardo": "Panqueque de avena + manzanilla"
-    },
-    "martes": {
-      "facundo": "Quinua con huevo revuelto + plátano + manzanilla",
-      "leonardo": ""
-    },
-    "miercoles": {
-      "facundo": "2 huevos sancochados sin pelar + zanahoria cruda en bastones + 1 tomate cherry + agua de cedrón",
-      "leonardo": "Agua de cedrón"
-    },
-    "jueves": {
-      "facundo": "Mandarina + agua emoliente",
-      "leonardo": ""
-    },
-    "viernes": {
-      "facundo": "Yogurt griego + granola + mango en trozos + agua de avena con manzana",
-      "leonardo": "Ensalada de frutas + bebida libre"
-    }
-  }
+  "actualizado": "2026-04-19T16:23:49.743125+00:00",
+  "texto_libre": "*MERIENDAS NIDO* \n\n*Lunes:*\n- Facundo y Leo: manzana en trozos 4 pecanas y aguaymanto + maracuyá \n\n*Martes:*\n- Facundo: quinua con huevo revuelto + plátano + manzanilla\n\n*Miércoles:*\n- Facundo y Leo: 2 huevos sancochados sin pelar + zanahoria cruda en bastones + 1 tomate cherry + agua de cedrón\n\n*Jueves:*\n- Facundo: mandarina + agua emoliente\n\n*Viernes:*\n- Facundo y Leo: Yogurt griego + granola + mango trozos +  agua avena con manzana"
 }
