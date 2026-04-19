@@ -1,26 +1,6 @@
 [
   {
     "semana": "Lunes 30/03 al Domingo 05/04/2026",
-    "fecha_generacion": "2026-03-28T20:39:11.311288",
-    "platos_usados": [
-      "Omelette de queso fresco y espinaca con plátano y nueces",
-      "Pollo saltado con brócoli, pimiento y zucchini, con quinua graneada",
-      "Yogur natural con granola casera y trozos de mango",
-      "Garbanzos guisados con acelga y pimientos rojos, con arroz integral",
-      "Tostadas de camote asado con atún en agua y palta",
-      "Seco de res con zapallo y frijoles canarios, con arroz",
-      "Batido de avena, plátano y leche con cubos de queso fresco",
-      "Corvina a la plancha con vegetales salteados y papas doradas al horno",
-      "Huevos duros con pan integral, tomate y espinaca, acompañados de mandarina",
-      "Parihuela de pescado y choros (sin picante), con yuca sancochada",
-      "Panqueques de quinua y plátano con yogur natural y arándanos",
-      "Adobo de cerdo arequipeño (suave) con camote sancochado y ensalada fresca",
-      "Avena cocida con manzana, canela y queso fresco",
-      "Pastel de papa con carne molida y vegetales"
-    ]
-  },
-  {
-    "semana": "Lunes 30/03 al Domingo 05/04/2026",
     "fecha_generacion": "2026-03-29T03:09:36.694195",
     "platos_usados": [
       "Omelette de queso fresco y espinaca con tomate y palta",
@@ -117,6 +97,26 @@
       "Pechuga de Pollo en Salsa de Palta con Brócoli al Vapor y Arroz Integral",
       "Huevos Revueltos con Tomate y Queso Fresco, acompañado de Plátano",
       "Arroz con Pollo Saludable y Ensalada de Palta y Tomate"
+    ]
+  },
+  {
+    "semana": "Lunes 20/04 al Domingo 26/04/2026",
+    "fecha_generacion": "2026-04-19T16:34:07.769551",
+    "platos_usados": [
+      "Huevos Revueltos con Zucchini, Queso Fresco y Aceitunas",
+      "Bofe Saltado con Arroz Blanco y Ensalada Fresca",
+      "Avena Cocida con Plátano, Nueces y Canela",
+      "Pollo al Horno con Camote Rostizado y Brócoli al Vapor",
+      "Tortilla de Huevo con Pimiento, Queso Fresco y Aceitunas",
+      "Patita con Maní con Arroz Blanco y Ensalada de Col",
+      "Quinua Cocida con Leche Fresca, Manzana Rallada, Nueces y Canela",
+      "Mondonguito a la Italiana con Arroz Blanco y Ensalada de Palta",
+      "Pejerrey Frito con Ensalada Criolla Ligera",
+      "Lentejas Guisadas con Zanahoria, Zucchini, Huevo Duro y Arroz Blanco, Ensalada de Espinaca Baby",
+      "Pan Integral Tostado con Palta, Huevo Duro y Aceitunas",
+      "Seco de Res con Frijoles Canarios y Arroz Blanco, Ensalada de Betarraga",
+      "Huevos Duros con Camote Sancochado y Palta",
+      "Pollo a la Naranja con Puré de Camote y Ensalada de Pepino y Tomate"
     ]
   }
 ]
