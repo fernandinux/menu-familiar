@@ -20,5 +20,16 @@
     "ingrediente": null,
     "cantidad": null,
     "comentario": "También incluye cada 15 días pescado frito con ensalada criolla para el desayuno."
+  },
+  {
+    "fecha": "2026-04-19T16:27:17.934134+00:00",
+    "quien": "Fernando",
+    "tipos": [
+      "comentario"
+    ],
+    "plato": null,
+    "ingrediente": null,
+    "cantidad": null,
+    "comentario": "Los días viernes los chicos llevan de merienda el yogurt entonces , necesito que los viernes No incluyas el yogurt en el desayuno . \n\nEn general para toda tu planificación, necesito que los desayunos que definas no tengan alimentos que compliquen la digestión de la merienda , toma en cuenta que la merienda es  estática durante todo el mes de abril  y mayo"
   }
 ]
