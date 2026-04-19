@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "fecha": "2026-04-19T16:07:29.486656+00:00",
+    "quien": "Fernando",
+    "tipos": [
+      "comentario"
+    ],
+    "plato": null,
+    "ingrediente": null,
+    "cantidad": null,
+    "comentario": "Evita que se repita entre dos comidas seguidas el uso de espinaca, por ejemplo un desayuno con espinaca y un almuerzo que tiene también espinaca.\n\nNecesito que incluyas aceituna a los desayunos.  \n\nLas cantidades de pescado o cerdo o carne , cuando es en filetes , necesitamos indicar cantidad de filetes no en Kgr , porque se compra en cantidad de filetes por ejemplo de un pescado salen como mínimo 8 filetes . \nNecesito que el almuerzo con pescado se ponga cada 15 días no podemos tener cada semana pescado. \nNecesito que incluyas como proteínas , el bofe ( o sus platos criollos, como chanfainita, ) , patita de cerdo para hacer patita con Mani, mondongo para hacer mondonguito a la italiana o cau cau. \nNecesito que para el almuerzo indiques claramente la ensalada que se prepara, La ensalada debe combinar muy bien con el almuerzo, que no complique la digestión del almuerzo, necesito que indiques las verduras que debe contener está ensalada y agregues sus componentes a la lista de compras, también que sugieras los aliños para las ensaladas de forma muy detallada, toma en cuenta que estos aliños deben ser sencillos, NO me indiques aliños que tengan por ejemplo anchoas o cualquier ingrediente difícil de encontrar en lima Perú. \nIncluye camote para los desayunos y almuerzos.\nToma en cuenta para el almuerzo , recetas de comida mediterránea más conocidas en Perú. \nPor esta semana retira de los desayunos las mandarinas.\n"
+  }
+]
