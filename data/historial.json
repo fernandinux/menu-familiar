@@ -1,25 +1,5 @@
 [
   {
-    "semana": "Lunes 30/03 al Domingo 05/04/2026",
-    "fecha_generacion": "2026-03-29T03:09:36.694195",
-    "platos_usados": [
-      "Omelette de queso fresco y espinaca con tomate y palta",
-      "Frijoles canarios guisados con acelga y pimiento rojo, arroz blanco y huevo duro",
-      "Quinua cocida con leche fresca, plátano en rodajas y pecanas",
-      "Bonito al horno con vegetales salteados (brócoli, zanahoria, pimiento amarillo) y papa dorada al horno",
-      "Tostadas de camote asado con huevo duro y palta",
-      "Pollo guisado con champiñones, vainitas y choclo desgranado, acompañado de arroz integral",
-      "Batido de avena, leche fresca, fresas y un toque de miel (opcional)",
-      "Pallares guisados con zapallo y espinaca, acompañados de arroz blanco",
-      "Atún en agua con cebolla y tomate picado, acompañado de galletas de arroz integral (opcional) y rodajas de pepino",
-      "Jurel al vapor con puré de zanahoria y zucchini salteado",
-      "Pan integral (poca cantidad) con queso fresco y mermelada casera sin azúcar, acompañado de mandarina",
-      "Seco de res con frejolitos verdes (vainitas) y camote sancochado",
-      "Huevos revueltos con tomate y orégano, acompañados de palta en cubos y un vaso de leche fresca",
-      "Tallarines verdes con pollo a la plancha"
-    ]
-  },
-  {
     "semana": "Lunes 06/04 al Domingo 12/04/2026",
     "fecha_generacion": "2026-04-04T12:50:34.593825",
     "platos_usados": [
@@ -117,6 +97,26 @@
       "Seco de Res con Frijoles Canarios y Arroz Blanco, Ensalada de Betarraga",
       "Huevos Duros con Camote Sancochado y Palta",
       "Pollo a la Naranja con Puré de Camote y Ensalada de Pepino y Tomate"
+    ]
+  },
+  {
+    "semana": "Lunes 27/04 al Domingo 03/05/2026",
+    "fecha_generacion": "2026-04-25T12:58:54.456092",
+    "platos_usados": [
+      "Huevos Pochados con Espinaca Salteada y Rodajas de Camote al vapor",
+      "Guiso de Pollo con Zucchini, Pimientos de Colores y Arvejas, con Quinua Graneada",
+      "Batido de Yogur Natural, Plátano y Espinaca con Queso Fresco",
+      "Bonito al Horno con Costra de Hierbas, Brócoli al Vapor y Puré de Coliflor",
+      "Muffins Salados de Huevo y Verduras con Mango",
+      "Frijoles Canarios Guisados con Pescado (Jurel o Caballa), Arroz Integral y Ensalada de Pepino y Tomate",
+      "Pan Integral Tostado con Queso Fresco, Tomate y Huevo Duro, con Mandarina",
+      "Bistec de Res a la Plancha con Zucchini y Berenjena Salteados, y Puré de Papa Moderado",
+      "Avena Cocida con Pera y Canela, acompañada de Huevo Pasado",
+      "Pescado al Vapor con Salsa de Pimientos Asados, Quinua Graneada y Ensalada de Espinaca y Palta",
+      "Yogur Natural con Granola Casera y Manzana",
+      "Pallares Guisados con Cerdo Magro, Arroz Blanco y Ensalada de Betarraga con Zanahoria",
+      "Tortilla de Huevo con Queso Fresco y Pimiento, con Papaya",
+      "Ají de Gallina Saludable con Arroz y Papa Sancochada (para 4 personas)"
     ]
   }
 ]
