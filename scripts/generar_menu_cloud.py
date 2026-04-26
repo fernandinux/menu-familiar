@@ -136,8 +136,8 @@ REGLAS DE DESAYUNOS (MUY IMPORTANTE)
 ═══════════════════════════════════════════
 REGLAS DE ALMUERZOS
 ═══════════════════════════════════════════
-1. RECETAS DE WEBS PERUANAS: Para cada almuerzo, busca una receta real en estas páginas web
-   y usa esa URL como referencia:
+1. RECETAS DE WEBS PERUANAS OBLIGATORIO: Para cada almuerzo DEBES visitar una de estas páginas
+   y tomar una receta real que exista en ese sitio. Pon la URL real de esa receta en url_receta:
    - https://cookpad.com/pe
    - https://buenazo.pe
    - https://www.recetasnestle.com.pe
@@ -149,15 +149,27 @@ REGLAS DE ALMUERZOS
    - https://perudelicias.com
    - https://www.ceciliatupac.com
 
-2. ADAPTACIÓN SALUDABLE DE RECETAS: Revisa los ingredientes de cada receta y:
-   - Si tiene ajinomoto/MSG → retirarlo, anotar en nota_facundo
-   - Si tiene mucha papa → reducir cantidad, agregar más proteína o vegetal
-   - Si tiene manteca → reemplazar por aceite de oliva
-   - Si es plato fuerte con arroz → reducir porción de arroz o servir sin arroz
-   - Ejemplo: chanfainita → poca papa, más bofe; patita con maní → sin arroz
+   Si no puedes visitar la web, construye la URL siguiendo el patrón del dominio + nombre del plato.
+   NUNCA dejes url_receta vacío o nulo. Siempre debe tener una URL válida.
 
-3. PESCADO: Exactamente 1 vez por semana (ni más ni menos). Rotar entre bonito, jurel, pejerrey, caballa.
-   El pescado NO puede ir en dos semanas consecutivas si el historial lo muestra.
+2. PROHIBICIÓN ESTRICTA DE REPETICIÓN DE PROTEÍNA PRINCIPAL:
+   NUNCA se puede repetir la misma proteína principal dos veces en la semana.
+   Proteínas que cuentan como "la misma": garbanzos=garbanzos, pollo=pollo, res=res, etc.
+   ✅ CORRECTO: lunes=garbanzos, martes=bonito, miércoles=pollo, jueves=lentejas, sábado=res, domingo=cerdo
+   ❌ INCORRECTO: lunes=garbanzos, jueves=garbanzos (REPETICIÓN PROHIBIDA)
+   ❌ INCORRECTO: lunes=pollo, miércoles=pollo (REPETICIÓN PROHIBIDA)
+   Antes de finalizar el menú, verifica que NINGUNA proteína principal se repite en la semana.
+
+3. ADAPTACIÓN SALUDABLE DE RECETAS: Revisa ingredientes y:
+   - Ajinomoto/MSG → retirarlo siempre, anotar en nota_facundo
+   - Mucha papa → reducir, agregar más proteína o vegetal
+   - Manteca → reemplazar por aceite de oliva
+   - Plato con arroz → reducir porción de arroz
+   - Ejemplos: chanfainita → poca papa, más bofe; patita con maní → sin arroz
+
+4. PESCADO: Exactamente 1 vez por semana. Rotar entre bonito, jurel, pejerrey, caballa.
+   Verificar historial — si la semana pasada hubo pescado, esta semana puede haberlo igual
+   pero en día diferente.
 
 4. VARIEDAD DE COLORES: mínimo 3 colores de vegetales por almuerzo.
 
