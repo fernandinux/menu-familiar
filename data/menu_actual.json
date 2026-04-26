@@ -31,7 +31,8 @@
           "Aceite de oliva, culantro, perejil, comino, orégano, sal, pimienta"
         ],
         "nota_facundo": "Garbanzos ricos en fibra soluble y proteína vegetal, brócoli aporta Vitamina C y fibra. Cocción casera sin aditivos.",
-        "nota_fernando": "Plato equilibrado con proteína magra, fibra de garbanzos y brócoli, arroz integral en porción moderada."
+        "nota_fernando": "Plato equilibrado con proteína magra, fibra de garbanzos y brócoli, arroz integral en porción moderada.",
+        "url_receta": "https://buenazo.pe/garbanzos-con-pollo/"
       }
     },
     "martes": {
@@ -59,7 +60,8 @@
           "Leche fresca o evaporada (poca cantidad para puré), aceite de oliva, limón, sal, pimienta"
         ],
         "nota_facundo": "Bonito es excelente fuente de Omega-3. Coliflor y espinaca aportan fibra y vitaminas. Preparación natural.",
-        "nota_fernando": "Plato rico en Omega-3 y proteína magra. Carbohidratos muy bajos del puré de coliflor y zanahoria. Palta aporta grasas saludables."
+        "nota_fernando": "Plato rico en Omega-3 y proteína magra. Carbohidratos muy bajos del puré de coliflor y zanahoria. Palta aporta grasas saludables.",
+        "url_receta": "https://comidasperuanas.net/bonito-a-la-plancha/"
       }
     },
     "miercoles": {
@@ -87,7 +89,8 @@
           "Cebolla china (parte verde), kion, ajo, sillao bajo en sodio, aceite de ajonjolí (opcional), sal, pimienta"
         ],
         "nota_facundo": "Vegetales de colores variados (pimientos, zucchini) y quinua rica en fibra y proteína. Control de sodio y sin azúcar.",
-        "nota_fernando": "Proteína magra del pollo, vegetales fibrosos y quinua como carbohidrato complejo. Sillao bajo en sodio para controlar."
+        "nota_fernando": "Proteína magra del pollo, vegetales fibrosos y quinua como carbohidrato complejo. Sillao bajo en sodio para controlar.",
+        "url_receta": "https://comidasperuanas.net/pollo-al-sillao/"
       }
     },
     "jueves": {
@@ -106,20 +109,19 @@
         "nota_fernando": "Quinua es un carbohidrato complejo y completo. Queso fresco y huevo aportan proteína. Plátano en porción moderada."
       },
       "almuerzo": {
-        "nombre": "Guiso de Garbanzos con Espinaca y Huevo Duro, Arroz Integral",
-        "descripcion": "Guiso de garbanzos con espinaca fresca y tomate, servido con arroz integral graneado y un huevo duro por persona.",
+        "nombre": "Sopa Seca de Fideos con Pollo y Albahaca",
+        "descripcion": "Fideos cocidos con pollo desmenuzado, albahaca fresca y pimiento rojo. Sin exceso de aceite.",
         "ingredientes_principales": [
-          "Garbanzos - 500g (secos, remojados y cocidos)",
-          "Espinaca - 1 atado grande",
-          "Tomate - 3 unidades",
-          "Cebolla - 1 unidad",
-          "Ajo - 3 dientes",
-          "Huevos de corral - 6 unidades",
-          "Arroz integral - 1.5 tazas",
-          "Aceite de oliva, culantro, comino, orégano, sal, pimienta"
+          "fideos cabello de ángel - 400g",
+          "pechuga de pollo - 700g",
+          "tomate - 3 unidades",
+          "pimiento rojo - 1 unidad",
+          "albahaca fresca - 1 atado",
+          "ajo - 3 dientes"
         ],
-        "nota_facundo": "Garbanzos y espinaca ricos en fibra. Huevo de corral aporta Omega-3 y vitaminas. Sin aditivos.",
-        "nota_fernando": "Legumbre rica en fibra que ayuda al control glucémico, proteína del huevo y carbohidrato complejo del arroz integral en porción moderada."
+        "nota_facundo": "Sin ajinomoto. La albahaca aporta antioxidantes y el pollo es fuente de zinc y B6.",
+        "nota_fernando": "Porción moderada de fideos. Más pollo y ensalada verde para equilibrar.",
+        "url_receta": "https://comidasperuanas.net/sopa-seca/"
       }
     },
     "viernes": {
@@ -135,19 +137,6 @@
         ],
         "nota_facundo": "Omega-3 del huevo, fibra y Vitamina C del brócoli. Queso fresco como probiótico. Preparación natural.",
         "nota_fernando": "Desayuno alto en proteína y grasas saludables. Brócoli y palta aportan fibra y nutrientes. Sin carbohidratos añadidos."
-      },
-      "almuerzo": {
-        "nombre": "Jurel al Horno con Pimientos de Colores y Zucchini, Puré de Papa Moderado",
-        "descripcion": "Filetes de jurel horneados con pimientos de colores y zucchini en bastones, acompañados de un puré de papa ligero.",
-        "ingredientes_principales": [
-          "Filetes de jurel - 1.2kg",
-          "Pimientos (rojo, amarillo, verde) - 3 unidades",
-          "Zucchini - 3 unidades",
-          "Papa - 4 unidades medianas (para puré)",
-          "Aceite de oliva, limón, ajo, perejil, sal, pimienta"
-        ],
-        "nota_facundo": "Jurel es fuente de Omega-3. Pimientos y zucchini aportan vitaminas y fibra. Sin aditivos ni grasas trans.",
-        "nota_fernando": "Pescado rico en Omega-3. Vegetales fibrosos y coloridos. Puré de papa en porción controlada."
       }
     },
     "sabado": {
@@ -179,7 +168,8 @@
           "Aceite de oliva, ají panca, comino, orégano, sal, pimienta"
         ],
         "nota_facundo": "Variedad de vegetales (vainitas, zanahoria, arvejas) para fibra y vitaminas. Preparación casera sin aditivos.",
-        "nota_fernando": "Proteína magra de la carne, vegetales fibrosos y yuca como carbohidrato complejo en porción moderada."
+        "nota_fernando": "Proteína magra de la carne, vegetales fibrosos y yuca como carbohidrato complejo en porción moderada.",
+        "url_receta": "https://comidasperuanas.net/estofado-de-res/"
       }
     },
     "domingo": {
@@ -211,7 +201,8 @@
           "Aceite de oliva, ají amarillo, culantro, comino, sal, pimienta"
         ],
         "nota_facundo": "Espinaca y vegetales aportan fibra y vitaminas. Cocción casera sin aditivos ni colorantes artificiales. Sin cerveza.",
-        "nota_fernando": "Carbohidrato moderado con mayor proporción de vegetales. Proteína magra del pollo. Control de ají amarillo."
+        "nota_fernando": "Carbohidrato moderado con mayor proporción de vegetales. Proteína magra del pollo. Control de ají amarillo.",
+        "url_receta": "https://comidasperuanas.net/arroz-con-pollo/"
       }
     }
   },
