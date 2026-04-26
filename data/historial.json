@@ -1,26 +1,6 @@
 [
   {
     "semana": "Lunes 06/04 al Domingo 12/04/2026",
-    "fecha_generacion": "2026-04-04T12:50:34.593825",
-    "platos_usados": [
-      "Huevos Escalfados con Espinaca Salteada y Palta",
-      "Ají de Gallina Casero con Arroz Blanco y Huevo Duro",
-      "Yogur Natural con Fresas y Chía",
-      "Bonito a la Plancha con Ensalada de Coliflor, Brócoli y Pimiento Amarillo, y Papa Dorada al Horno",
-      "Omelette de Pollo Desmenuzado con Pimiento y Cebolla, acompañado de Papaya",
-      "Lentejas Guisadas con Arroz Integral y Ensalada de Espinaca, Tomate y Pepino",
-      "Avena Cocida con Leche Fresca, Plátano y Canela",
-      "Bistec de Res Encebollado con Vainitas Salteadas y Puré de Camote",
-      "Atún en Agua con Palta en Cubos, Tostadas Integrales y Jugo de Maracuyá sin Azúcar",
-      "Pejerrey al Vapor con Quinua Graneada y Ensalada de Betarraga Rallada y Zanahoria",
-      "Pan Integral con Queso Fresco y Tomate, acompañado de Rodajas de Pepino",
-      "Pollo Guisado con Pimientos Tricolor y Arvejas, acompañado de Arroz Blanco",
-      "Panqueques de Avena y Zanahoria con Queso Fresco Desmenuzado y Miel de Abeja",
-      "Pollo al Horno con Hierbas, Papas Rústicas y Ensalada Fresca"
-    ]
-  },
-  {
-    "semana": "Lunes 06/04 al Domingo 12/04/2026",
     "fecha_generacion": "2026-04-06T08:47:25.236786",
     "platos_usados": [
       "Huevos Revueltos con Espinaca y Tomate, Palta y Naranja",
@@ -117,6 +97,26 @@
       "Pallares Guisados con Cerdo Magro, Arroz Blanco y Ensalada de Betarraga con Zanahoria",
       "Tortilla de Huevo con Queso Fresco y Pimiento, con Papaya",
       "Ají de Gallina Saludable con Arroz y Papa Sancochada (para 4 personas)"
+    ]
+  },
+  {
+    "semana": "Lunes 27/04 al Domingo 03/05/2026",
+    "fecha_generacion": "2026-04-26T15:53:41.349950",
+    "platos_usados": [
+      "Omelette de Espinaca y Queso Fresco con Palta y Tomate Cherry",
+      "Pollo Saltado con Brócoli, Pimientos de Colores y Zucchini, con Quinua Graneada",
+      "Avena Cocida con Plátano, Fresas y Semillas de Chía",
+      "Bonito a la Plancha con Ensalada Fresca de Vainitas, Zanahoria y Pepino, con Papa Sancochada",
+      "Yogur Natural sin Azúcar con Papaya, Pecanas y Canela",
+      "Lentejas Guisadas con Zapallo, Espinaca y Zanahoria, con Arroz Integral y Huevo Duro",
+      "Tostadas de Pan Integral con Queso Fresco, Palta y Rodajas de Tomate",
+      "Estofado de Res con Arvejas, Zanahoria, Pimiento Rojo y Champiñones, con Puré de Papa",
+      "Huevos Revueltos con Pimiento Rojo y Cebolla, acompañados de Plátano",
+      "Jurel al Horno con Vegetales Rostizados (Brócoli, Coliflor, Zanahoria) y Camote en Bastones",
+      "Panqueques de Avena y Espinaca con Queso Fresco y Fresas",
+      "Ají de Gallina Saludable (sin pan), con Arroz Blanco y Garbanzos Guisados",
+      "Batido de Frutas con Yogur Natural, Espinaca y Semillas de Lino",
+      "Tallarines Verdes con Pollo a la Plancha y Ensalada Fresca de Pepino y Tomate Cherry"
     ]
   }
 ]
