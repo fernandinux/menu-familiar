@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
-  <!-- URL del backend Render -->
   <script>window.API_URL = "https://menu-familiar-paca.onrender.com";</script>
 </head>
 <body>
@@ -17,7 +16,7 @@
 <header class="nav">
   <div class="nav-inner">
     <div class="nav-logo">
-      <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-label="Logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-label="Logo Familia Paca">
         <circle cx="16" cy="16" r="15" fill="var(--color-primary)" opacity="0.15"/>
         <path d="M10 22 Q16 8 22 22" stroke="var(--color-primary)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
         <circle cx="11.5" cy="12" r="2" fill="var(--color-primary)"/>
@@ -26,18 +25,53 @@
       </svg>
       <span class="nav-brand">Familia Paca</span>
     </div>
-    <nav class="nav-tabs" role="tablist">
+
+    <!-- TABS DESKTOP: todos visibles -->
+    <nav class="nav-tabs nav-tabs-desktop" role="tablist">
       <button class="nav-tab active" data-tab="menu" role="tab">Menú</button>
       <button class="nav-tab" data-tab="compras" role="tab">Compras</button>
       <button class="nav-tab" data-tab="anterior" role="tab">Sem. anterior</button>
       <button class="nav-tab" data-tab="feedback" role="tab">Feedback</button>
       <button class="nav-tab" data-tab="memoria" role="tab">Memoria</button>
     </nav>
+
+    <!-- TABS MÓVIL: solo Menú y Compras visibles, resto en hamburguesa -->
+    <nav class="nav-tabs nav-tabs-mobile" role="tablist">
+      <button class="nav-tab active" data-tab="menu" role="tab">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="2" rx="1"/><rect x="3" y="11" width="18" height="2" rx="1"/><rect x="3" y="18" width="11" height="2" rx="1"/></svg>
+        Menú
+      </button>
+      <button class="nav-tab" data-tab="compras" role="tab">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        Compras
+      </button>
+      <!-- Hamburguesa -->
+      <button class="nav-hamburger" id="hamburger-btn" aria-label="Más opciones" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </nav>
+
     <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <circle cx="12" cy="12" r="5"/>
         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
       </svg>
+    </button>
+  </div>
+
+  <!-- Menú hamburguesa desplegable (móvil) -->
+  <div class="hamburger-menu" id="hamburger-menu" hidden>
+    <button class="hamburger-item" data-tab="anterior">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="11 17 6 12 11 7"/><polyline points="18 17 13 12 18 7"/></svg>
+      Semana anterior
+    </button>
+    <button class="hamburger-item" data-tab="feedback">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      Feedback
+    </button>
+    <button class="hamburger-item" data-tab="memoria">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 100 18A9 9 0 0012 2z"/><path d="M12 8v4l3 3"/></svg>
+      Memoria
     </button>
   </div>
 </header>
@@ -81,14 +115,11 @@
   <section id="tab-feedback" class="tab-section" role="tabpanel">
     <div class="page-header">
       <h1 class="page-title">Dar Feedback</h1>
-      <p class="page-sub">Tu opinión mejora el menú de la próxima semana automáticamente</p>
+      <p class="page-sub">Tu opinión mejora el menú permanentemente</p>
     </div>
     <div class="feedback-grid">
-
-      <!-- FORMULARIO FEEDBACK MENÚ -->
       <div class="card feedback-form-card">
         <form id="feedback-form" novalidate>
-
           <div class="field">
             <label class="field-label">¿Quién da el feedback?</label>
             <div class="chips" id="chips-quien">
@@ -98,7 +129,6 @@
               <button type="button" class="chip" data-val="Luna">Luna</button>
             </div>
           </div>
-
           <div class="field">
             <label class="field-label">Tipo de feedback <span class="hint">(puedes elegir varios)</span></label>
             <div class="chips multi" id="chips-tipo">
@@ -108,46 +138,35 @@
               <button type="button" class="chip" data-val="comentario">💬 Comentario libre</button>
             </div>
           </div>
-
           <div class="field" id="field-plato" hidden>
             <label class="field-label" for="sel-plato">¿Qué plato?</label>
-            <select class="input" id="sel-plato"></select>
+            <select class="input" id="sel-plato"><option value="">— Selecciona —</option></select>
           </div>
-
           <div class="field" id="field-ingrediente" hidden>
             <label class="field-label" for="inp-ingrediente">¿Qué ingrediente no encontraste?</label>
             <input class="input" type="text" id="inp-ingrediente" placeholder="Ej: zucchini, queso edam…">
           </div>
-
           <div class="field" id="field-cantidad" hidden>
             <label class="field-label" for="inp-cantidad">¿Qué cantidad estuvo mal?</label>
-            <input class="input" type="text" id="inp-cantidad" placeholder="Ej: 1kg de lomo fue insuficiente para 6">
+            <input class="input" type="text" id="inp-cantidad" placeholder="Ej: poca carne para Leonardo">
           </div>
-
           <div class="field">
             <label class="field-label" for="inp-comentario">Comentario</label>
-            <textarea class="input" id="inp-comentario" rows="4"
-              placeholder="Cuéntanos qué pasó o qué mejorar…"></textarea>
+            <textarea class="input" id="inp-comentario" rows="3" placeholder="Cuéntanos qué pasó o qué mejorar…"></textarea>
           </div>
-
           <button type="submit" class="btn-primary" id="btn-submit">
             Enviar feedback
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
         </form>
       </div>
-
-      <!-- HISTORIAL FEEDBACK -->
       <div>
         <h2 class="section-title">Feedbacks recientes</h2>
-        <div id="historial-container">
-          <p class="empty">Aún no hay feedbacks.</p>
-        </div>
+        <div id="historial-container"><p class="empty">Aún no hay feedbacks.</p></div>
       </div>
-
     </div>
 
-    <!-- SECCIÓN LONCHERA (separada del grid de feedback) -->
+    <!-- Sección lonchera -->
     <div class="lonchera-admin-section">
       <div class="lonchera-admin-header">
         <span class="lonchera-admin-icon">🎒</span>
@@ -161,7 +180,7 @@
           <div class="field">
             <label class="field-label" for="inp-lonchera">Nueva lonchera del mes</label>
             <textarea class="input" id="inp-lonchera" rows="10"
-              placeholder="Escribe la lonchera tal como la tienes, por ejemplo:&#10;&#10;Lunes:&#10;- Facundo: manzana en trozos, 4 pecanas y uva + maracuyá&#10;- Leonardo: panqueque de avena + manzanilla&#10;&#10;Martes:&#10;- Facundo: quinua con huevo revuelto + plátano&#10;..."></textarea>
+              placeholder="Lunes:&#10;- Facundo: manzana en trozos, 4 pecanas&#10;- Leonardo: panqueque de avena&#10;&#10;Martes:&#10;..."></textarea>
           </div>
           <button type="submit" class="btn-primary" id="btn-lonchera">
             Guardar lonchera
@@ -170,15 +189,13 @@
         </form>
       </div>
     </div>
-
   </section>
-
 
   <!-- TAB MEMORIA -->
   <section id="tab-memoria" class="tab-section" role="tabpanel">
     <div class="page-header">
       <h1 class="page-title">Memoria del Sistema</h1>
-      <p class="page-sub">Reglas permanentes aprendidas del feedback semanal de la familia</p>
+      <p class="page-sub">Reglas permanentes aprendidas del feedback semanal</p>
     </div>
     <div id="memoria-container">
       <div class="loader-box"><div class="spinner"></div><p>Cargando...</p></div>
@@ -193,6 +210,6 @@
 </footer>
 
 <div class="toast" id="toast"></div>
-<script src="static/js/app.js?v=1777218569"></script>
+<script src="static/js/app.js?v=1774900000"></script>
 </body>
 </html>
