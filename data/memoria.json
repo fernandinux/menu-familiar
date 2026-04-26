@@ -1,0 +1,23 @@
+{
+  "reglas_permanentes": [
+    "Aumentar porción de ensalada para Leonardo — no olvidar su plato de ensalada",
+    "Aumentar porción de carne para Leonardo — se sirvió muy poco en semanas anteriores",
+    "El desayuno Yogur Natural con Granola del sábado no pudo prepararse — revisar disponibilidad de ingredientes",
+    "Pescado máximo 1 vez por semana (no 2 veces como se hacía antes)",
+    "Los almuerzos con pescado deben ser cada 15 días aproximadamente, no semanalmente",
+    "El viernes no se incluye almuerzo — la cocinera decide según lo que queda en el refrigerador",
+    "Desayunos deben ser simples: huevo duro, frito, revuelto, tortilla, avena cocida — NO usar términos como 'pochado', 'en cocotte'",
+    "No repetir ingrediente principal entre desayuno y merienda del nido del mismo día"
+  ],
+  "historial_feedbacks": [
+    {
+      "semana": "Inicialización del sistema",
+      "resumen": "Reglas iniciales cargadas desde configuración manual de Fernando",
+      "feedbacks_count": 2,
+      "reglas_agregadas": [
+        "Aumentar porción de ensalada para Leonardo",
+        "Aumentar porción de carne para Leonardo"
+      ]
+    }
+  ]
+}
