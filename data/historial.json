@@ -1,25 +1,5 @@
 [
   {
-    "semana": "Lunes 13/04 al Domingo 19/04/2026",
-    "fecha_generacion": "2026-04-11T12:52:59.286075",
-    "platos_usados": [
-      "Huevos Revueltos con Espinaca y Zanahoria, Palta",
-      "Pollo Saltado Saludable con Quinua Graneada",
-      "Panqueques de Avena y Manzana con Queso Fresco",
-      "Garbanzos Guisados con Espinaca y Zanahoria, Huevo Duro",
-      "Atún en Agua con Palta y Tomate, Tostadas Integrales",
-      "Chuleta de Cerdo a la Plancha con Brócoli y Puré de Zanahoria y Papa",
-      "Tortilla de Huevo con Espinaca y Queso Fresco, Papaya",
-      "Bonito a la Plancha con Ensalada Fresca y Yuca Sancochada",
-      "Quinua Cocida con Leche Fresca, Papaya y Pecanas",
-      "Lentejas Guisadas con Pollo, Zapallo y Espinaca, Arroz Integral",
-      "Pan Integral con Queso Fresco y Palta, Leche Fresca y Mandarina",
-      "Estofado de Res con Arvejas, Zanahoria y Zucchini, Papa Sancochada",
-      "Yogur Natural con Plátano y Semillas de Chía",
-      "Pastel de Acelga con Carne Molida y Queso Fresco"
-    ]
-  },
-  {
     "semana": "Lunes 20/04 al Domingo 26/04/2026",
     "fecha_generacion": "2026-04-18T12:57:26.990929",
     "platos_usados": [
@@ -117,6 +97,26 @@
       "Estofado de Carne con Vainitas, Zanahoria y Arvejas, Puré de Yuca",
       "Huevos Revueltos con Tomate y Cebolla, acompañados de Palta",
       "Arroz con Pollo Saludable"
+    ]
+  },
+  {
+    "semana": "Lunes 27/04 al Domingo 03/05/2026",
+    "fecha_generacion": "2026-04-26T16:33:56.768887",
+    "platos_usados": [
+      "Huevos Revueltos con Zucchini, Tomate y Palta",
+      "Guiso de Pollo con Vainitas, Zanahoria y Arvejas, con Arroz Integral",
+      "Yogur Natural con Mango, Semillas de Chía y Huevo Duro",
+      "Jurel a la Plancha con Ensalada Fresca y Papa Sancochada",
+      "Avena Cocida con Manzana Rallada, Canela y Queso Fresco",
+      "Guiso de Garbanzos con Pollo, Espinaca y Pimiento Rojo, con Arroz Blanco",
+      "Pan Integral con Palta, Huevo Duro y Naranja",
+      "Cerdo en Salsa de Pimientos Asados con Zucchini Salteado y Quinua Graneada",
+      "Batido de Yogur, Fresas, Plátano, Avena y Queso Fresco",
+      "Bonito al Vapor con Salsa de Tomate y Brócoli, con Yuca Sancochada",
+      "Frittata de Espinaca, Queso Fresco y Tomate, con Mango",
+      "Lomo Saltado Saludable con Papas Nativas al Horno y Arroz Blanco",
+      "Huevos Revueltos con Champiñones y Queso Fresco",
+      "Seco de Pollo con Zapallo y Arvejas, con Quinua Graneada"
     ]
   }
 ]
