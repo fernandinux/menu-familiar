@@ -27,63 +27,64 @@ if (!API || API === '%%BACKEND_URL%%') {
 })();
 
 // ── TABS ─────────────────────────────────────────────────────
-const tabs   = document.querySelectorAll('.nav-tab');
-const panels = document.querySelectorAll('.tab-section');
+const primaryTabs = document.querySelectorAll('.nav-primary-tabs .nav-tab');
+const panels      = document.querySelectorAll('.tab-section');
 
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    tabs.forEach(t => t.classList.remove('active'));
-    panels.forEach(p => p.classList.remove('active'));
-    tab.classList.add('active');
-    document.getElementById(`tab-${tab.dataset.tab}`)?.classList.add('active');
-    if (tab.dataset.tab === 'feedback') loadFeedbacks();
-    if (tab.dataset.tab === 'anterior') loadMenuAnterior();
-    if (tab.dataset.tab === 'memoria')  loadMemoria();
-  });
+function activateTab(tabName) {
+  // Desactivar todos los tabs y paneles
+  primaryTabs.forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.hamburger-item').forEach(i => i.classList.remove('active'));
+  panels.forEach(p => p.classList.remove('active'));
+
+  // Activar panel
+  document.getElementById(`tab-${tabName}`)?.classList.add('active');
+
+  // Marcar tab o hamburger-item activo
+  const primaryTab = document.querySelector(`.nav-primary-tabs .nav-tab[data-tab="${tabName}"]`);
+  if (primaryTab) {
+    primaryTab.classList.add('active');
+  } else {
+    const hItem = document.querySelector(`.hamburger-item[data-tab="${tabName}"]`);
+    if (hItem) hItem.classList.add('active');
+  }
+
+  // Cargar datos del tab
+  if (tabName === 'feedback') loadFeedbacks();
+  if (tabName === 'anterior') loadMenuAnterior();
+  if (tabName === 'memoria')  loadMemoria();
+}
+
+primaryTabs.forEach(tab => {
+  tab.addEventListener('click', () => activateTab(tab.dataset.tab));
 });
 
 
-// ── HAMBURGUESA (móvil) ───────────────────────────────────────
+// ── HAMBURGUESA ──────────────────────────────────────────────
 const hamburgerBtn  = document.getElementById('hamburger-btn');
 const hamburgerMenu = document.getElementById('hamburger-menu');
 
 if (hamburgerBtn && hamburgerMenu) {
-  hamburgerBtn.addEventListener('click', () => {
+  hamburgerBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
     const isOpen = !hamburgerMenu.hidden;
     hamburgerMenu.hidden = isOpen;
     hamburgerBtn.classList.toggle('open', !isOpen);
     hamburgerBtn.setAttribute('aria-expanded', String(!isOpen));
   });
 
-  // Ítems del menú hamburguesa activan el tab correspondiente
   hamburgerMenu.querySelectorAll('.hamburger-item').forEach(item => {
     item.addEventListener('click', () => {
-      const tabTarget = item.dataset.tab;
-      // Activar el tab en ambas navs
-      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-      panels.forEach(p => p.classList.remove('active'));
-      // Marcar el hamburger-item como activo
-      hamburgerMenu.querySelectorAll('.hamburger-item').forEach(i => i.classList.remove('active'));
-      item.classList.add('active');
-      // Mostrar panel
-      document.getElementById(`tab-${tabTarget}`)?.classList.add('active');
-      // Cerrar menú
+      activateTab(item.dataset.tab);
       hamburgerMenu.hidden = true;
       hamburgerBtn.classList.remove('open');
       hamburgerBtn.setAttribute('aria-expanded', 'false');
-      // Cargar datos del tab
-      if (tabTarget === 'feedback') loadFeedbacks();
-      if (tabTarget === 'anterior') loadMenuAnterior();
-      if (tabTarget === 'memoria')  loadMemoria();
     });
   });
 
-  // Cerrar al hacer clic fuera
   document.addEventListener('click', (e) => {
     if (!hamburgerBtn.contains(e.target) && !hamburgerMenu.contains(e.target)) {
       hamburgerMenu.hidden = true;
       hamburgerBtn.classList.remove('open');
-      hamburgerBtn.setAttribute('aria-expanded', 'false');
     }
   });
 }
