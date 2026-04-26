@@ -27,7 +27,8 @@
           "Quinua - 1.5 tazas"
         ],
         "nota_facundo": "Vitaminas B y zinc de pollo, fibra y antioxidantes de vegetales de colores variados.",
-        "nota_fernando": "Proteína magra y carbohidrato complejo (quinua) en porción moderada."
+        "nota_fernando": "Proteína magra y carbohidrato complejo (quinua) en porción moderada.",
+        "url_receta": "https://comidasperuanas.net/pollo-saltado/"
       }
     },
     "martes": {
@@ -55,7 +56,8 @@
           "Papa amarilla - 1kg"
         ],
         "nota_facundo": "Fuente rica en Omega-3 para el desarrollo cerebral y vitaminas de vegetales frescos.",
-        "nota_fernando": "Proteína magra de pescado y carbohidrato (papa) en porción moderada."
+        "nota_fernando": "Proteína magra de pescado y carbohidrato (papa) en porción moderada.",
+        "url_receta": "https://comidasperuanas.net/bonito-a-la-plancha/"
       }
     },
     "miercoles": {
@@ -83,7 +85,8 @@
           "Huevos de corral - 6 unidades"
         ],
         "nota_facundo": "Fibra soluble de lentejas y vegetales, además de hierro y vitaminas B del huevo.",
-        "nota_fernando": "Legumbre rica en fibra que ayuda al control glucémico, con carbohidrato complejo moderado."
+        "nota_fernando": "Legumbre rica en fibra que ayuda al control glucémico, con carbohidrato complejo moderado.",
+        "url_receta": "https://buenazo.pe/lentejas-guisadas/"
       }
     },
     "jueves": {
@@ -112,7 +115,8 @@
           "Leche fresca - 1/2 taza para puré"
         ],
         "nota_facundo": "Vitaminas B12 de la carne, fibra y antioxidantes de la variedad de vegetales.",
-        "nota_fernando": "Proteína magra y vegetales variados; puré de papa en porción moderada."
+        "nota_fernando": "Proteína magra y vegetales variados; puré de papa en porción moderada.",
+        "url_receta": "https://comidasperuanas.net/estofado-de-res/"
       }
     },
     "viernes": {
@@ -139,7 +143,8 @@
           "Camote amarillo - 1kg"
         ],
         "nota_facundo": "Excelente fuente de Omega-3 y Vitamina D del pescado, y fibra de vegetales coloridos.",
-        "nota_fernando": "Pescado azul rico en grasas saludables y carbohidrato complejo (camote) en porción moderada."
+        "nota_fernando": "Pescado azul rico en grasas saludables y carbohidrato complejo (camote) en porción moderada.",
+        "url_receta": "https://perucomidas.com/jurel-al-horno/"
       }
     },
     "sabado": {
@@ -169,7 +174,8 @@
           "Garbanzos - 400g (cocidos)"
         ],
         "nota_facundo": "Vitaminas B, zinc, y fibra de garbanzos y ají amarillo natural. Sin ultraprocesados.",
-        "nota_fernando": "Control de carbohidratos al no incluir pan y porción moderada de arroz y garbanzos."
+        "nota_fernando": "Control de carbohidratos al no incluir pan y porción moderada de arroz y garbanzos.",
+        "url_receta": "https://comidasperuanas.net/aji-de-gallina-saludable/"
       }
     },
     "domingo": {
@@ -200,7 +206,8 @@
           "Tomate cherry - 150g"
         ],
         "nota_facundo": "Probióticos de la albahaca (en menor medida), vitaminas y fibra de vegetales frescos.",
-        "nota_fernando": "Porción moderada de pasta y proteína magra, con abundantes vegetales frescos."
+        "nota_fernando": "Porción moderada de pasta y proteína magra, con abundantes vegetales frescos.",
+        "url_receta": "https://comidasperuanas.net/tallarines-verdes/"
       }
     }
   },
