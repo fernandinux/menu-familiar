@@ -15,8 +15,10 @@
 
 <header class="nav">
   <div class="nav-inner">
+
+    <!-- Logo -->
     <div class="nav-logo">
-      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-label="Logo Familia Paca">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-label="Logo">
         <circle cx="16" cy="16" r="15" fill="var(--color-primary)" opacity="0.15"/>
         <path d="M10 22 Q16 8 22 22" stroke="var(--color-primary)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
         <circle cx="11.5" cy="12" r="2" fill="var(--color-primary)"/>
@@ -26,51 +28,52 @@
       <span class="nav-brand">Familia Paca</span>
     </div>
 
-    <!-- TABS DESKTOP: todos visibles -->
-    <nav class="nav-tabs nav-tabs-desktop" role="tablist">
+    <!-- Tabs principales: siempre visibles -->
+    <nav class="nav-primary-tabs" role="tablist">
       <button class="nav-tab active" data-tab="menu" role="tab">Menú</button>
       <button class="nav-tab" data-tab="compras" role="tab">Compras</button>
-      <button class="nav-tab" data-tab="anterior" role="tab">Sem. anterior</button>
-      <button class="nav-tab" data-tab="feedback" role="tab">Feedback</button>
-      <button class="nav-tab" data-tab="memoria" role="tab">Memoria</button>
     </nav>
 
-    <!-- TABS MÓVIL: solo Menú y Compras visibles, resto en hamburguesa -->
-    <nav class="nav-tabs nav-tabs-mobile" role="tablist">
-      <button class="nav-tab active" data-tab="menu" role="tab">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="2" rx="1"/><rect x="3" y="11" width="18" height="2" rx="1"/><rect x="3" y="18" width="11" height="2" rx="1"/></svg>
-        Menú
-      </button>
-      <button class="nav-tab" data-tab="compras" role="tab">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-        Compras
-      </button>
-      <!-- Hamburguesa -->
+    <!-- Controles derecha -->
+    <div class="nav-actions">
+      <!-- Botón hamburguesa -->
       <button class="nav-hamburger" id="hamburger-btn" aria-label="Más opciones" aria-expanded="false">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
       </button>
-    </nav>
-
-    <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
-      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="12" cy="12" r="5"/>
-        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-      </svg>
-    </button>
+      <!-- Theme toggle -->
+      <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+      </button>
+    </div>
   </div>
 
-  <!-- Menú hamburguesa desplegable (móvil) -->
+  <!-- Menú desplegable hamburguesa -->
   <div class="hamburger-menu" id="hamburger-menu" hidden>
     <button class="hamburger-item" data-tab="anterior">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="11 17 6 12 11 7"/><polyline points="18 17 13 12 18 7"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"/>
+        <line x1="20" y1="12" x2="9" y2="12"/>
+      </svg>
       Semana anterior
     </button>
     <button class="hamburger-item" data-tab="feedback">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+      </svg>
       Feedback
     </button>
     <button class="hamburger-item" data-tab="memoria">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 100 18A9 9 0 0012 2z"/><path d="M12 8v4l3 3"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <polyline points="12 6 12 12 16 14"/>
+      </svg>
       Memoria
     </button>
   </div>
@@ -130,7 +133,7 @@
             </div>
           </div>
           <div class="field">
-            <label class="field-label">Tipo de feedback <span class="hint">(puedes elegir varios)</span></label>
+            <label class="field-label">Tipo <span class="hint">(puedes elegir varios)</span></label>
             <div class="chips multi" id="chips-tipo">
               <button type="button" class="chip" data-val="no_gusto">😕 No gustó</button>
               <button type="button" class="chip" data-val="ingrediente">🛒 Ingrediente difícil</button>
@@ -143,11 +146,11 @@
             <select class="input" id="sel-plato"><option value="">— Selecciona —</option></select>
           </div>
           <div class="field" id="field-ingrediente" hidden>
-            <label class="field-label" for="inp-ingrediente">¿Qué ingrediente no encontraste?</label>
+            <label class="field-label" for="inp-ingrediente">¿Qué ingrediente?</label>
             <input class="input" type="text" id="inp-ingrediente" placeholder="Ej: zucchini, queso edam…">
           </div>
           <div class="field" id="field-cantidad" hidden>
-            <label class="field-label" for="inp-cantidad">¿Qué cantidad estuvo mal?</label>
+            <label class="field-label" for="inp-cantidad">¿Qué cantidad?</label>
             <input class="input" type="text" id="inp-cantidad" placeholder="Ej: poca carne para Leonardo">
           </div>
           <div class="field">
@@ -165,22 +168,21 @@
         <div id="historial-container"><p class="empty">Aún no hay feedbacks.</p></div>
       </div>
     </div>
-
-    <!-- Sección lonchera -->
+    <!-- Lonchera -->
     <div class="lonchera-admin-section">
       <div class="lonchera-admin-header">
         <span class="lonchera-admin-icon">🎒</span>
         <div>
           <h2 class="section-title" style="margin-bottom:0">Actualizar Lonchera</h2>
-          <p class="page-sub" style="margin-top:var(--space-1)">Ingresa la lonchera fija del mes (reemplaza la actual)</p>
+          <p class="page-sub" style="margin-top:var(--space-1)">Ingresa la lonchera fija del mes</p>
         </div>
       </div>
       <div class="card">
         <form id="lonchera-form" novalidate>
           <div class="field">
             <label class="field-label" for="inp-lonchera">Nueva lonchera del mes</label>
-            <textarea class="input" id="inp-lonchera" rows="10"
-              placeholder="Lunes:&#10;- Facundo: manzana en trozos, 4 pecanas&#10;- Leonardo: panqueque de avena&#10;&#10;Martes:&#10;..."></textarea>
+            <textarea class="input" id="inp-lonchera" rows="8"
+              placeholder="Lunes:&#10;- Facundo: manzana en trozos&#10;- Leonardo: panqueque de avena&#10;&#10;Martes:&#10;..."></textarea>
           </div>
           <button type="submit" class="btn-primary" id="btn-lonchera">
             Guardar lonchera
@@ -210,6 +212,6 @@
 </footer>
 
 <div class="toast" id="toast"></div>
-<script src="static/js/app.js?v=1774900000"></script>
+<script src="static/js/app.js?v=1774910000"></script>
 </body>
 </html>
