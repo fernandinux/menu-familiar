@@ -1,25 +1,5 @@
 [
   {
-    "semana": "Lunes 06/04 al Domingo 12/04/2026",
-    "fecha_generacion": "2026-04-06T08:47:25.236786",
-    "platos_usados": [
-      "Huevos Revueltos con Espinaca y Tomate, Palta y Naranja",
-      "Locro de Zapallo con Queso Fresco y Arroz Blanco",
-      "Yogur Natural con Papaya y Semillas de Chía",
-      "Jurel a la Plancha con Puré de Coliflor y Ensalada de Espinaca y Pimiento Amarillo",
-      "Avena Cocida con Pera y Nueces",
-      "Guiso de Lentejas con Pollo y Arroz Blanco, Ensalada Fresca",
-      "Huevos Revueltos con Pimiento y Cebolla, Queso Fresco y Chirimoya",
-      "Pollo a la Jardinera con Arroz Blanco y Ensalada de Lechuga y Betarraga",
-      "Pan Integral Tostado con Palta y Huevo Duro, Leche Fresca",
-      "Bonito Sudado con Yuca y Ensalada Criolla Ligera",
-      "Batido Verde de Plátano y Espinaca con Pecanas",
-      "Estofado de Res con Vegetales y Arroz Blanco",
-      "Panqueques de Avena y Plátano con Yogur Natural y Fresas",
-      "Pollo al Sillao con Arroz Blanco y Brócoli al Vapor"
-    ]
-  },
-  {
     "semana": "Lunes 13/04 al Domingo 19/04/2026",
     "fecha_generacion": "2026-04-11T12:52:59.286075",
     "platos_usados": [
@@ -117,6 +97,26 @@
       "Ají de Gallina Saludable (sin pan), con Arroz Blanco y Garbanzos Guisados",
       "Batido de Frutas con Yogur Natural, Espinaca y Semillas de Lino",
       "Tallarines Verdes con Pollo a la Plancha y Ensalada Fresca de Pepino y Tomate Cherry"
+    ]
+  },
+  {
+    "semana": "Lunes 27/04 al Domingo 03/05/2026",
+    "fecha_generacion": "2026-04-26T16:08:47.198715",
+    "platos_usados": [
+      "Revuelto de Huevo con Espinaca y Tomate, Palta y Camote Sancochado",
+      "Garbanzos Guisados con Pollo, Brócoli al Vapor y Arroz Integral",
+      "Yogur Natural con Fresas, Pecanas y Huevo Duro",
+      "Bonito a la Plancha con Puré de Coliflor y Zanahoria, Ensalada de Espinaca y Palta",
+      "Tostadas Integrales con Atún en Agua, Palta y Tomate",
+      "Pollo al Sillao Saludable con Zucchini y Pimientos Salteados, y Quinua Graneada",
+      "Panqueques de Quinua con Plátano y Queso Fresco",
+      "Guiso de Garbanzos con Espinaca y Huevo Duro, Arroz Integral",
+      "Tortilla de Huevo con Brócoli, Queso Fresco y Palta",
+      "Jurel al Horno con Pimientos de Colores y Zucchini, Puré de Papa Moderado",
+      "Batido de Leche Fresca, Plátano, Espinaca y Semillas de Chía, con Queso Fresco",
+      "Estofado de Carne con Vainitas, Zanahoria y Arvejas, Puré de Yuca",
+      "Huevos Revueltos con Tomate y Cebolla, acompañados de Palta",
+      "Arroz con Pollo Saludable"
     ]
   }
 ]
