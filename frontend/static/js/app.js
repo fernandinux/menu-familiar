@@ -42,6 +42,52 @@ tabs.forEach(tab => {
   });
 });
 
+
+// ── HAMBURGUESA (móvil) ───────────────────────────────────────
+const hamburgerBtn  = document.getElementById('hamburger-btn');
+const hamburgerMenu = document.getElementById('hamburger-menu');
+
+if (hamburgerBtn && hamburgerMenu) {
+  hamburgerBtn.addEventListener('click', () => {
+    const isOpen = !hamburgerMenu.hidden;
+    hamburgerMenu.hidden = isOpen;
+    hamburgerBtn.classList.toggle('open', !isOpen);
+    hamburgerBtn.setAttribute('aria-expanded', String(!isOpen));
+  });
+
+  // Ítems del menú hamburguesa activan el tab correspondiente
+  hamburgerMenu.querySelectorAll('.hamburger-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const tabTarget = item.dataset.tab;
+      // Activar el tab en ambas navs
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      // Marcar el hamburger-item como activo
+      hamburgerMenu.querySelectorAll('.hamburger-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      // Mostrar panel
+      document.getElementById(`tab-${tabTarget}`)?.classList.add('active');
+      // Cerrar menú
+      hamburgerMenu.hidden = true;
+      hamburgerBtn.classList.remove('open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+      // Cargar datos del tab
+      if (tabTarget === 'feedback') loadFeedbacks();
+      if (tabTarget === 'anterior') loadMenuAnterior();
+      if (tabTarget === 'memoria')  loadMemoria();
+    });
+  });
+
+  // Cerrar al hacer clic fuera
+  document.addEventListener('click', (e) => {
+    if (!hamburgerBtn.contains(e.target) && !hamburgerMenu.contains(e.target)) {
+      hamburgerMenu.hidden = true;
+      hamburgerBtn.classList.remove('open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
 // ── TOAST ────────────────────────────────────────────────────
 const toastEl = document.getElementById('toast');
 let toastTimer;
