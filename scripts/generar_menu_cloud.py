@@ -102,28 +102,36 @@ REGLAS PARA FERNANDO (Resistencia a la insulina)
 ═══════════════════════════════════════════
 REGLAS DE DESAYUNOS (MUY IMPORTANTE)
 ═══════════════════════════════════════════
-1. RUTINARIOS Y SIMPLES: Usar técnicas de cocina de entendimiento común para una cocinera peruana.
-   - CORRECTO: huevo duro, huevo frito, huevo revuelto, tortilla de huevo, avena cocida
-   - INCORRECTO: huevos pochados, huevos benedictinos, huevos en cocotte (términos no conocidos)
+1. RUTINARIOS Y SIMPLES: Solo técnicas que entiende una cocinera peruana sin explicación.
+   CORRECTO: huevo duro, huevo frito, huevo revuelto, tortilla de huevo, avena cocida, queso fresco
+   INCORRECTO: huevos pochados, benedictinos, en cocotte, muffins salados, shakshuka
 
-2. INGREDIENTES SOLO DE LIMA: Todo debe conseguirse en mercados de Lima.
-   - NO usar: mantequilla de maní, granola importada, açaí, semillas de chía importadas
+2. INGREDIENTES SOLO DE LIMA: Todo conseguible en mercados locales.
+   NO usar: mantequilla de maní, granola importada, açaí, chía importada, avena instantánea importada
 
-3. ALINEADOS CON MERIENDAS DEL NIDO: Si la merienda del día contiene quinua,
-   el desayuno NO puede tener quinua. Si la merienda tiene huevo, el desayuno
-   puede tenerlo solo si es diferente preparación.
+3. LÁCTEOS LIMITADOS PARA FACUNDO (TEA): Máximo 2 veces por semana con lácteos
+   (yogur natural o queso fresco). No repetir lácteo dos días seguidos.
 
-4. ARMONÍA DE INGREDIENTES: No repetir el ingrediente principal entre desayuno
-   y merienda del mismo día.
+4. FRUTAS CON VARIEDAD OBLIGATORIA: No repetir la misma fruta más de 1 vez en la semana.
+   Rotar entre: plátano, manzana, papaya, mandarina, mango, pera, maracuyá, aguaymanto,
+   granadilla, fresa, naranja. El plátano no debe aparecer más de 1 vez en desayunos de la semana.
 
-5. ESTRUCTURA FIJA DEL DESAYUNO: proteína + fruta + opcional carbohidrato integral pequeño
+5. ALINEADOS CON MERIENDAS DEL NIDO: Si la merienda del día tiene quinua → no poner quinua
+   en desayuno. Si tiene huevo → puede estar en desayuno solo si es distinta preparación.
+   Si la merienda tiene plátano → no poner plátano en el desayuno de ese día.
 
-6. EJEMPLOS DE DESAYUNOS VÁLIDOS:
-   - Huevo frito con plátano y pan integral tostado (mínimo)
-   - Avena cocida con manzana rallada y canela + queso fresco
-   - Tortilla de huevo con tomate y zanahoria + papaya
-   - Huevo duro con palta y pepino + mandarina
-   - Queso fresco con plátano + avena cocida
+6. NO REPETIR INGREDIENTE PRINCIPAL entre desayuno y merienda del mismo día.
+
+7. ESTRUCTURA FIJA DEL DESAYUNO: proteína + fruta (variada) + opcional carbohidrato integral mínimo
+
+8. EJEMPLOS DE DESAYUNOS VÁLIDOS (rotar, no repetir en la semana):
+   - Huevo frito con papaya y pan integral tostado (mínimo)
+   - Avena cocida con manzana rallada y canela (sin lácteo)
+   - Tortilla de huevo con tomate y zanahoria + mandarina
+   - Huevo duro con palta y pepino + aguaymanto
+   - Yogur natural (sin azúcar) con granola casera de avena + fresa (máx 1 vez/semana)
+   - Huevo revuelto con espinaca + mango en trozos
+   - Queso fresco con pera + avena cocida (máx 1 vez/semana con queso)
 
 ═══════════════════════════════════════════
 REGLAS DE ALMUERZOS
@@ -148,7 +156,8 @@ REGLAS DE ALMUERZOS
    - Si es plato fuerte con arroz → reducir porción de arroz o servir sin arroz
    - Ejemplo: chanfainita → poca papa, más bofe; patita con maní → sin arroz
 
-3. PESCADO: Máximo 1 vez por semana (no 2 veces). Rotar entre bonito, jurel, pejerrey, caballa.
+3. PESCADO: Exactamente 1 vez por semana (ni más ni menos). Rotar entre bonito, jurel, pejerrey, caballa.
+   El pescado NO puede ir en dos semanas consecutivas si el historial lo muestra.
 
 4. VARIEDAD DE COLORES: mínimo 3 colores de vegetales por almuerzo.
 
