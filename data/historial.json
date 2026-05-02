@@ -118,5 +118,24 @@
       "Huevos Revueltos con Champiñones y Queso Fresco",
       "Seco de Pollo con Zapallo y Arvejas, con Quinua Graneada"
     ]
+  },
+  {
+    "semana": "Lunes 04/05 al Domingo 10/05/2026",
+    "fecha_generacion": "2026-05-02T13:05:06.189465",
+    "platos_usados": [
+      "Huevo frito con papaya y pan integral tostado",
+      "Hígado encebollado con vainitas salteadas y arroz integral",
+      "Avena cocida con mandarina y canela",
+      "Chanfainita con ensalada fresca de pepino y tomate",
+      "Queso fresco con pera y pan integral tostado",
+      "Patita con maní acompañada de yuca sancochada y ensalada de betarraga y coliflor",
+      "Huevo revuelto con espinaca y fresas",
+      "Guiso de arvejas con huevo duro y zanahoria, acompañado de quinua graneada",
+      "Tortilla de huevo con tomate y naranja",
+      "Yogur natural con granola casera de avena y aguaymanto",
+      "Pejerrey arrebozado con puré de zapallo y ensalada de brócoli y zanahoria",
+      "Avena cocida con plátano en rodajas y canela",
+      "Salpicón de atún con papa, vainitas y zanahoria"
+    ]
   }
 ]
