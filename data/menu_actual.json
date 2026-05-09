@@ -1,260 +1,260 @@
 {
-  "semana": "Lunes 04/05 al Domingo 10/05/2026",
+  "semana": "Lunes 11/05 al Domingo 17/05/2026",
   "dias": {
     "lunes": {
       "desayuno": {
-        "nombre": "Huevo frito con papaya y pan integral tostado",
-        "descripcion": "Freír un huevo en aceite de oliva. Servir con trozos de papaya fresca y una porción mínima de pan integral tostado.",
+        "nombre": "Huevo frito con palta y pan integral tostado",
+        "descripcion": "Huevo frito en poco aceite de oliva, acompañado de palta en trozos y una rebanada mínima de pan integral tostado. Fruta: Pera.",
         "ingredientes_principales": [
-          "Huevo de corral - 6 unidades",
-          "Papaya - 1 unidad mediana",
-          "Pan integral - 6 rodajas finas",
-          "Aceite de oliva - al gusto"
+          "Huevos de corral - 6 unidades",
+          "Palta - 2 unidades",
+          "Pan integral de molde - 3 rebanadas",
+          "Pera - 2 unidades"
         ],
-        "nota_facundo": "Asegurar que el huevo esté bien cocido. La papaya aporta fibra prebiótica para una buena digestión.",
-        "nota_fernando": "Porción moderada de pan integral, priorizar el huevo y la papaya para un desayuno rico en proteínas y fibra."
+        "nota_facundo": "Aporta Omega-3 del huevo y la palta, beneficioso para el desarrollo cognitivo. Sin colorantes ni conservantes.",
+        "nota_fernando": "Desayuno bajo en carbohidratos refinados, priorizando grasas saludables de la palta y proteína del huevo. Pan integral en cantidad mínima."
       },
       "almuerzo": {
-        "nombre": "Hígado encebollado con vainitas salteadas y arroz integral",
-        "descripcion": "Cortar el hígado en bistecs y saltear con cebolla y tomate. Acompañar con vainitas al vapor salteadas con ajo y arroz integral graneado.",
+        "nombre": "Pollo en salsa de maní con brócoli y pimientos",
+        "descripcion": "Trozos de pollo cocidos en una suave salsa de maní natural, con brócoli al vapor y pimientos de colores salteados, acompañado de quinua graneada en porción moderada.",
         "ingredientes_principales": [
-          "Hígado de res - 1.2 kg",
-          "Cebolla roja - 2 unidades grandes",
-          "Tomate - 2 unidades",
-          "Vainitas - 500g",
-          "Ajo - 3 dientes",
-          "Arroz integral - 2 tazas (crudo)",
-          "Aceite de oliva, comino, orégano, sal, pimienta - al gusto"
+          "Pechuga de pollo - 1 kg",
+          "Maní tostado sin sal - 150g",
+          "Brócoli - 1 unidad grande",
+          "Pimientos (rojo, amarillo) - 2 unidades",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Culantro - 1/2 atado",
+          "Quinua - 1.5 tazas"
         ],
-        "nota_facundo": "Retirar cualquier glutamato monosódico si la receta original lo incluye. Este plato es rico en hierro y vitaminas del grupo B, esenciales para el desarrollo.",
-        "nota_fernando": "Porción moderada de arroz integral, priorizar el hígado y las vainitas para controlar los carbohidratos."
+        "nota_facundo": "Plato rico en proteínas y vegetales. El maní es fuente de fibra y grasas saludables. Sin glutamato monosódico.",
+        "nota_fernando": "Porción moderada de quinua como carbohidrato complejo. Proteína magra de pollo y grasas saludables del maní. Abundantes vegetales."
       }
     },
     "martes": {
       "desayuno": {
-        "nombre": "Avena cocida con mandarina y canela",
-        "descripcion": "Cocer avena en agua hasta que esté tierna. Servir con gajos de mandarina fresca y un toque de canela en polvo.",
+        "nombre": "Queso fresco con palta y pan integral tostado",
+        "descripcion": "Queso fresco en tajadas con palta en trozos y una rebanada mínima de pan integral tostado. Fruta: Mango.",
         "ingredientes_principales": [
-          "Avena en hojuelas - 1.5 tazas",
-          "Mandarinas - 6 unidades",
-          "Canela en polvo - al gusto",
-          "Agua - cantidad necesaria"
+          "Queso fresco - 250g",
+          "Palta - 2 unidades",
+          "Pan integral de molde - 3 rebanadas",
+          "Mango - 1 unidad grande"
         ],
-        "nota_facundo": "La avena aporta fibra prebiótica. La mandarina es rica en Vitamina C, importante para el sistema inmune.",
-        "nota_fernando": "Avena cocida sin azúcar, la canela ayuda a regular el azúcar en sangre. Desayuno sin carbohidratos refinados."
+        "nota_facundo": "El queso fresco aporta probióticos naturales. La palta es fuente de Omega-3. Sin azúcar refinada.",
+        "nota_fernando": "Desayuno bajo en carbohidratos, priorizando proteína del queso fresco y grasas saludables de la palta. Pan integral en cantidad mínima."
       },
       "almuerzo": {
-        "nombre": "Chanfainita con ensalada fresca de pepino y tomate",
-        "descripcion": "Guisar bofe de res con papa en cubos (poca cantidad), cebolla, ajo, ají panca y hierbabuena. Servir con una ensalada fresca de pepino y tomate.",
+        "nombre": "Lentejas con verduras y huevo frito",
+        "descripcion": "Lentejas guisadas con zapallo, espinaca y zanahoria, acompañadas de arroz integral en porción moderada y un huevo frito en poco aceite de oliva.",
         "ingredientes_principales": [
-          "Bofe de res - 1.2 kg",
-          "Papa blanca - 500g",
-          "Cebolla roja - 2 unidades",
-          "Ajo - 4 dientes",
-          "Ají panca molido - 2 cucharadas",
-          "Hierbabuena fresca - 1 atado",
-          "Pepino - 2 unidades",
-          "Tomate - 2 unidades",
-          "Aceite vegetal, comino, orégano, sal, pimienta - al gusto"
+          "Lentejas - 500g",
+          "Zapallo - 300g",
+          "Espinaca - 1 atado",
+          "Zanahoria - 2 unidades",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Huevos de corral - 6 unidades",
+          "Arroz integral - 1.5 tazas"
         ],
-        "nota_facundo": "Retirar cualquier glutamato monosódico (ajinomoto) si la receta original lo incluye. Plato rico en hierro, asegurar que el bofe esté bien cocido y tierno.",
-        "nota_fernando": "Porción muy controlada de papa en la chanfainita, priorizar el bofe y la abundante ensalada de pepino y tomate."
+        "nota_facundo": "Legumbre rica en fibra prebiótica. El huevo de corral aporta Omega-3 y vitaminas B. Sin glutamato monosódico.",
+        "nota_fernando": "Legumbre como fuente de carbohidratos complejos y fibra. Porción controlada de arroz integral. Proteína adicional del huevo."
       }
     },
     "miercoles": {
       "desayuno": {
-        "nombre": "Queso fresco con pera y pan integral tostado",
-        "descripcion": "Servir rebanadas de queso fresco con trozos de pera fresca. Acompañar con una porción mínima de pan integral tostado.",
+        "nombre": "Yogur natural con granola casera de avena y fresas",
+        "descripcion": "Yogur natural sin azúcar con granola casera de avena tostada y trozos de fresas frescas.",
         "ingredientes_principales": [
-          "Queso fresco - 250g",
-          "Pera - 2 unidades grandes",
-          "Pan integral - 6 rodajas finas"
+          "Yogur natural sin azúcar - 1 litro",
+          "Avena en hojuelas - 1 taza",
+          "Miel de abeja (opcional, mínima cantidad) - 2 cucharadas",
+          "Fresas - 250g"
         ],
-        "nota_facundo": "El queso fresco aporta probióticos naturales. La pera es una buena fuente de fibra para la salud intestinal.",
-        "nota_fernando": "Porción moderada de pan integral, priorizar el queso fresco y la pera, fuente de proteína y fibra."
+        "nota_facundo": "El yogur natural es una excelente fuente de probióticos. La avena aporta fibra prebiótica. Las fresas son ricas en Vitamina C. Sin azúcar refinada.",
+        "nota_fernando": "Desayuno con probióticos y fibra. Azúcar controlada al mínimo o sin ella, solo de la fruta."
       },
       "almuerzo": {
-        "nombre": "Patita con maní acompañada de yuca sancochada y ensalada de betarraga y coliflor",
-        "descripcion": "Guisar patitas de cerdo con maní tostado, ají amarillo, cebolla y ajo hasta que estén tiernas. Servir con yuca sancochada y una ensalada de betarraga y coliflor al vapor.",
+        "nombre": "Seco de Res con Frijoles Canarios y arroz",
+        "descripcion": "Trozos de res cocidos en un aderezo de culantro, con arvejas y zanahoria, servido con frijoles canarios guisados y arroz blanco en porción moderada.",
         "ingredientes_principales": [
-          "Patitas de cerdo - 1.2 kg",
-          "Maní tostado sin sal - 200g",
-          "Ají amarillo fresco - 2 unidades (o pasta)",
-          "Cebolla roja - 2 unidades",
-          "Ajo - 4 dientes",
-          "Yuca - 1 kg",
-          "Betarraga - 2 unidades",
-          "Coliflor - 1 unidad mediana",
-          "Aceite de oliva, culantro, sal, pimienta - al gusto"
+          "Carne de res (malaya o pecho) - 1 kg",
+          "Frijoles canarios - 500g",
+          "Culantro - 1 atado",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Arvejas - 200g",
+          "Zanahoria - 2 unidades",
+          "Arroz blanco - 2 tazas"
         ],
-        "nota_facundo": "Plato rico en colágeno. Asegurar que las patitas estén muy tiernas y deshuesadas para los niños. La coliflor es una excelente fuente de Vitamina C.",
-        "nota_fernando": "Sin arroz. Priorizar la patita con maní y la abundante ensalada de betarraga y coliflor, controlando la porción de yuca."
+        "nota_facundo": "Plato con proteína de res, fuente de zinc y vitaminas B. Los frijoles aportan fibra prebiótica. Sin glutamato monosódico.",
+        "nota_fernando": "Proteína magra de res y legumbres. Porción moderada de arroz para controlar carbohidratos."
       }
     },
     "jueves": {
       "desayuno": {
-        "nombre": "Huevo revuelto con espinaca y fresas",
-        "descripcion": "Revolver huevos con espinaca picada. Servir con fresas frescas en trozos.",
+        "nombre": "Huevo revuelto con espinaca y palta",
+        "descripcion": "Huevos revueltos con espinaca picada y trozos de palta. Fruta: Granadilla.",
         "ingredientes_principales": [
-          "Huevo de corral - 6 unidades",
-          "Espinaca - 1 atado pequeño",
-          "Fresas - 250g",
-          "Aceite de oliva, sal - al gusto"
+          "Huevos de corral - 6 unidades",
+          "Espinaca - 1/2 atado",
+          "Palta - 2 unidades",
+          "Granadilla - 2 unidades"
         ],
-        "nota_facundo": "Las fresas aportan Vitamina C y antioxidantes. La espinaca es rica en vitaminas y minerales, importante para el desarrollo cognitivo.",
-        "nota_fernando": "Desayuno sin carbohidratos refinados, rico en proteína y fibra, ideal para el control de la resistencia a la insulina."
+        "nota_facundo": "El huevo de corral aporta Omega-3 y vitaminas B. La palta es una grasa saludable. La espinaca es rica en vitaminas.",
+        "nota_fernando": "Desayuno sin carbohidratos refinados, rico en proteína y grasas saludables. La palta es excelente para el control de la insulina."
       },
       "almuerzo": {
-        "nombre": "Guiso de arvejas con huevo duro y zanahoria, acompañado de quinua graneada",
-        "descripcion": "Preparar un guiso con arvejas frescas, zanahoria en cubos, cebolla y ajo. Servir con huevos duros y quinua graneada.",
+        "nombre": "Bonito encebollado con yuca sancochada y ensalada criolla",
+        "descripcion": "Filetes de bonito cocidos en un aderezo de cebolla, tomate y ají amarillo, acompañados de yuca sancochada y ensalada criolla de cebolla morada y culantro.",
         "ingredientes_principales": [
-          "Arvejas frescas (desgranadas) - 1 kg",
-          "Huevo de corral - 6 unidades",
-          "Zanahoria - 3 unidades",
-          "Cebolla - 1 unidad",
-          "Ajo - 3 dientes",
-          "Quinua - 1.5 tazas (cruda)",
-          "Aceite de oliva, culantro, sal, pimienta - al gusto"
+          "Filetes de bonito - 1.2 kg",
+          "Cebolla roja - 2 unidades grandes",
+          "Tomate - 2 unidades",
+          "Ají amarillo fresco - 1 unidad (opcional, sin venas ni semillas)",
+          "Yuca - 1 kg",
+          "Lechuga - 1 unidad",
+          "Culantro - 1/2 atado"
         ],
-        "nota_facundo": "Las arvejas y la quinua aportan fibra prebiótica. El huevo de corral es fuente de Omega-3. Asegurar que el guiso no contenga glutamato monosódico.",
-        "nota_fernando": "Porción moderada de quinua, priorizar el guiso de arvejas y huevo duro, que son ricos en proteína vegetal y fibra."
+        "nota_facundo": "El bonito es una excelente fuente de Omega-3. Rico en proteínas y vegetales frescos. Sin glutamato monosódico.",
+        "nota_fernando": "Pescado azul con grasas saludables (Omega-3). Porción moderada de yuca como carbohidrato. Abundante ensalada fresca."
       }
     },
     "viernes": {
       "desayuno": {
-        "nombre": "Tortilla de huevo con tomate y naranja",
-        "descripcion": "Preparar una tortilla de huevo con tomate picado. Servir con gajos de naranja fresca.",
+        "nombre": "Huevo duro con tomate, pepino y pan integral tostado",
+        "descripcion": "Huevos duros cortados en rodajas, acompañados de tomate y pepino frescos en rodajas y una rebanada mínima de pan integral tostado. Fruta: Naranja.",
         "ingredientes_principales": [
-          "Huevo de corral - 6 unidades",
+          "Huevos de corral - 6 unidades",
           "Tomate - 2 unidades",
-          "Naranjas - 6 unidades",
-          "Aceite de oliva, sal - al gusto"
+          "Pepino - 1 unidad",
+          "Pan integral de molde - 3 rebanadas",
+          "Naranja - 2 unidades"
         ],
-        "nota_facundo": "La naranja aporta Vitamina C y antioxidantes. El tomate es fuente de licopeno.",
-        "nota_fernando": "Desayuno sin carbohidratos refinados, rico en proteína y vitaminas, ideal para el control de la resistencia a la insulina."
+        "nota_facundo": "Huevo de corral aporta Omega-3 y vitaminas B. Vegetales frescos para vitaminas y fibra. Sin colorantes ni conservantes.",
+        "nota_fernando": "Desayuno con proteína de huevo y fibra de vegetales. Pan integral en cantidad mínima."
       },
       "nota_viernes": "El almuerzo del viernes lo decide la cocinera según lo que queda en el refrigerador."
     },
     "sabado": {
       "desayuno": {
-        "nombre": "Yogur natural con granola casera de avena y aguaymanto",
-        "descripcion": "Servir yogur natural sin azúcar con granola casera de avena y aguaymantos frescos.",
+        "nombre": "Tortilla de huevo con zucchini y tomate",
+        "descripcion": "Tortilla de huevo con zucchini rallado y tomate picado. Fruta: Aguaymanto.",
         "ingredientes_principales": [
-          "Yogur natural sin azúcar - 1 litro",
-          "Avena en hojuelas (para granola casera) - 1 taza",
-          "Aguaymanto - 250g"
+          "Huevos de corral - 6 unidades",
+          "Zucchini - 1 unidad",
+          "Tomate - 2 unidades",
+          "Aguaymanto - 150g"
         ],
-        "nota_facundo": "El yogur natural aporta probióticos para la salud intestinal. El aguaymanto es rico en Vitamina C y antioxidantes.",
-        "nota_fernando": "Yogur natural sin azúcar, porción moderada de granola casera para controlar los carbohidratos."
+        "nota_facundo": "Huevo de corral aporta Omega-3 y vitaminas B. Zucchini y tomate son fuente de vitaminas y fibra. Aguaymanto es rico en Vitamina C.",
+        "nota_fernando": "Desayuno sin carbohidratos refinados, rico en proteína y vegetales. El aguaymanto tiene bajo índice glucémico."
       },
       "almuerzo": {
-        "nombre": "Pejerrey arrebozado con puré de zapallo y ensalada de brócoli y zanahoria",
-        "descripcion": "Arrebosar filetes de pejerrey y freír ligeramente en aceite de oliva. Acompañar con puré de zapallo y una ensalada fresca de brócoli y zanahoria al vapor.",
+        "nombre": "Frijoles canarios guisados con cerdo y arroz integral",
+        "descripcion": "Frijoles canarios guisados con trozos pequeños de cerdo magro, acompañados de arroz integral en porción moderada y ensalada fresca de lechuga y pepino.",
         "ingredientes_principales": [
-          "Pejerrey (filetes) - 1.2 kg",
-          "Harina sin preparar - 1 taza",
-          "Huevo - 2 unidades",
-          "Zapallo macre - 1 kg",
-          "Brócoli - 1 unidad grande",
-          "Zanahoria - 3 unidades",
-          "Aceite de oliva, sal, pimienta, limón - al gusto"
+          "Frijoles canarios - 500g",
+          "Cerdo (pierna o lomo) - 600g",
+          "Cebolla - 1 unidad",
+          "Ajo - 2 dientes",
+          "Arroz integral - 1.5 tazas",
+          "Lechuga - 1 unidad",
+          "Pepino - 1 unidad"
         ],
-        "nota_facundo": "El pejerrey es fuente de Omega-3. El brócoli es rico en Vitamina C y fibra. Asegurar un rebozado ligero y cocción adecuada.",
-        "nota_fernando": "Pejerrey preparado con mínimo aceite. Priorizar el pescado y la ensalada de brócoli y zanahoria. Porción moderada de puré de zapallo."
+        "nota_facundo": "Los frijoles son una excelente fuente de fibra prebiótica. Cerdo magro aporta proteína y zinc. Sin glutamato monosódico.",
+        "nota_fernando": "Legumbre como fuente de carbohidratos complejos y fibra. Proteína magra de cerdo. Porción moderada de arroz integral."
       }
     },
     "domingo": {
       "desayuno": {
-        "nombre": "Avena cocida con plátano en rodajas y canela",
-        "descripcion": "Cocer avena en agua hasta que esté tierna. Servir con rodajas de plátano y un toque de canela en polvo.",
+        "nombre": "Avena cocida con manzana rallada y canela",
+        "descripcion": "Avena cocida en agua o leche fresca descremada (opcional) con manzana rallada y un toque de canela.",
         "ingredientes_principales": [
           "Avena en hojuelas - 1.5 tazas",
-          "Plátano - 6 unidades",
-          "Canela en polvo - al gusto",
-          "Agua - cantidad necesaria"
+          "Manzana - 2 unidades",
+          "Canela en polvo - al gusto"
         ],
-        "nota_facundo": "La avena aporta fibra prebiótica. El plátano es fuente de potasio y energía natural, ideal para el inicio del día.",
-        "nota_fernando": "Avena cocida sin azúcar, el plátano aporta energía natural. Desayuno sin carbohidratos refinados."
+        "nota_facundo": "La avena es una fuente de fibra prebiótica. La manzana aporta vitaminas y fibra. Sin azúcar refinada.",
+        "nota_fernando": "Desayuno rico en fibra. La manzana es un carbohidrato de bajo índice glucémico. Sin azúcar añadida."
       },
       "almuerzo": {
-        "nombre": "Salpicón de atún con papa, vainitas y zanahoria",
-        "descripcion": "Mezclar atún en conserva (en agua) con papa sancochada en cubos, vainitas y zanahoria al vapor, cebolla picada y un toque de mayonesa casera y limón. Servir frío.",
+        "nombre": "Hígado saltado con camote horneado",
+        "descripcion": "Trozos de hígado de res salteados con cebolla, tomate y pimientos de colores, acompañado de bastones de camote horneado.",
         "ingredientes_principales": [
-          "Atún en conserva (en agua) - 4 latas grandes",
-          "Papa - 700g (para 4 personas)",
-          "Vainitas - 300g",
-          "Zanahoria - 2 unidades",
-          "Cebolla roja - 1 unidad pequeña",
-          "Huevo - 2 unidades (para mayonesa casera)",
-          "Aceite de oliva, limón, sal, pimienta - al gusto"
+          "Hígado de res - 800g (para 4 personas)",
+          "Cebolla roja - 1 unidad",
+          "Tomate - 1 unidad",
+          "Pimientos (rojo, verde) - 1 unidad",
+          "Camote - 2 unidades grandes (para 4 personas)"
         ],
-        "nota_facundo": "El atún en agua es fuente de Omega-3. Asegurar que la mayonesa sea casera y sin conservantes. Las vainitas y zanahorias aportan fibra y vitaminas.",
-        "nota_fernando": "Porción moderada de papa, priorizar el atún y los vegetales. Usar aceite de oliva en la mayonesa casera. Plato bajo en carbohidratos refinados.",
-        "nota_domingo": "Plato fresco y sencillo de preparar, ideal para un almuerzo ligero y que resiste bien el recalentamiento (o servir frío) para solo 4 personas."
+        "nota_facundo": "El hígado es una excelente fuente de hierro, vitaminas B6, B12 y D. Los pimientos aportan Vitamina C. Sin glutamato monosódico.",
+        "nota_fernando": "Plato rico en proteínas magras y vegetales. El camote horneado es un carbohidrato complejo con bajo índice glucémico, en porción moderada."
       }
     }
   },
   "lista_compras_domingos": {
     "descripcion": "Compra dominical para lunes, martes, miércoles, jueves",
     "carnes_y_proteinas": [
-      "Hígado de res - 1.2 kg",
-      "Bofe de res - 1.2 kg",
-      "Patitas de cerdo - 1.2 kg",
-      "Huevos de corral - 1 docena (para la semana)"
+      "Pechuga de pollo - 1 kg",
+      "Carne de res (malaya o pecho) - 1 kg",
+      "Filetes de bonito - 1.2 kg",
+      "Huevos de corral - 18 unidades (para 3 desayunos y 1 almuerzo)"
     ],
     "vegetales_y_frutas": [
-      "Papaya - 1 unidad mediana",
-      "Mandarinas - 6 unidades",
-      "Pera - 2 unidades grandes",
-      "Fresas - 250g",
-      "Cebolla roja - 5 unidades",
+      "Palta - 6 unidades",
+      "Pera - 2 unidades",
+      "Brócoli - 1 unidad grande",
+      "Pimientos (rojo, amarillo) - 2 unidades",
+      "Cebolla blanca - 3 unidades",
+      "Ajo - 6 dientes",
+      "Culantro - 2 atados",
+      "Mango - 1 unidad grande",
+      "Lentejas - 500g",
+      "Zapallo - 300g",
+      "Espinaca - 1.5 atados",
+      "Zanahoria - 4 unidades",
+      "Queso fresco - 250g",
+      "Granadilla - 2 unidades",
       "Tomate - 4 unidades",
-      "Vainitas - 500g",
-      "Pepino - 2 unidades",
-      "Betarraga - 2 unidades",
-      "Coliflor - 1 unidad mediana",
-      "Zanahoria - 6 unidades",
-      "Espinaca - 1 atado pequeño",
-      "Arvejas frescas (desgranadas) - 1 kg",
+      "Cebolla roja - 3 unidades grandes",
+      "Ají amarillo fresco - 1 unidad",
       "Yuca - 1 kg",
-      "Zapallo macre - 1 kg",
-      "Ají amarillo fresco - 2 unidades"
+      "Lechuga - 1 unidad",
+      "Arvejas - 200g"
     ],
     "lacteos_y_huevos": [
-      "Queso fresco - 250g",
       "Yogur natural sin azúcar - 1 litro"
     ],
     "despensa": [
-      "Arroz integral - 1 kg",
-      "Avena en hojuelas - 1.5 tazas (para avena y granola casera)",
-      "Pan integral - 1 paquete",
-      "Maní tostado sin sal - 200g",
+      "Pan integral de molde - 9 rebanadas",
+      "Maní tostado sin sal - 150g",
       "Quinua - 1.5 tazas",
-      "Aceite de oliva - 1 botella",
-      "Canela en polvo",
-      "Ajo, comino, orégano, ají panca molido, culantro, hierbabuena, sal, pimienta - al gusto"
+      "Avena en hojuelas - 1.5 tazas",
+      "Miel de abeja (opcional) - 2 cucharadas",
+      "Fresas - 250g",
+      "Arroz integral - 3 tazas",
+      "Arroz blanco - 2 tazas",
+      "Canela en polvo"
     ]
   },
   "lista_compras_mitad_semana": {
     "descripcion": "Compra de mitad de semana para sábado, domingo (viernes libre)",
     "carnes_y_proteinas": [
-      "Pejerrey (filetes) - 1.2 kg",
-      "Atún en conserva (en agua) - 4 latas grandes"
+      "Cerdo (pierna o lomo) - 600g",
+      "Hígado de res - 800g (para 4 personas)",
+      "Huevos de corral - 12 unidades (para 2 desayunos)"
     ],
     "vegetales_y_frutas": [
-      "Naranjas - 6 unidades",
-      "Aguaymanto - 250g",
-      "Plátano - 6 unidades",
-      "Brócoli - 1 unidad grande",
-      "Papa - 700g (para 4 personas)",
-      "Cebolla roja - 1 unidad pequeña",
-      "Tomate - 2 unidades",
-      "Zanahoria - 3 unidades",
-      "Limones - 6 unidades"
+      "Naranja - 2 unidades",
+      "Pepino - 2 unidades",
+      "Zucchini - 1 unidad",
+      "Aguaymanto - 150g",
+      "Frijoles canarios - 500g",
+      "Pimientos (rojo, verde) - 1 unidad",
+      "Camote - 2 unidades grandes",
+      "Manzana - 2 unidades"
     ],
     "lacteos_y_huevos": [],
-    "despensa": [
-      "Harina sin preparar - 1 taza"
-    ]
+    "despensa": []
   }
 }
