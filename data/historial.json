@@ -137,5 +137,24 @@
       "Avena cocida con plátano en rodajas y canela",
       "Salpicón de atún con papa, vainitas y zanahoria"
     ]
+  },
+  {
+    "semana": "Lunes 11/05 al Domingo 17/05/2026",
+    "fecha_generacion": "2026-05-09T13:11:43.926762",
+    "platos_usados": [
+      "Huevo frito con palta y pan integral tostado",
+      "Pollo en salsa de maní con brócoli y pimientos",
+      "Queso fresco con palta y pan integral tostado",
+      "Lentejas con verduras y huevo frito",
+      "Yogur natural con granola casera de avena y fresas",
+      "Seco de Res con Frijoles Canarios y arroz",
+      "Huevo revuelto con espinaca y palta",
+      "Bonito encebollado con yuca sancochada y ensalada criolla",
+      "Huevo duro con tomate, pepino y pan integral tostado",
+      "Tortilla de huevo con zucchini y tomate",
+      "Frijoles canarios guisados con cerdo y arroz integral",
+      "Avena cocida con manzana rallada y canela",
+      "Hígado saltado con camote horneado"
+    ]
   }
 ]
