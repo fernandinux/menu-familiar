@@ -1,26 +1,6 @@
 [
   {
     "semana": "Lunes 20/04 al Domingo 26/04/2026",
-    "fecha_generacion": "2026-04-18T12:57:26.990929",
-    "platos_usados": [
-      "Huevos Revueltos con Zucchini y Palta",
-      "Pechuga de Pollo a la Plancha con Ensalada Arcoíris y Quinua Graneada",
-      "Yogur Natural con Mango y Nueces",
-      "Guiso de Garbanzos con Zucchini, Espinaca y Tomate",
-      "Huevos Revueltos con Espinaca, Queso Fresco y Palta",
-      "Filete de Bonito al Horno con Vegetales Mediterráneos y Yuca Sancochada",
-      "Avena Cocida con Leche Fresca, Manzana Rallada y Pecanas",
-      "Saltado de Res con Brócoli, Pimiento Amarillo y Tomate, con Quinua Graneada",
-      "Tortilla de Huevo con Pimiento y Queso Fresco, Palta y Naranja",
-      "Filete de Bonito al Horno con Zucchini Salteado, Tomate Cherry y Quinua Graneada",
-      "Panqueques de Quinua y Plátano con Queso Fresco y Fresas",
-      "Pechuga de Pollo en Salsa de Palta con Brócoli al Vapor y Arroz Integral",
-      "Huevos Revueltos con Tomate y Queso Fresco, acompañado de Plátano",
-      "Arroz con Pollo Saludable y Ensalada de Palta y Tomate"
-    ]
-  },
-  {
-    "semana": "Lunes 20/04 al Domingo 26/04/2026",
     "fecha_generacion": "2026-04-19T16:34:07.769551",
     "platos_usados": [
       "Huevos Revueltos con Zucchini, Queso Fresco y Aceitunas",
@@ -155,6 +135,25 @@
       "Frijoles canarios guisados con cerdo y arroz integral",
       "Avena cocida con manzana rallada y canela",
       "Hígado saltado con camote horneado"
+    ]
+  },
+  {
+    "semana": "Lunes 18/05 al Domingo 24/05/2026",
+    "fecha_generacion": "2026-05-16T13:16:21.361668",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Papaya",
+      "Lentejas Guisadas con Verduras y Arroz Integral",
+      "Avena Cocida con Pera Rallada y Canela",
+      "Pollo a la Jardinera con Arroz Blanco",
+      "Queso Fresco con Palta y Naranja en Rodajas",
+      "Guiso de Caballa con Yuca Sancochada y Ensalada de Coliflor",
+      "Tortilla de Huevo con Zucchini y Fresas",
+      "Seco de Res con Pallares y Arroz Blanco",
+      "Huevo Duro con Pepino y Granadilla",
+      "Yogur Natural (sin azúcar) con Granola Casera de Avena y Aguaymanto",
+      "Frijoles Canarios Guisados con Huevo Duro y Ensalada Fresca",
+      "Huevo Frito con Camote Sancochado y Palta",
+      "Adobo de Cerdo Arequipeño con Arroz Blanco"
     ]
   }
 ]
