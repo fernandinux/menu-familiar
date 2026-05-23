@@ -1,25 +1,5 @@
 [
   {
-    "semana": "Lunes 20/04 al Domingo 26/04/2026",
-    "fecha_generacion": "2026-04-19T16:34:07.769551",
-    "platos_usados": [
-      "Huevos Revueltos con Zucchini, Queso Fresco y Aceitunas",
-      "Bofe Saltado con Arroz Blanco y Ensalada Fresca",
-      "Avena Cocida con Plátano, Nueces y Canela",
-      "Pollo al Horno con Camote Rostizado y Brócoli al Vapor",
-      "Tortilla de Huevo con Pimiento, Queso Fresco y Aceitunas",
-      "Patita con Maní con Arroz Blanco y Ensalada de Col",
-      "Quinua Cocida con Leche Fresca, Manzana Rallada, Nueces y Canela",
-      "Mondonguito a la Italiana con Arroz Blanco y Ensalada de Palta",
-      "Pejerrey Frito con Ensalada Criolla Ligera",
-      "Lentejas Guisadas con Zanahoria, Zucchini, Huevo Duro y Arroz Blanco, Ensalada de Espinaca Baby",
-      "Pan Integral Tostado con Palta, Huevo Duro y Aceitunas",
-      "Seco de Res con Frijoles Canarios y Arroz Blanco, Ensalada de Betarraga",
-      "Huevos Duros con Camote Sancochado y Palta",
-      "Pollo a la Naranja con Puré de Camote y Ensalada de Pepino y Tomate"
-    ]
-  },
-  {
     "semana": "Lunes 27/04 al Domingo 03/05/2026",
     "fecha_generacion": "2026-04-25T12:58:54.456092",
     "platos_usados": [
@@ -154,6 +134,25 @@
       "Frijoles Canarios Guisados con Huevo Duro y Ensalada Fresca",
       "Huevo Frito con Camote Sancochado y Palta",
       "Adobo de Cerdo Arequipeño con Arroz Blanco"
+    ]
+  },
+  {
+    "semana": "Lunes 25/05 al Domingo 31/05/2026",
+    "fecha_generacion": "2026-05-23T13:19:11.951885",
+    "platos_usados": [
+      "Huevo Revuelto con Tomate y Pimiento",
+      "Ají de Gallina Saludable con Quinua Graneada",
+      "Avena Cocida con Naranja y Canela",
+      "Estofado de Res con Vainitas, Zanahoria y Arvejas",
+      "Queso Fresco con Palta y Granadilla",
+      "Choros a la Chalaca con Yuca Sancochada",
+      "Huevo Duro con Pepino y Fresas",
+      "Guiso de Pallares Verdes con Brócoli y Pimiento",
+      "Tortilla de Espinaca y Queso Fresco con Papaya",
+      "Huevo Frito con Camote Sancochado y Manzana Rallada",
+      "Chuleta de Cerdo a la Plancha con Ensalada Arcoíris y Camote Glaseado",
+      "Avena Cocida con Plátano y Canela",
+      "Tortilla Española con Zucchini y Pimiento"
     ]
   }
 ]
