@@ -1,26 +1,6 @@
 [
   {
     "semana": "Lunes 27/04 al Domingo 03/05/2026",
-    "fecha_generacion": "2026-04-25T12:58:54.456092",
-    "platos_usados": [
-      "Huevos Pochados con Espinaca Salteada y Rodajas de Camote al vapor",
-      "Guiso de Pollo con Zucchini, Pimientos de Colores y Arvejas, con Quinua Graneada",
-      "Batido de Yogur Natural, Plátano y Espinaca con Queso Fresco",
-      "Bonito al Horno con Costra de Hierbas, Brócoli al Vapor y Puré de Coliflor",
-      "Muffins Salados de Huevo y Verduras con Mango",
-      "Frijoles Canarios Guisados con Pescado (Jurel o Caballa), Arroz Integral y Ensalada de Pepino y Tomate",
-      "Pan Integral Tostado con Queso Fresco, Tomate y Huevo Duro, con Mandarina",
-      "Bistec de Res a la Plancha con Zucchini y Berenjena Salteados, y Puré de Papa Moderado",
-      "Avena Cocida con Pera y Canela, acompañada de Huevo Pasado",
-      "Pescado al Vapor con Salsa de Pimientos Asados, Quinua Graneada y Ensalada de Espinaca y Palta",
-      "Yogur Natural con Granola Casera y Manzana",
-      "Pallares Guisados con Cerdo Magro, Arroz Blanco y Ensalada de Betarraga con Zanahoria",
-      "Tortilla de Huevo con Queso Fresco y Pimiento, con Papaya",
-      "Ají de Gallina Saludable con Arroz y Papa Sancochada (para 4 personas)"
-    ]
-  },
-  {
-    "semana": "Lunes 27/04 al Domingo 03/05/2026",
     "fecha_generacion": "2026-04-26T15:53:41.349950",
     "platos_usados": [
       "Omelette de Espinaca y Queso Fresco con Palta y Tomate Cherry",
@@ -153,6 +133,25 @@
       "Chuleta de Cerdo a la Plancha con Ensalada Arcoíris y Camote Glaseado",
       "Avena Cocida con Plátano y Canela",
       "Tortilla Española con Zucchini y Pimiento"
+    ]
+  },
+  {
+    "semana": "Lunes 01/06 al Domingo 07/06/2026",
+    "fecha_generacion": "2026-05-30T13:23:28.637525",
+    "platos_usados": [
+      "Huevo duro con papaya y pan integral tostado",
+      "Garbanzos Guisados con Acelga y Huevo Duro",
+      "Queso fresco con pera y avena cocida",
+      "Saltado de Pollo con Brócoli y Pimientos",
+      "Huevo frito con mandarina y pan integral tostado",
+      "Cau Cau de Mondongo",
+      "Huevo duro con mango y avena cocida",
+      "Picadillo de Res con Vainitas, Zanahoria y Brócoli",
+      "Tortilla de huevo con espinaca y naranja",
+      "Huevo revuelto con palta y fresas",
+      "Seco de Cerdo con Yuca Sancochada y Ensalada de Coliflor y Zanahoria",
+      "Tortilla de huevo con champiñones y granadilla",
+      "Atún a la Jardinera con Arroz"
     ]
   }
 ]
