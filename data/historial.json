@@ -1,26 +1,6 @@
 [
   {
     "semana": "Lunes 27/04 al Domingo 03/05/2026",
-    "fecha_generacion": "2026-04-26T15:53:41.349950",
-    "platos_usados": [
-      "Omelette de Espinaca y Queso Fresco con Palta y Tomate Cherry",
-      "Pollo Saltado con Brócoli, Pimientos de Colores y Zucchini, con Quinua Graneada",
-      "Avena Cocida con Plátano, Fresas y Semillas de Chía",
-      "Bonito a la Plancha con Ensalada Fresca de Vainitas, Zanahoria y Pepino, con Papa Sancochada",
-      "Yogur Natural sin Azúcar con Papaya, Pecanas y Canela",
-      "Lentejas Guisadas con Zapallo, Espinaca y Zanahoria, con Arroz Integral y Huevo Duro",
-      "Tostadas de Pan Integral con Queso Fresco, Palta y Rodajas de Tomate",
-      "Estofado de Res con Arvejas, Zanahoria, Pimiento Rojo y Champiñones, con Puré de Papa",
-      "Huevos Revueltos con Pimiento Rojo y Cebolla, acompañados de Plátano",
-      "Jurel al Horno con Vegetales Rostizados (Brócoli, Coliflor, Zanahoria) y Camote en Bastones",
-      "Panqueques de Avena y Espinaca con Queso Fresco y Fresas",
-      "Ají de Gallina Saludable (sin pan), con Arroz Blanco y Garbanzos Guisados",
-      "Batido de Frutas con Yogur Natural, Espinaca y Semillas de Lino",
-      "Tallarines Verdes con Pollo a la Plancha y Ensalada Fresca de Pepino y Tomate Cherry"
-    ]
-  },
-  {
-    "semana": "Lunes 27/04 al Domingo 03/05/2026",
     "fecha_generacion": "2026-04-26T16:08:47.198715",
     "platos_usados": [
       "Revuelto de Huevo con Espinaca y Tomate, Palta y Camote Sancochado",
@@ -152,6 +132,25 @@
       "Seco de Cerdo con Yuca Sancochada y Ensalada de Coliflor y Zanahoria",
       "Tortilla de huevo con champiñones y granadilla",
       "Atún a la Jardinera con Arroz"
+    ]
+  },
+  {
+    "semana": "Lunes 08/06 al Domingo 14/06/2026",
+    "fecha_generacion": "2026-06-06T13:25:59.083587",
+    "platos_usados": [
+      "Huevo revuelto con papaya y pan integral tostado",
+      "Chanfainita con arroz integral y ensalada fresca",
+      "Avena cocida con pera rallada y queso fresco",
+      "Pejerrey a la chorrillana con yuca sancochada y ensalada de brócoli",
+      "Tortilla de huevo con espinaca y naranja",
+      "Guiso de arvejas con zanahoria, pimiento y huevo duro",
+      "Huevo duro con palta y fresas",
+      "Patita con maní y ensalada de coliflor y zanahoria",
+      "Huevo frito con granadilla y pan integral tostado",
+      "Yogur natural con granola casera de avena y aguaymanto",
+      "Guiso de sardinas con papa, arvejas y ensalada de pepino",
+      "Huevo revuelto con palta y mango en cubos",
+      "Tortilla grande de espinaca, pimiento y tomate con ensalada fresca"
     ]
   }
 ]
