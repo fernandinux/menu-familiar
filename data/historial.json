@@ -1,25 +1,5 @@
 [
   {
-    "semana": "Lunes 27/04 al Domingo 03/05/2026",
-    "fecha_generacion": "2026-04-26T16:33:56.768887",
-    "platos_usados": [
-      "Huevos Revueltos con Zucchini, Tomate y Palta",
-      "Guiso de Pollo con Vainitas, Zanahoria y Arvejas, con Arroz Integral",
-      "Yogur Natural con Mango, Semillas de Chía y Huevo Duro",
-      "Jurel a la Plancha con Ensalada Fresca y Papa Sancochada",
-      "Avena Cocida con Manzana Rallada, Canela y Queso Fresco",
-      "Guiso de Garbanzos con Pollo, Espinaca y Pimiento Rojo, con Arroz Blanco",
-      "Pan Integral con Palta, Huevo Duro y Naranja",
-      "Cerdo en Salsa de Pimientos Asados con Zucchini Salteado y Quinua Graneada",
-      "Batido de Yogur, Fresas, Plátano, Avena y Queso Fresco",
-      "Bonito al Vapor con Salsa de Tomate y Brócoli, con Yuca Sancochada",
-      "Frittata de Espinaca, Queso Fresco y Tomate, con Mango",
-      "Lomo Saltado Saludable con Papas Nativas al Horno y Arroz Blanco",
-      "Huevos Revueltos con Champiñones y Queso Fresco",
-      "Seco de Pollo con Zapallo y Arvejas, con Quinua Graneada"
-    ]
-  },
-  {
     "semana": "Lunes 04/05 al Domingo 10/05/2026",
     "fecha_generacion": "2026-05-02T13:05:06.189465",
     "platos_usados": [
@@ -150,6 +130,25 @@
       "Enrollado de Cerdo Relleno con Espinaca y Zucchini, acompañado de Choclo",
       "Huevo Duro con Tomate, Pepino y Mango",
       "Hígado Encebollado con Arroz y Ensalada Fresca"
+    ]
+  },
+  {
+    "semana": "Lunes 22/06 al Domingo 28/06/2026",
+    "fecha_generacion": "2026-06-20T13:55:59.253960",
+    "platos_usados": [
+      "Huevo Frito con Papaya y Palta",
+      "Pollo a la Olla con Vainitas, Zanahoria y Arvejas, Arroz Blanco",
+      "Avena Cocida con Pera Rallada y Canela",
+      "Jurel a la Plancha con Puré de Zapallo y Ensalada de Pepino y Betarraga",
+      "Queso Fresco con Palta y Mandarina",
+      "Seco de Res con Frijoles Canarios y Arroz Integral",
+      "Huevo Duro con Palta y Mango en Cubos",
+      "Adobo de Cerdo con Yuca Sancochada y Ensalada de Coliflor y Brócoli",
+      "Tortilla de Huevo con Espinaca y Fresa",
+      "Huevo Revuelto con Espinaca y Granadilla",
+      "Hígado Frito Encebollado con Arroz y Ensalada de Pepino y Tomate",
+      "Tortilla de Huevo con Champiñones y Naranja",
+      "Torrejas de Garbanzos con Ensalada Fresca (para 4 personas)"
     ]
   }
 ]
