@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 04/05 al Domingo 10/05/2026",
-    "fecha_generacion": "2026-05-02T13:05:06.189465",
-    "platos_usados": [
-      "Huevo frito con papaya y pan integral tostado",
-      "Hígado encebollado con vainitas salteadas y arroz integral",
-      "Avena cocida con mandarina y canela",
-      "Chanfainita con ensalada fresca de pepino y tomate",
-      "Queso fresco con pera y pan integral tostado",
-      "Patita con maní acompañada de yuca sancochada y ensalada de betarraga y coliflor",
-      "Huevo revuelto con espinaca y fresas",
-      "Guiso de arvejas con huevo duro y zanahoria, acompañado de quinua graneada",
-      "Tortilla de huevo con tomate y naranja",
-      "Yogur natural con granola casera de avena y aguaymanto",
-      "Pejerrey arrebozado con puré de zapallo y ensalada de brócoli y zanahoria",
-      "Avena cocida con plátano en rodajas y canela",
-      "Salpicón de atún con papa, vainitas y zanahoria"
-    ]
-  },
-  {
     "semana": "Lunes 11/05 al Domingo 17/05/2026",
     "fecha_generacion": "2026-05-09T13:11:43.926762",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Hígado Frito Encebollado con Arroz y Ensalada de Pepino y Tomate",
       "Tortilla de Huevo con Champiñones y Naranja",
       "Torrejas de Garbanzos con Ensalada Fresca (para 4 personas)"
+    ]
+  },
+  {
+    "semana": "Lunes 29/06 al Domingo 05/07/2026",
+    "fecha_generacion": "2026-06-27T13:26:30.798339",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Tomate + Pera",
+      "Lentejas Guisadas con Espinaca y Zanahoria, Arroz y Huevo Frito",
+      "Avena Cocida con Manzana Rallada y Canela",
+      "Pollo al Sillao con Brócoli, Pimiento Rojo y Arroz",
+      "Tortilla de Huevo con Zucchini y Tomate + Naranja",
+      "Estofado de Res con Vainitas, Arvejas y Yuca Sancochada",
+      "Huevo Frito con Palta y Fresas",
+      "Caballa Sudada con Yuca, Tomate, Cebolla y Pimiento Amarillo",
+      "Queso Fresco con Palta y Granadilla",
+      "Yogur Natural sin Azúcar con Granola Casera de Avena y Aguaymanto",
+      "Chuleta de Cerdo a la Plancha con Ensalada Arcoíris y Choclo",
+      "Huevo Duro con Tomate, Pepino y Plátano",
+      "Hígado Frito Encebollado con Puré de Zapallo y Ensalada de Betarraga"
     ]
   }
 ]
