@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 11/05 al Domingo 17/05/2026",
-    "fecha_generacion": "2026-05-09T13:11:43.926762",
-    "platos_usados": [
-      "Huevo frito con palta y pan integral tostado",
-      "Pollo en salsa de maní con brócoli y pimientos",
-      "Queso fresco con palta y pan integral tostado",
-      "Lentejas con verduras y huevo frito",
-      "Yogur natural con granola casera de avena y fresas",
-      "Seco de Res con Frijoles Canarios y arroz",
-      "Huevo revuelto con espinaca y palta",
-      "Bonito encebollado con yuca sancochada y ensalada criolla",
-      "Huevo duro con tomate, pepino y pan integral tostado",
-      "Tortilla de huevo con zucchini y tomate",
-      "Frijoles canarios guisados con cerdo y arroz integral",
-      "Avena cocida con manzana rallada y canela",
-      "Hígado saltado con camote horneado"
-    ]
-  },
-  {
     "semana": "Lunes 18/05 al Domingo 24/05/2026",
     "fecha_generacion": "2026-05-16T13:16:21.361668",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Chuleta de Cerdo a la Plancha con Ensalada Arcoíris y Choclo",
       "Huevo Duro con Tomate, Pepino y Plátano",
       "Hígado Frito Encebollado con Puré de Zapallo y Ensalada de Betarraga"
+    ]
+  },
+  {
+    "semana": "Lunes 06/07 al Domingo 12/07/2026",
+    "fecha_generacion": "2026-07-04T13:18:01.330078",
+    "platos_usados": [
+      "Huevo frito con palta y plátano",
+      "Pollo Saltado con Arroz y Ensalada Criolla Saludable",
+      "Avena cocida con naranja en trozos y canela",
+      "Estofado de Lentejas con Arroz y Ensalada Fresca",
+      "Queso fresco con palta y pera",
+      "Bonito al Vapor con Vegetales y Choclo",
+      "Huevo revuelto con espinaca y mango",
+      "Ají de Carne Deshilachada con Arroz Integral",
+      "Yogur natural (sin azúcar) con granola casera de avena y fresa",
+      "Tortilla de huevo con tomate y pepino + aguaymanto",
+      "Saltado de Hígado con Arroz, Cebolla y Tomate",
+      "Huevo duro con palta y mandarina",
+      "Frijoles Canarios con Aderezo Criollo y Arroz"
     ]
   }
 ]
