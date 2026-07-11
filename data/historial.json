@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 18/05 al Domingo 24/05/2026",
-    "fecha_generacion": "2026-05-16T13:16:21.361668",
-    "platos_usados": [
-      "Huevo Revuelto con Espinaca y Papaya",
-      "Lentejas Guisadas con Verduras y Arroz Integral",
-      "Avena Cocida con Pera Rallada y Canela",
-      "Pollo a la Jardinera con Arroz Blanco",
-      "Queso Fresco con Palta y Naranja en Rodajas",
-      "Guiso de Caballa con Yuca Sancochada y Ensalada de Coliflor",
-      "Tortilla de Huevo con Zucchini y Fresas",
-      "Seco de Res con Pallares y Arroz Blanco",
-      "Huevo Duro con Pepino y Granadilla",
-      "Yogur Natural (sin azúcar) con Granola Casera de Avena y Aguaymanto",
-      "Frijoles Canarios Guisados con Huevo Duro y Ensalada Fresca",
-      "Huevo Frito con Camote Sancochado y Palta",
-      "Adobo de Cerdo Arequipeño con Arroz Blanco"
-    ]
-  },
-  {
     "semana": "Lunes 25/05 al Domingo 31/05/2026",
     "fecha_generacion": "2026-05-23T13:19:11.951885",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Saltado de Hígado con Arroz, Cebolla y Tomate",
       "Huevo duro con palta y mandarina",
       "Frijoles Canarios con Aderezo Criollo y Arroz"
+    ]
+  },
+  {
+    "semana": "Lunes 13/07 al Domingo 19/07/2026",
+    "fecha_generacion": "2026-07-11T13:11:30.450497",
+    "platos_usados": [
+      "Huevo Frito con Palta y Papaya en Cubos",
+      "Pollo Guisado con Brócoli y Zanahoria, Arroz Integral y Choclo",
+      "Avena Cocida con Mango en Cubos y Canela",
+      "Lentejas Guisadas con Zapallo y Espinaca, Arroz Integral",
+      "Yogur Natural con Granola Casera de Avena y Fresa",
+      "Bonito al Horno con Brócoli y Pimiento Rojo, Papas Nativas",
+      "Huevo Duro con Palta y Pepino, acompañado de Pera en Trozos",
+      "Guiso de Res con Vainitas, Arvejas y Zanahoria, Arroz Integral",
+      "Tortilla de Huevo con Espinaca y Tomate, acompañado de Granadilla",
+      "Queso Fresco con Palta y Rodajas de Plátano",
+      "Seco de Cerdo con Frijoles Canarios y Ensalada de Coliflor y Pimiento Amarillo, Arroz Blanco",
+      "Huevo Revuelto con Espinaca, acompañado de Manzana en Gajos",
+      "Garbanzos Guisados con Acelga y Arroz Integral"
     ]
   }
 ]
