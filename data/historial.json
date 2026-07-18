@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 25/05 al Domingo 31/05/2026",
-    "fecha_generacion": "2026-05-23T13:19:11.951885",
-    "platos_usados": [
-      "Huevo Revuelto con Tomate y Pimiento",
-      "Ají de Gallina Saludable con Quinua Graneada",
-      "Avena Cocida con Naranja y Canela",
-      "Estofado de Res con Vainitas, Zanahoria y Arvejas",
-      "Queso Fresco con Palta y Granadilla",
-      "Choros a la Chalaca con Yuca Sancochada",
-      "Huevo Duro con Pepino y Fresas",
-      "Guiso de Pallares Verdes con Brócoli y Pimiento",
-      "Tortilla de Espinaca y Queso Fresco con Papaya",
-      "Huevo Frito con Camote Sancochado y Manzana Rallada",
-      "Chuleta de Cerdo a la Plancha con Ensalada Arcoíris y Camote Glaseado",
-      "Avena Cocida con Plátano y Canela",
-      "Tortilla Española con Zucchini y Pimiento"
-    ]
-  },
-  {
     "semana": "Lunes 01/06 al Domingo 07/06/2026",
     "fecha_generacion": "2026-05-30T13:23:28.637525",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Seco de Cerdo con Frijoles Canarios y Ensalada de Coliflor y Pimiento Amarillo, Arroz Blanco",
       "Huevo Revuelto con Espinaca, acompañado de Manzana en Gajos",
       "Garbanzos Guisados con Acelga y Arroz Integral"
+    ]
+  },
+  {
+    "semana": "Lunes 20/07 al Domingo 26/07/2026",
+    "fecha_generacion": "2026-07-18T13:06:51.692810",
+    "platos_usados": [
+      "Huevo Frito con Pera y Pan Integral Tostado",
+      "Pejerrey Frito con Ensalada Arcoíris y Yuca Sancochada",
+      "Avena Cocida con Fresas y Canela",
+      "Guiso de Arvejas con Huevo Frito y Arroz Integral",
+      "Tortilla de Huevo con Espinaca y Pimiento, Naranja en Gajos",
+      "Chanfainita de Bofe Saludable con Arroz y Salsa Criolla",
+      "Huevo Revuelto con Zucchini y Papaya en Cubos",
+      "Pallares Guisados con Pollo a la Plancha y Arroz Blanco",
+      "Queso Fresco con Palta y Granadilla",
+      "Yogur Natural con Granola Casera de Avena y Aguaymanto",
+      "Choros a la Chalaca con Choclo y Pimiento Amarillo",
+      "Huevo Revuelto con Palta y Chirimoya en Trozos",
+      "Tortilla de Huevo con Verduras Mixtas y Ensalada Fresca"
     ]
   }
 ]
