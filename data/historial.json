@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 01/06 al Domingo 07/06/2026",
-    "fecha_generacion": "2026-05-30T13:23:28.637525",
-    "platos_usados": [
-      "Huevo duro con papaya y pan integral tostado",
-      "Garbanzos Guisados con Acelga y Huevo Duro",
-      "Queso fresco con pera y avena cocida",
-      "Saltado de Pollo con Brócoli y Pimientos",
-      "Huevo frito con mandarina y pan integral tostado",
-      "Cau Cau de Mondongo",
-      "Huevo duro con mango y avena cocida",
-      "Picadillo de Res con Vainitas, Zanahoria y Brócoli",
-      "Tortilla de huevo con espinaca y naranja",
-      "Huevo revuelto con palta y fresas",
-      "Seco de Cerdo con Yuca Sancochada y Ensalada de Coliflor y Zanahoria",
-      "Tortilla de huevo con champiñones y granadilla",
-      "Atún a la Jardinera con Arroz"
-    ]
-  },
-  {
     "semana": "Lunes 08/06 al Domingo 14/06/2026",
     "fecha_generacion": "2026-06-06T13:25:59.083587",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Choros a la Chalaca con Choclo y Pimiento Amarillo",
       "Huevo Revuelto con Palta y Chirimoya en Trozos",
       "Tortilla de Huevo con Verduras Mixtas y Ensalada Fresca"
+    ]
+  },
+  {
+    "semana": "Lunes 27/07 al Domingo 02/08/2026",
+    "fecha_generacion": "2026-07-25T13:17:40.893665",
+    "platos_usados": [
+      "Huevo Duro con Palta y Pepino, acompañado de Naranja",
+      "Enrollado de Pollo Relleno con Espinaca y Queso Fresco, con Quinua Atamalada y Ensalada de Brócoli y Zanahoria",
+      "Queso Fresco con Palta y Manzana en Gajos",
+      "Guiso de Res con Zapallo, Vainitas y Choclo, acompañado de Arroz Integral",
+      "Avena Cocida con Canela y Papaya en Cubos",
+      "Garbanzos Guisados con Acelga y Pimiento, Huevo Frito y Arroz Blanco",
+      "Huevo Frito con Tomate, Pan Integral Tostado y Pera en Gajos",
+      "Adobo de Cerdo Estilo Arequipeño (adaptado), con Arroz Blanco y Ensalada Fresca",
+      "Tortilla de Huevo con Zucchini y Pimiento, acompañada de Fresas",
+      "Yogur Natural sin Azúcar con Granola Casera de Avena y Gajos de Mandarina",
+      "Lentejas Estofadas con Zapallo, Espinaca y Zanahoria, acompañado de Arroz Blanco",
+      "Huevo Frito con Palta y Granadilla",
+      "Hígado Encebollado con Yuca Sancochada y Ensalada de Betarraga"
     ]
   }
 ]
