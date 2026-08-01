@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 08/06 al Domingo 14/06/2026",
-    "fecha_generacion": "2026-06-06T13:25:59.083587",
-    "platos_usados": [
-      "Huevo revuelto con papaya y pan integral tostado",
-      "Chanfainita con arroz integral y ensalada fresca",
-      "Avena cocida con pera rallada y queso fresco",
-      "Pejerrey a la chorrillana con yuca sancochada y ensalada de brócoli",
-      "Tortilla de huevo con espinaca y naranja",
-      "Guiso de arvejas con zanahoria, pimiento y huevo duro",
-      "Huevo duro con palta y fresas",
-      "Patita con maní y ensalada de coliflor y zanahoria",
-      "Huevo frito con granadilla y pan integral tostado",
-      "Yogur natural con granola casera de avena y aguaymanto",
-      "Guiso de sardinas con papa, arvejas y ensalada de pepino",
-      "Huevo revuelto con palta y mango en cubos",
-      "Tortilla grande de espinaca, pimiento y tomate con ensalada fresca"
-    ]
-  },
-  {
     "semana": "Lunes 15/06 al Domingo 21/06/2026",
     "fecha_generacion": "2026-06-13T13:53:16.194580",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Lentejas Estofadas con Zapallo, Espinaca y Zanahoria, acompañado de Arroz Blanco",
       "Huevo Frito con Palta y Granadilla",
       "Hígado Encebollado con Yuca Sancochada y Ensalada de Betarraga"
+    ]
+  },
+  {
+    "semana": "Lunes 03/08 al Domingo 09/08/2026",
+    "fecha_generacion": "2026-08-01T13:12:47.329244",
+    "platos_usados": [
+      "Huevo duro con palta y papaya",
+      "Guiso de Garbanzos con Espinaca y Huevo Frito",
+      "Queso fresco con pera y avena cocida",
+      "Sudado de Jurel con Yuca Sancochada y Ensalada Fresca",
+      "Avena cocida con manzana y canela",
+      "Ají de Pollo Saludable con Arroz y Papa Amarilla",
+      "Huevo revuelto con zucchini y fresa",
+      "Seco de Res con Frijoles Canarios y Ensalada de Palta y Tomate",
+      "Huevo revuelto con palta y aguaymanto",
+      "Yogur natural con granola casera y granadilla",
+      "Carapulcra con Cerdo y Sopa Seca (fideos)",
+      "Huevo frito con palta y mango",
+      "Guiso de Lentejas con Huevo Frito y Ensalada Fresca"
     ]
   }
 ]
