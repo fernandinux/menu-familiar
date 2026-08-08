@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 15/06 al Domingo 21/06/2026",
-    "fecha_generacion": "2026-06-13T13:53:16.194580",
-    "platos_usados": [
-      "Huevo Frito con Palta y Naranja",
-      "Pollo al Horno con Orégano, Brócoli y Papas Nativas",
-      "Avena Cocida con Pera Rallada y Canela",
-      "Torrejas de Lentejas con Ensalada Arcoíris",
-      "Tortilla de Huevo con Espinaca, Tomate y Papaya",
-      "Bonito Sudado con Yuca y Vegetales",
-      "Huevo Revuelto con Champiñones y Fresa",
-      "Asado de Res con Puré de Zapallo y Ensalada de Betarraga y Coliflor",
-      "Queso Fresco con Palta y Aguaymanto",
-      "Yogur Natural con Granola Casera de Avena y Manzana",
-      "Enrollado de Cerdo Relleno con Espinaca y Zucchini, acompañado de Choclo",
-      "Huevo Duro con Tomate, Pepino y Mango",
-      "Hígado Encebollado con Arroz y Ensalada Fresca"
-    ]
-  },
-  {
     "semana": "Lunes 22/06 al Domingo 28/06/2026",
     "fecha_generacion": "2026-06-20T13:55:59.253960",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Carapulcra con Cerdo y Sopa Seca (fideos)",
       "Huevo frito con palta y mango",
       "Guiso de Lentejas con Huevo Frito y Ensalada Fresca"
+    ]
+  },
+  {
+    "semana": "Lunes 10/08 al Domingo 16/08/2026",
+    "fecha_generacion": "2026-08-08T12:40:21.896108",
+    "platos_usados": [
+      "Huevo Frito con Palta y Pera",
+      "Frijoles Canarios Guisados con Arroz Integral y Ensalada de Colores",
+      "Avena Cocida con Mango en Trozos y Canela",
+      "Caballa Sudada con Yuca Sancochada y Ensalada de Palta, Tomate y Brócoli",
+      "Queso Fresco con Aguaymanto y Pan Integral Tostado",
+      "Estofado de Pollo con Brócoli, Zanahoria y Vainitas, acompañado de Arroz Integral y Ensalada",
+      "Huevo Revuelto con Espinaca y Fresas",
+      "Lomo Saltado (adaptado) con Arroz Integral y Ensalada de Lechuga y Pepino",
+      "Tortilla de Huevo con Tomate y Naranja",
+      "Yogur Natural con Granola Casera de Avena y Granadilla",
+      "Costillas de Cerdo Guisadas con Vainitas y Zanahoria, con Arroz Integral y Ensalada de Coliflor y Brócoli",
+      "Huevo Duro con Palta y Pepino, acompañado de Mandarina",
+      "Hígado en Salsa Verde con Puré de Coliflor y Zanahoria Rallada"
     ]
   }
 ]
