@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 22/06 al Domingo 28/06/2026",
-    "fecha_generacion": "2026-06-20T13:55:59.253960",
-    "platos_usados": [
-      "Huevo Frito con Papaya y Palta",
-      "Pollo a la Olla con Vainitas, Zanahoria y Arvejas, Arroz Blanco",
-      "Avena Cocida con Pera Rallada y Canela",
-      "Jurel a la Plancha con Puré de Zapallo y Ensalada de Pepino y Betarraga",
-      "Queso Fresco con Palta y Mandarina",
-      "Seco de Res con Frijoles Canarios y Arroz Integral",
-      "Huevo Duro con Palta y Mango en Cubos",
-      "Adobo de Cerdo con Yuca Sancochada y Ensalada de Coliflor y Brócoli",
-      "Tortilla de Huevo con Espinaca y Fresa",
-      "Huevo Revuelto con Espinaca y Granadilla",
-      "Hígado Frito Encebollado con Arroz y Ensalada de Pepino y Tomate",
-      "Tortilla de Huevo con Champiñones y Naranja",
-      "Torrejas de Garbanzos con Ensalada Fresca (para 4 personas)"
-    ]
-  },
-  {
     "semana": "Lunes 29/06 al Domingo 05/07/2026",
     "fecha_generacion": "2026-06-27T13:26:30.798339",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Costillas de Cerdo Guisadas con Vainitas y Zanahoria, con Arroz Integral y Ensalada de Coliflor y Brócoli",
       "Huevo Duro con Palta y Pepino, acompañado de Mandarina",
       "Hígado en Salsa Verde con Puré de Coliflor y Zanahoria Rallada"
+    ]
+  },
+  {
+    "semana": "Lunes 17/08 al Domingo 23/08/2026",
+    "fecha_generacion": "2026-08-15T12:30:41.510929",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Papaya",
+      "Pollo al Orégano con Yuca Sancochada",
+      "Avena Cocida con Pera y Canela",
+      "Frijol Castilla Estofado con Arroz Blanco",
+      "Queso Fresco con Palta y Mandarina",
+      "Estofado de Res con Zucchini y Verduras",
+      "Tortilla de Huevo con Pimiento y Fresas",
+      "Bonito Sudado con Yuca Sancochada",
+      "Huevo Duro con Palta y Naranja",
+      "Yogur Natural con Granola Casera y Granadilla",
+      "Seco de Cerdo con Zapallo y Coliflor",
+      "Huevo Revuelto con Zucchini y Manzana",
+      "Patita con Maní"
     ]
   }
 ]
