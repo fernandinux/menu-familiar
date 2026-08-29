@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 06/07 al Domingo 12/07/2026",
-    "fecha_generacion": "2026-07-04T13:18:01.330078",
-    "platos_usados": [
-      "Huevo frito con palta y plátano",
-      "Pollo Saltado con Arroz y Ensalada Criolla Saludable",
-      "Avena cocida con naranja en trozos y canela",
-      "Estofado de Lentejas con Arroz y Ensalada Fresca",
-      "Queso fresco con palta y pera",
-      "Bonito al Vapor con Vegetales y Choclo",
-      "Huevo revuelto con espinaca y mango",
-      "Ají de Carne Deshilachada con Arroz Integral",
-      "Yogur natural (sin azúcar) con granola casera de avena y fresa",
-      "Tortilla de huevo con tomate y pepino + aguaymanto",
-      "Saltado de Hígado con Arroz, Cebolla y Tomate",
-      "Huevo duro con palta y mandarina",
-      "Frijoles Canarios con Aderezo Criollo y Arroz"
-    ]
-  },
-  {
     "semana": "Lunes 13/07 al Domingo 19/07/2026",
     "fecha_generacion": "2026-07-11T13:11:30.450497",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Hígado Frito con Ensalada de Palta, Tomate y Pepino",
       "Yogur Natural con Avena Cocida y Aguaymantos",
       "Cerdo al Horno con Camote Glaseado y Ensalada de Coliflor"
+    ]
+  },
+  {
+    "semana": "Lunes 31/08 al Domingo 06/09/2026",
+    "fecha_generacion": "2026-08-29T16:09:51.763814",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Pera",
+      "Guiso de Arvejas con Pollo y Arroz Integral",
+      "Queso Fresco con Pan Integral Tostado y Mandarina",
+      "Bonito en Escabeche con Yuca Sancochada y Ensalada Mixta",
+      "Palta Entera con Pan Integral Tostado y Gajos de Naranja",
+      "Pollo Saltado con Verduras y Arroz Integral",
+      "Tortilla de Huevo con Espinaca y Papaya",
+      "Bofe Saltado con Arroz Integral y Ensalada de Palta y Tomate",
+      "Huevo Duro con Palta y Granadilla",
+      "Yogur Natural con Granola Casera de Avena y Fresas",
+      "Choritos a la Chalaca con Yuca Sancochada",
+      "Queso Fresco con Plátano en Rodajas y Pan Integral Tostado",
+      "Frijoles Negros Estofados con Arroz y Huevo Frito"
     ]
   }
 ]
