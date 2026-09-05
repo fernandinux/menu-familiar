@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 13/07 al Domingo 19/07/2026",
-    "fecha_generacion": "2026-07-11T13:11:30.450497",
-    "platos_usados": [
-      "Huevo Frito con Palta y Papaya en Cubos",
-      "Pollo Guisado con Brócoli y Zanahoria, Arroz Integral y Choclo",
-      "Avena Cocida con Mango en Cubos y Canela",
-      "Lentejas Guisadas con Zapallo y Espinaca, Arroz Integral",
-      "Yogur Natural con Granola Casera de Avena y Fresa",
-      "Bonito al Horno con Brócoli y Pimiento Rojo, Papas Nativas",
-      "Huevo Duro con Palta y Pepino, acompañado de Pera en Trozos",
-      "Guiso de Res con Vainitas, Arvejas y Zanahoria, Arroz Integral",
-      "Tortilla de Huevo con Espinaca y Tomate, acompañado de Granadilla",
-      "Queso Fresco con Palta y Rodajas de Plátano",
-      "Seco de Cerdo con Frijoles Canarios y Ensalada de Coliflor y Pimiento Amarillo, Arroz Blanco",
-      "Huevo Revuelto con Espinaca, acompañado de Manzana en Gajos",
-      "Garbanzos Guisados con Acelga y Arroz Integral"
-    ]
-  },
-  {
     "semana": "Lunes 20/07 al Domingo 26/07/2026",
     "fecha_generacion": "2026-07-18T13:06:51.692810",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Choritos a la Chalaca con Yuca Sancochada",
       "Queso Fresco con Plátano en Rodajas y Pan Integral Tostado",
       "Frijoles Negros Estofados con Arroz y Huevo Frito"
+    ]
+  },
+  {
+    "semana": "Lunes 07/09 al Domingo 13/09/2026",
+    "fecha_generacion": "2026-09-05T14:31:53.130233",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Naranja",
+      "Lentejas Guisadas con Arroz Integral y Huevo Frito",
+      "Avena Cocida con Manzana Rallada y Canela",
+      "Jurel a la Plancha con Puré de Coliflor y Ensalada de Pimientos de Colores",
+      "Queso Fresco con Pera y Pan Integral Tostado",
+      "Ají de Gallina Saludable con Arroz Integral y Ensalada Fresca",
+      "Huevo Duro con Palta y Fresas",
+      "Cau Cau de Mondongo con Arroz Integral",
+      "Tortilla de Huevo con Tomate y Zanahoria + Plátano",
+      "Huevo Frito con Palta y Granadilla",
+      "Adobo de Cerdo con Camote Sancochado y Ensalada de Coliflor y Brócoli",
+      "Tortilla de Huevo con Espinaca y Aguaymanto",
+      "Garbanzos Guisados con Arroz Integral y Huevo Frito (4 personas)"
     ]
   }
 ]
