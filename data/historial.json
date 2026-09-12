@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 20/07 al Domingo 26/07/2026",
-    "fecha_generacion": "2026-07-18T13:06:51.692810",
-    "platos_usados": [
-      "Huevo Frito con Pera y Pan Integral Tostado",
-      "Pejerrey Frito con Ensalada Arcoíris y Yuca Sancochada",
-      "Avena Cocida con Fresas y Canela",
-      "Guiso de Arvejas con Huevo Frito y Arroz Integral",
-      "Tortilla de Huevo con Espinaca y Pimiento, Naranja en Gajos",
-      "Chanfainita de Bofe Saludable con Arroz y Salsa Criolla",
-      "Huevo Revuelto con Zucchini y Papaya en Cubos",
-      "Pallares Guisados con Pollo a la Plancha y Arroz Blanco",
-      "Queso Fresco con Palta y Granadilla",
-      "Yogur Natural con Granola Casera de Avena y Aguaymanto",
-      "Choros a la Chalaca con Choclo y Pimiento Amarillo",
-      "Huevo Revuelto con Palta y Chirimoya en Trozos",
-      "Tortilla de Huevo con Verduras Mixtas y Ensalada Fresca"
-    ]
-  },
-  {
     "semana": "Lunes 27/07 al Domingo 02/08/2026",
     "fecha_generacion": "2026-07-25T13:17:40.893665",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Adobo de Cerdo con Camote Sancochado y Ensalada de Coliflor y Brócoli",
       "Tortilla de Huevo con Espinaca y Aguaymanto",
       "Garbanzos Guisados con Arroz Integral y Huevo Frito (4 personas)"
+    ]
+  },
+  {
+    "semana": "Lunes 14/09 al Domingo 20/09/2026",
+    "fecha_generacion": "2026-09-12T14:56:50.615757",
+    "platos_usados": [
+      "Huevo Frito con Palta y Pera",
+      "Caballa a la Jardinera con Arroz Integral",
+      "Avena Cocida con Manzana Rallada y Canela",
+      "Ensalada Rusa con Atún y Huevo Duro",
+      "Palta Entera con Pan Integral y Mango en Gajos",
+      "Guiso de Sardinas con Espinaca y Arvejas, con Quinua",
+      "Huevo Duro con Tomate, Pepino y Fresas",
+      "Lenguado a la Plancha con Puré de Zapallo y Ensalada Fresca",
+      "Queso Fresco con Aguaymanto y Pan Integral Tostado",
+      "Huevo Revuelto con Zucchini y Papaya",
+      "Corvina al Vapor con Vegetales y Arroz Integral",
+      "Yogur Natural con Avena Cocida y Naranja",
+      "Tortilla Grande de Verduras con Camote Sancochado"
     ]
   }
 ]
