@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 27/07 al Domingo 02/08/2026",
-    "fecha_generacion": "2026-07-25T13:17:40.893665",
-    "platos_usados": [
-      "Huevo Duro con Palta y Pepino, acompañado de Naranja",
-      "Enrollado de Pollo Relleno con Espinaca y Queso Fresco, con Quinua Atamalada y Ensalada de Brócoli y Zanahoria",
-      "Queso Fresco con Palta y Manzana en Gajos",
-      "Guiso de Res con Zapallo, Vainitas y Choclo, acompañado de Arroz Integral",
-      "Avena Cocida con Canela y Papaya en Cubos",
-      "Garbanzos Guisados con Acelga y Pimiento, Huevo Frito y Arroz Blanco",
-      "Huevo Frito con Tomate, Pan Integral Tostado y Pera en Gajos",
-      "Adobo de Cerdo Estilo Arequipeño (adaptado), con Arroz Blanco y Ensalada Fresca",
-      "Tortilla de Huevo con Zucchini y Pimiento, acompañada de Fresas",
-      "Yogur Natural sin Azúcar con Granola Casera de Avena y Gajos de Mandarina",
-      "Lentejas Estofadas con Zapallo, Espinaca y Zanahoria, acompañado de Arroz Blanco",
-      "Huevo Frito con Palta y Granadilla",
-      "Hígado Encebollado con Yuca Sancochada y Ensalada de Betarraga"
-    ]
-  },
-  {
     "semana": "Lunes 03/08 al Domingo 09/08/2026",
     "fecha_generacion": "2026-08-01T13:12:47.329244",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Corvina al Vapor con Vegetales y Arroz Integral",
       "Yogur Natural con Avena Cocida y Naranja",
       "Tortilla Grande de Verduras con Camote Sancochado"
+    ]
+  },
+  {
+    "semana": "Lunes 21/09 al Domingo 27/09/2026",
+    "fecha_generacion": "2026-09-19T15:19:01.414638",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Mango",
+      "Frijol Canario Guisado con Huevo Frito y Ensalada Fresca",
+      "Yogur Natural con Avena Cocida y Fresas",
+      "Patitas con Maní con Ensalada de Brócoli y Pimiento",
+      "Avena Cocida con Mandarina y Canela",
+      "Hígado de Pollo Salteado con Verduras y Arroz Integral",
+      "Huevo Frito con Papaya y Pan Integral Tostado",
+      "Jurel en Salsa de Tomate con Puré de Zapallo y Ensalada de Vainitas",
+      "Tortilla de Huevo con Espinaca y Granadilla",
+      "Huevo Revuelto con Zucchini y Manzana",
+      "Sopa de Lentejas con Pollo y Verduras",
+      "Yogur Natural con Granola Casera y Mango",
+      "Costillas de Cerdo Guisadas con Yuca Sancochada y Ensalada Fresca"
     ]
   }
 ]
