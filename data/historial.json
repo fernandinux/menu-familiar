@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 03/08 al Domingo 09/08/2026",
-    "fecha_generacion": "2026-08-01T13:12:47.329244",
-    "platos_usados": [
-      "Huevo duro con palta y papaya",
-      "Guiso de Garbanzos con Espinaca y Huevo Frito",
-      "Queso fresco con pera y avena cocida",
-      "Sudado de Jurel con Yuca Sancochada y Ensalada Fresca",
-      "Avena cocida con manzana y canela",
-      "Ají de Pollo Saludable con Arroz y Papa Amarilla",
-      "Huevo revuelto con zucchini y fresa",
-      "Seco de Res con Frijoles Canarios y Ensalada de Palta y Tomate",
-      "Huevo revuelto con palta y aguaymanto",
-      "Yogur natural con granola casera y granadilla",
-      "Carapulcra con Cerdo y Sopa Seca (fideos)",
-      "Huevo frito con palta y mango",
-      "Guiso de Lentejas con Huevo Frito y Ensalada Fresca"
-    ]
-  },
-  {
     "semana": "Lunes 10/08 al Domingo 16/08/2026",
     "fecha_generacion": "2026-08-08T12:40:21.896108",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Sopa de Lentejas con Pollo y Verduras",
       "Yogur Natural con Granola Casera y Mango",
       "Costillas de Cerdo Guisadas con Yuca Sancochada y Ensalada Fresca"
+    ]
+  },
+  {
+    "semana": "Lunes 28/09 al Domingo 04/10/2026",
+    "fecha_generacion": "2026-09-26T15:42:57.356219",
+    "platos_usados": [
+      "Huevo Frito con Palta y Naranja",
+      "Seco de Res con Pallares y Ensalada de Betarraga",
+      "Avena Cocida con Papaya y Canela",
+      "Hígado Encebollado con Yuca y Ensalada Mixta",
+      "Queso Fresco con Aguaymanto y Avena Cocida",
+      "Frijoles Canarios con Arroz Integral y Ensalada de Coliflor",
+      "Huevo Revuelto con Zucchini y Fresas",
+      "Seco de Cerdo a la Norteña con Yuca y Ensalada Fresca",
+      "Huevo Frito con Palta y Pera",
+      "Huevo Duro con Palta y Mango",
+      "Sopa de Lentejas con Verduras y Arroz Integral",
+      "Huevo Frito con Tomate, Pepino y Granadilla",
+      "Estofado de Pollo con Verduras y Arroz Integral"
     ]
   }
 ]
