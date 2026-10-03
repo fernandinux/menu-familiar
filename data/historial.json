@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 10/08 al Domingo 16/08/2026",
-    "fecha_generacion": "2026-08-08T12:40:21.896108",
-    "platos_usados": [
-      "Huevo Frito con Palta y Pera",
-      "Frijoles Canarios Guisados con Arroz Integral y Ensalada de Colores",
-      "Avena Cocida con Mango en Trozos y Canela",
-      "Caballa Sudada con Yuca Sancochada y Ensalada de Palta, Tomate y Brócoli",
-      "Queso Fresco con Aguaymanto y Pan Integral Tostado",
-      "Estofado de Pollo con Brócoli, Zanahoria y Vainitas, acompañado de Arroz Integral y Ensalada",
-      "Huevo Revuelto con Espinaca y Fresas",
-      "Lomo Saltado (adaptado) con Arroz Integral y Ensalada de Lechuga y Pepino",
-      "Tortilla de Huevo con Tomate y Naranja",
-      "Yogur Natural con Granola Casera de Avena y Granadilla",
-      "Costillas de Cerdo Guisadas con Vainitas y Zanahoria, con Arroz Integral y Ensalada de Coliflor y Brócoli",
-      "Huevo Duro con Palta y Pepino, acompañado de Mandarina",
-      "Hígado en Salsa Verde con Puré de Coliflor y Zanahoria Rallada"
-    ]
-  },
-  {
     "semana": "Lunes 17/08 al Domingo 23/08/2026",
     "fecha_generacion": "2026-08-15T12:30:41.510929",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Sopa de Lentejas con Verduras y Arroz Integral",
       "Huevo Frito con Tomate, Pepino y Granadilla",
       "Estofado de Pollo con Verduras y Arroz Integral"
+    ]
+  },
+  {
+    "semana": "Lunes 05/10 al Domingo 11/10/2026",
+    "fecha_generacion": "2026-10-03T15:40:50.185817",
+    "platos_usados": [
+      "Huevo Duro con Palta y Mandarina",
+      "Bonito Encebollado con Yuca Sancochada y Ensalada de Pepino y Tomate",
+      "Avena Cocida con Pera Rallada y Canela",
+      "Pallares Guisados con Pollo Deshilachado y Ensalada de Brócoli y Zanahoria",
+      "Yogur Natural con Avena Cocida y Fresas",
+      "Estofado de Res con Quinua Graneada y Ensalada Fresca",
+      "Huevo Revuelto con Zucchini y Naranja en Gajos",
+      "Chuleta de Cerdo a la Plancha con Puré de Zapallo y Ensalada Fresca",
+      "Queso Fresco con Granadilla y Pan Integral Tostado",
+      "Huevo Frito con Palta y Plátano",
+      "Pollo al Sillao con Arroz Integral y Ensalada de Vainitas y Pimiento",
+      "Tortilla de Huevo con Tomate y Papaya en Trozos",
+      "Garbanzos Guisados con Acelga y Huevo Duro"
     ]
   }
 ]
