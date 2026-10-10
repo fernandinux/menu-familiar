@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 17/08 al Domingo 23/08/2026",
-    "fecha_generacion": "2026-08-15T12:30:41.510929",
-    "platos_usados": [
-      "Huevo Revuelto con Espinaca y Papaya",
-      "Pollo al Orégano con Yuca Sancochada",
-      "Avena Cocida con Pera y Canela",
-      "Frijol Castilla Estofado con Arroz Blanco",
-      "Queso Fresco con Palta y Mandarina",
-      "Estofado de Res con Zucchini y Verduras",
-      "Tortilla de Huevo con Pimiento y Fresas",
-      "Bonito Sudado con Yuca Sancochada",
-      "Huevo Duro con Palta y Naranja",
-      "Yogur Natural con Granola Casera y Granadilla",
-      "Seco de Cerdo con Zapallo y Coliflor",
-      "Huevo Revuelto con Zucchini y Manzana",
-      "Patita con Maní"
-    ]
-  },
-  {
     "semana": "Lunes 24/08 al Domingo 30/08/2026",
     "fecha_generacion": "2026-08-22T12:31:34.389470",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Pollo al Sillao con Arroz Integral y Ensalada de Vainitas y Pimiento",
       "Tortilla de Huevo con Tomate y Papaya en Trozos",
       "Garbanzos Guisados con Acelga y Huevo Duro"
+    ]
+  },
+  {
+    "semana": "Lunes 12/10 al Domingo 18/10/2026",
+    "fecha_generacion": "2026-10-10T16:55:15.725239",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Tomate",
+      "Chanfainita de Bofe con Arroz",
+      "Avena Cocida con Papaya y Canela",
+      "Arroz con Choros y Arvejas",
+      "Queso Fresco con Pan Integral y Fresas",
+      "Pejerrey a la Chorrillana con Yuca Sancochada",
+      "Huevo Frito con Palta y Naranja en Gajos",
+      "Guiso de Arvejas con Huevo Frito y Ensalada de Brócoli",
+      "Huevo Duro con Palta y Pepino",
+      "Avena Cocida con Plátano y Canela",
+      "Hígado Saltado con Arroz y Ensalada de Coliflor",
+      "Tortilla de Huevo con Espinaca y Tomate + Granadilla",
+      "Lentejas Guisadas con Arroz y Ensalada de Palta"
     ]
   }
 ]
