@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 24/08 al Domingo 30/08/2026",
-    "fecha_generacion": "2026-08-22T12:31:34.389470",
-    "platos_usados": [
-      "Huevo Frito con Pera y Pan Integral Tostado",
-      "Pollo a la Jardinera con Arroz Integral",
-      "Avena Cocida con Papaya y Canela",
-      "Pejerrey Arrebozado con Ensalada Fresca y Yuca Sancochada",
-      "Tortilla de Huevo con Espinaca y Fresas en Gajos",
-      "Pallares Guisados con Bistec Encebollado y Arroz Integral",
-      "Huevo Duro con Palta y Gajos de Naranja",
-      "Carne Guisada con Brócoli y Puré de Coliflor",
-      "Queso Fresco con Granadilla y Pan Integral Tostado",
-      "Huevo Revuelto con Champiñones y Rodajas de Plátano",
-      "Hígado Frito con Ensalada de Palta, Tomate y Pepino",
-      "Yogur Natural con Avena Cocida y Aguaymantos",
-      "Cerdo al Horno con Camote Glaseado y Ensalada de Coliflor"
-    ]
-  },
-  {
     "semana": "Lunes 31/08 al Domingo 06/09/2026",
     "fecha_generacion": "2026-08-29T16:09:51.763814",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Hígado Saltado con Arroz y Ensalada de Coliflor",
       "Tortilla de Huevo con Espinaca y Tomate + Granadilla",
       "Lentejas Guisadas con Arroz y Ensalada de Palta"
+    ]
+  },
+  {
+    "semana": "Lunes 19/10 al Domingo 25/10/2026",
+    "fecha_generacion": "2026-10-17T14:54:40.261666",
+    "platos_usados": [
+      "Huevo Duro con Palta y Naranja",
+      "Ají de Gallina Saludable",
+      "Avena Cocida con Manzana Rallada y Canela",
+      "Lomo Saltado con Papas Horno y Pimiento",
+      "Queso Fresco con Aguaymanto y Pan Integral Tostado",
+      "Guiso de Garbanzos con Pollo Deshilachado y Espinaca",
+      "Huevo Frito con Espinaca y Fresas",
+      "Adobo de Cerdo con Camote Sancochado y Ensalada de Coliflor",
+      "Tortilla de Huevo con Zucchini y Papaya",
+      "Yogur Natural con Granola Casera de Avena y Plátano",
+      "Hígado Frito con Puré de Zapallo y Ensalada Mixta",
+      "Huevo Revuelto con Tomate y Granadilla",
+      "Tortilla de Verduras con Arroz Integral"
     ]
   }
 ]
