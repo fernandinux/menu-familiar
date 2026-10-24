@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 31/08 al Domingo 06/09/2026",
-    "fecha_generacion": "2026-08-29T16:09:51.763814",
-    "platos_usados": [
-      "Huevo Revuelto con Espinaca y Pera",
-      "Guiso de Arvejas con Pollo y Arroz Integral",
-      "Queso Fresco con Pan Integral Tostado y Mandarina",
-      "Bonito en Escabeche con Yuca Sancochada y Ensalada Mixta",
-      "Palta Entera con Pan Integral Tostado y Gajos de Naranja",
-      "Pollo Saltado con Verduras y Arroz Integral",
-      "Tortilla de Huevo con Espinaca y Papaya",
-      "Bofe Saltado con Arroz Integral y Ensalada de Palta y Tomate",
-      "Huevo Duro con Palta y Granadilla",
-      "Yogur Natural con Granola Casera de Avena y Fresas",
-      "Choritos a la Chalaca con Yuca Sancochada",
-      "Queso Fresco con Plátano en Rodajas y Pan Integral Tostado",
-      "Frijoles Negros Estofados con Arroz y Huevo Frito"
-    ]
-  },
-  {
     "semana": "Lunes 07/09 al Domingo 13/09/2026",
     "fecha_generacion": "2026-09-05T14:31:53.130233",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Hígado Frito con Puré de Zapallo y Ensalada Mixta",
       "Huevo Revuelto con Tomate y Granadilla",
       "Tortilla de Verduras con Arroz Integral"
+    ]
+  },
+  {
+    "semana": "Lunes 26/10 al Domingo 01/11/2026",
+    "fecha_generacion": "2026-10-24T15:20:26.105737",
+    "platos_usados": [
+      "Huevo Revuelto con Espinaca y Papaya",
+      "Frijoles Canarios con Jurel Frito y Ensalada Fresca",
+      "Queso Fresco con Pera y Avena Cocida",
+      "Cau Cau de Pollo con Arroz",
+      "Avena Cocida con Mango y Canela",
+      "Lentejas Guisadas con Res y Arroz",
+      "Huevo Duro con Palta y Fresas",
+      "Costillas de Cerdo Guisadas con Zapallo y Choclo",
+      "Huevo Revuelto con Espinaca y Aguaymanto",
+      "Yogur Natural con Granola Casera de Avena y Granadilla",
+      "Hígado Guisado con Arvejas y Arroz",
+      "Huevo Frito con Palta y Naranja",
+      "Tortilla de Atún con Verduras y Ensalada Fresca"
     ]
   }
 ]
