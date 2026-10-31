@@ -1,24 +1,5 @@
 [
   {
-    "semana": "Lunes 07/09 al Domingo 13/09/2026",
-    "fecha_generacion": "2026-09-05T14:31:53.130233",
-    "platos_usados": [
-      "Huevo Revuelto con Espinaca y Naranja",
-      "Lentejas Guisadas con Arroz Integral y Huevo Frito",
-      "Avena Cocida con Manzana Rallada y Canela",
-      "Jurel a la Plancha con Puré de Coliflor y Ensalada de Pimientos de Colores",
-      "Queso Fresco con Pera y Pan Integral Tostado",
-      "Ají de Gallina Saludable con Arroz Integral y Ensalada Fresca",
-      "Huevo Duro con Palta y Fresas",
-      "Cau Cau de Mondongo con Arroz Integral",
-      "Tortilla de Huevo con Tomate y Zanahoria + Plátano",
-      "Huevo Frito con Palta y Granadilla",
-      "Adobo de Cerdo con Camote Sancochado y Ensalada de Coliflor y Brócoli",
-      "Tortilla de Huevo con Espinaca y Aguaymanto",
-      "Garbanzos Guisados con Arroz Integral y Huevo Frito (4 personas)"
-    ]
-  },
-  {
     "semana": "Lunes 14/09 al Domingo 20/09/2026",
     "fecha_generacion": "2026-09-12T14:56:50.615757",
     "platos_usados": [
@@ -149,6 +130,25 @@
       "Hígado Guisado con Arvejas y Arroz",
       "Huevo Frito con Palta y Naranja",
       "Tortilla de Atún con Verduras y Ensalada Fresca"
+    ]
+  },
+  {
+    "semana": "Lunes 02/11 al Domingo 08/11/2026",
+    "fecha_generacion": "2026-10-31T16:46:26.391821",
+    "platos_usados": [
+      "Huevo Frito con Papaya y Pan Integral Tostado",
+      "Frijoles Canarios Guisados con Arroz Integral y Ensalada de Brócoli y Pimiento",
+      "Avena Cocida con Naranja en Gajos y Canela",
+      "Seco de Pollo Saludable con Yuca Sancochada y Ensalada de Zucchini y Betarraga",
+      "Queso Fresco con Pera y Pan Integral Tostado",
+      "Caballa Sudada con Yuca Sancochada y Ensalada Criolla Fresca",
+      "Huevo Revuelto con Espinaca y Plátano en Rodajas",
+      "Cau Cau de Res con Arroz Integral y Ensalada de Coliflor al Vapor",
+      "Huevo Duro con Palta y Aguaymanto",
+      "Yogur Natural con Granola Casera de Avena y Manzana Rallada",
+      "Chancho Guisado con Yuca y Ensalada de Palta y Pepino",
+      "Tortilla de Huevo con Espinaca y Fresas en Trozos",
+      "Tortilla de Verduras con Ensalada Fresca"
     ]
   }
 ]
